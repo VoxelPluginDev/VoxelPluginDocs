@@ -4,7 +4,8 @@
 
 ## Getting Started
 
-* [Installing Voxel Plugin](<README (1).md>)
+* [Installing Voxel Plugin](getting-started/installing-voxel-plugin/README.md)
+  * [Testpage](getting-started/installing-voxel-plugin/testpage.md)
 * [Getting Started with Smooth Terrains](getting-started/getting-started-with-smooth-terrains.md)
 
 ## Landmass & MetaGraphs

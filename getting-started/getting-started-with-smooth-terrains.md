@@ -9,7 +9,7 @@ description: >-
 {% hint style="warning" %}
 **Note:** Voxel Plugin 2.0 is changing rapidly, and the master branch is often unstable or partially broken. The primary supported platform is the launcher build of 5.1.
 
-The latest release of Voxel Plugin 2.0 can be downloaded through the [Plugin Downloader](<../README (1).md>), or from [GitHub](https://github.com/VoxelPlugin/VoxelPlugin/) for manual compilation.&#x20;
+The latest release of Voxel Plugin 2.0 can be downloaded through the [Plugin Downloader](installing-voxel-plugin/), or from [GitHub](https://github.com/VoxelPlugin/VoxelPlugin/) for manual compilation.&#x20;
 
 This guide was made using Unreal Engine 5.1, with a plugin release from early December.
 {% endhint %}
