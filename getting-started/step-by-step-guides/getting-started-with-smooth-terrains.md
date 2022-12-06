@@ -1,7 +1,7 @@
 ---
 description: >-
-  A basic guide exploring the basic functionality of noise and Landmass brushes
-  to create a smooth (Marching Cubes) terrain through MetaGraphs.
+  This guide explores the basic functionality of MetaGraphs by using noise and
+  Landmass brushes to create a smooth (Marching Cubes) terrain.
 ---
 
 # Getting Started with Smooth Terrains
@@ -9,7 +9,7 @@ description: >-
 {% hint style="warning" %}
 **Note:** Voxel Plugin 2.0 is changing rapidly, and the master branch is often unstable or partially broken. The primary supported platform is the launcher build of 5.1.
 
-The latest release of Voxel Plugin 2.0 can be downloaded through the [Plugin Downloader](installing-voxel-plugin/), or from [GitHub](https://github.com/VoxelPlugin/VoxelPlugin/) for manual compilation.&#x20;
+The latest release of Voxel Plugin 2.0 can be downloaded through the [Plugin Downloader](../installing-voxel-plugin.md), or from [GitHub](https://github.com/VoxelPlugin/VoxelPlugin/) for manual compilation.&#x20;
 
 This guide was made using Unreal Engine 5.1, with a plugin release from early December.
 {% endhint %}
@@ -20,16 +20,16 @@ For a more detailed understanding on how a mesh is generated from input data, we
 
 To start off, create a MetaGraph asset from the content browser right-click menu.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 Select the “Empty” starting point from the pop-up window, and then press “Create”.\
 
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Drag the created MetaGraph asset from the content browser into the editor’s viewport - this will create a Voxel Actor in the scene with the newly created MetaGraph assigned as generator.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Double-click the graph asset to open the MetaGraph editor. With the graph asset open, drag out from the “Root” node. Expand the “Chunk” category and select the “Spawn Chunks by Screen Size” option to spawn said node. This node will create cube-shaped chunks across the entire world in three dimensions, attempting to keep their size on screen consistent, making farther away chunks less detailed.
 
@@ -39,7 +39,7 @@ When working with MetaGraphs, there may well be times where you are unsure what 
 
 &#x20;If we drag out from the Root node, the only functional nodes that can be placed are the “Spawn Chunks” nodes.&#x20;
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Placing a “Spawn Chunks” node and dragging out again will again give us some clear options to choose from.
 
