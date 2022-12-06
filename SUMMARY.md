@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Voxel Plugin 2.0 Documentation](README.md)
+
 ## Getting Started
 
-* [Installing Voxel Plugin](README.md)
+* [Installing Voxel Plugin](<README (1).md>)
 * [Getting Started with Smooth Terrains](getting-started/getting-started-with-smooth-terrains.md)
 
 ## Landmass & MetaGraphs
