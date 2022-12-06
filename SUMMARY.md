@@ -1,17 +1,12 @@
 # Table of contents
 
 * [Voxel Plugin 2.0](README.md)
-* [Roadmap](roadmap.md)
-
-## Getting Started
-
-* [Installing Voxel Plugin](getting-started/installing-voxel-plugin.md)
-* [Step-by-Step Guides](getting-started/step-by-step-guides/README.md)
-  * [Getting Started with Smooth Terrains](getting-started/step-by-step-guides/getting-started-with-smooth-terrains.md)
-  * [Getting Started with Blocky Terrains](getting-started/step-by-step-guides/getting-started-with-blocky-terrains.md)
-
-***
-
+  * [Roadmap](voxel-plugin-2.0/roadmap.md)
+* [Getting Started](getting-started/README.md)
+  * [Installing Voxel Plugin](getting-started/installing-voxel-plugin.md)
+  * [Step-by-Step Guides](getting-started/step-by-step-guides/README.md)
+    * [Getting Started with Smooth Terrains](getting-started/step-by-step-guides/getting-started-with-smooth-terrains.md)
+    * [Getting Started with Blocky Terrains](getting-started/step-by-step-guides/getting-started-with-blocky-terrains.md)
 * [Landmass & MetaGraphs](landmass-and-metagraphs/README.md)
   * [Design Philosophy](landmass-and-metagraphs/design-philosophy/README.md)
     * [What are Landmass & MetaGraphs](landmass-and-metagraphs/design-philosophy/what-are-landmass-and-metagraphs.md)
