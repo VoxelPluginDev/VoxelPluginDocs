@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Voxel Plugin 2.0](README.md)
-  * [Roadmap](voxel-plugin-2.0/roadmap.md)
+  * [Roadmap](roadmap.md)
 * [Getting Started](getting-started/README.md)
   * [Installing Voxel Plugin](getting-started/installing-voxel-plugin.md)
   * [Step-by-Step Guides](getting-started/step-by-step-guides/README.md)
