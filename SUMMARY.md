@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Voxel Plugin 2.0](README.md)
+* [Roadmap](roadmap.md)
 
 ## Getting Started
 
