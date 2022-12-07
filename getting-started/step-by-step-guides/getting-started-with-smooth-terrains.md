@@ -2,7 +2,7 @@
 description: >-
   This guide explores the basic functionality of MetaGraphs by using noise and
   Landmass brushes to create a smooth (Marching Cubes) terrain.
-cover: ../../.gitbook/assets/image (4).png
+cover: ../../.gitbook/assets/image (4) (1).png
 coverY: 0
 ---
 

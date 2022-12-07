@@ -50,7 +50,7 @@ The graph execution is fully asynchronous: each node can decide to run on a voxe
 
 Typically, you could decide to do this:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 In this case, the Make Density from Height node will be run in a GPU compute shader. The data will then be copied back to the CPU to be processed by Make Marching Cube Mesh Data.
 

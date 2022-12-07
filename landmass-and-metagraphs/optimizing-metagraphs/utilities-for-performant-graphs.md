@@ -1,3 +1,9 @@
+---
+description: >-
+  This article provides details on various nodes and techniques that can be used
+  to design efficient MetaGraphs.
+---
+
 # Utilities for Performant Graphs
 
 Note nodes: Cache, Query 2D, Run on GPU
