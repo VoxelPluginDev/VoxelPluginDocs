@@ -8,9 +8,7 @@ coverY: 0
 
 # Getting Started with Smooth Terrains
 
-{% hint style="warning" %}
-****
-
+{% hint style="info" %}
 This guide was made using Unreal Engine 5.1, with a plugin release from early December.
 {% endhint %}
 
