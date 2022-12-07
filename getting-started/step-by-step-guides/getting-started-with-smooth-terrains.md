@@ -2,7 +2,7 @@
 description: >-
   This guide explores the basic functionality of MetaGraphs by using noise and
   Landmass brushes to create a smooth (Marching Cubes) terrain.
-cover: ../../.gitbook/assets/image (4).png
+cover: ../../.gitbook/assets/image (4) (2).png
 coverY: 0
 ---
 
@@ -22,16 +22,16 @@ For a more detailed understanding on how a mesh is generated from input data, we
 
 To start off, create a MetaGraph asset from the content browser right-click menu.
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select the “Empty” starting point from the pop-up window, and then press “Create”.\
 
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Drag the created MetaGraph asset from the content browser into the editor’s viewport - this will create a Voxel Actor in the scene with the newly created MetaGraph assigned as generator.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 Double-click the graph asset to open the MetaGraph editor. With the graph asset open, drag out from the “Root” node. Expand the “Chunk” category and select the “Spawn Chunks by Screen Size” option to spawn said node. This node will create cube-shaped chunks across the entire world in three dimensions, attempting to keep their size on screen consistent, making farther away chunks less detailed.
 

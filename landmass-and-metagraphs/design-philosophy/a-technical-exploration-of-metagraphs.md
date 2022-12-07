@@ -18,7 +18,7 @@ Finally, MetaGraphs can work at varying granularities: they are able to generate
 
 Before getting any further, let’s break down one example:
 
-![image](https://docs.voxelplugin.com/\_next/image?url=https%3A%2F%2Fsuper-static-assets.s3.amazonaws.com%2F3447097e-0903-4554-a104-60a763ec7cdf%2Fimages%2F9335e2e5-c927-4394-b9f1-1eeb1fb963cb.png\&w=3840\&q=80)
+<figure><img src="https://docs.voxelplugin.com/_next/image?url=https%3A%2F%2Fsuper-static-assets.s3.amazonaws.com%2F3447097e-0903-4554-a104-60a763ec7cdf%2Fimages%2F9335e2e5-c927-4394-b9f1-1eeb1fb963cb.png&#x26;w=3840&#x26;q=80" alt=""><figcaption></figcaption></figure>
 
 Meta Graphs, unlike most graphs, execute **right to left**. This is an important note to keep in mind, as it dramatically impacts the way data flows between different nodes and sections within the graph.
 
@@ -50,7 +50,7 @@ The graph execution is fully asynchronous: each node can decide to run on a voxe
 
 Typically, you could decide to do this:
 
-<figure><img src="https://docs.voxelplugin.com/_next/image?url=https%3A%2F%2Fsuper-static-assets.s3.amazonaws.com%2F3447097e-0903-4554-a104-60a763ec7cdf%2Fimages%2Fbcf0b9d0-bea1-4bf3-9cc5-2a1c44b1c30e.png&#x26;w=3840&#x26;q=80" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 In this case, the Make Density from Height node will be run in a GPU compute shader. The data will then be copied back to the CPU to be processed by Make Marching Cube Mesh Data.
 
@@ -66,17 +66,17 @@ Defining a new node is fairly straightforward, let’s have a look at the height
 
 First we define a new USTRUCT to be used as pin type — we want to pass brushes between nodes:
 
-<figure><img src="https://docs.voxelplugin.com/_next/image?url=https%3A%2F%2Fsuper-static-assets.s3.amazonaws.com%2F3447097e-0903-4554-a104-60a763ec7cdf%2Fimages%2F82f833c8-17e7-4d87-b402-9d04a028bd97.png&#x26;w=1920&#x26;q=80" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 We then declare a `FindLandmassHeightmapBrushes`  node that will find heightmap brushes in the scene:
 
-<figure><img src="https://docs.voxelplugin.com/_next/image?url=https%3A%2F%2Fsuper-static-assets.s3.amazonaws.com%2F3447097e-0903-4554-a104-60a763ec7cdf%2Fimages%2F2931ad93-dab8-4596-ab9b-fe6d593dbfca.png&#x26;w=1920&#x26;q=80" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 This node references a subsystem (`FVoxelLandmassHeightmapSubsystem`) which is used to track active brushes. It has one input pin: `LayerName`, which defaults to “Main”, and one output pin, `Brushes`.
 
 To define the node, we have this in the corresponding .cpp file:
 
-<figure><img src="https://docs.voxelplugin.com/_next/image?url=https%3A%2F%2Fsuper-static-assets.s3.amazonaws.com%2F3447097e-0903-4554-a104-60a763ec7cdf%2Fimages%2F9641cd44-2661-46fd-a902-969e43877988.png&#x26;w=3840&#x26;q=80" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 1. `ResolveVoxelQueryData(FVoxelBoundsQueryData, BoundsQueryData);`Query data is the name of the data being passed from right to left by the node callers. In this case, we’re looking for a `FVoxelBoundsQueryData`: this is telling us where to find brushes. If that query data is not found, `ResolveVoxelQueryData` will raise a user-friendly error and exit.
 2. `const TVoxelFutureValue<FName> LayerName = LayerNamePin.Get(Query);`Since the graph is executing async, querying a pin returns a future value. We then need to wait for these values before doing anything with them. Here, we query `LayerNamePin` for its value, potentially starting a new background task to do so.
