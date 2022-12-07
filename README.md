@@ -5,6 +5,12 @@ coverY: 172.79999999999995
 
 # Voxel Plugin 2.0
 
+{% hint style="warning" %}
+**Note:** Voxel Plugin 2.0 is changing rapidly, and the master branch can be unstable or partially broken. The primary supported platform is the launcher build of 5.1.
+
+The latest release of Voxel Plugin 2.0 can be downloaded through the [Plugin Downloader](getting-started/installing-voxel-plugin.md), or from [GitHub](https://github.com/VoxelPlugin/VoxelPlugin/) for manual compilation.&#x20;
+{% endhint %}
+
 We’re working hard to make sure this documentation contains as much information as possible. We’re a small team, and the plugin is growing fast, so new features and changes may not be completely reflected in the documentation.
 
 Can't find what you're looking for? Join us on [Discord ](http://discord.voxelplugin.com/)to get direct support from our staff and fellow users!

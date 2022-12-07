@@ -1,2 +1,0 @@
-# Choosing a Chunk Spawner
-
