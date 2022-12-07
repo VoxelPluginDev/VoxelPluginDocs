@@ -2,7 +2,7 @@
 description: >-
   This guide explores the basic functionality of MetaGraphs by using noise and
   Landmass brushes to create a smooth (Marching Cubes) terrain.
-cover: ../../.gitbook/assets/image (4) (2).png
+cover: ../../.gitbook/assets/image (4).png
 coverY: 0
 ---
 
@@ -16,13 +16,15 @@ The latest release of Voxel Plugin 2.0 can be downloaded through the [Plugin Dow
 This guide was made using Unreal Engine 5.1, with a plugin release from early December.
 {% endhint %}
 
+## THIS GUIDE IS CURRENTLY HALF-FINISHED, AND NOT UP-TO-DATE
+
 For a more detailed understanding on how a mesh is generated from input data, we strongly recommend watching [this video by Sebastian Lague](https://www.youtube.com/watch?v=M3iI2l0ltbE). In Voxel Plugin the density field is generally an approximate distance to the nearest surface in world units (cm in stock Unreal), so we often refer to it as a “distance field”.
 
 ### 1. Preparing your Graph and Voxel Actor <a href="#block-f0f3707dae9d43b48c8b2ada9466e73f" id="block-f0f3707dae9d43b48c8b2ada9466e73f"></a>
 
 To start off, create a MetaGraph asset from the content browser right-click menu.
 
-<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 Select the “Empty” starting point from the pop-up window, and then press “Create”.\
 
@@ -31,7 +33,7 @@ Select the “Empty” starting point from the pop-up window, and then press “
 
 Drag the created MetaGraph asset from the content browser into the editor’s viewport - this will create a Voxel Actor in the scene with the newly created MetaGraph assigned as generator.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Double-click the graph asset to open the MetaGraph editor. With the graph asset open, drag out from the “Root” node. Expand the “Chunk” category and select the “Spawn Chunks by Screen Size” option to spawn said node. This node will create cube-shaped chunks across the entire world in three dimensions, attempting to keep their size on screen consistent, making farther away chunks less detailed.
 
