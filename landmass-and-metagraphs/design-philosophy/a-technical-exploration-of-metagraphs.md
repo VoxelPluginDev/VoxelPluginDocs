@@ -18,7 +18,7 @@ Finally, MetaGraphs can work at varying granularities: they are able to generate
 
 Before getting any further, let’s break down one example:
 
-<figure><img src="https://docs.voxelplugin.com/_next/image?url=https%3A%2F%2Fsuper-static-assets.s3.amazonaws.com%2F3447097e-0903-4554-a104-60a763ec7cdf%2Fimages%2F9335e2e5-c927-4394-b9f1-1eeb1fb963cb.png&#x26;w=3840&#x26;q=80" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Meta Graphs, unlike most graphs, execute **right to left**. This is an important note to keep in mind, as it dramatically impacts the way data flows between different nodes and sections within the graph.
 
@@ -66,7 +66,7 @@ Defining a new node is fairly straightforward, let’s have a look at the height
 
 First we define a new USTRUCT to be used as pin type — we want to pass brushes between nodes:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 We then declare a `FindLandmassHeightmapBrushes`  node that will find heightmap brushes in the scene:
 
