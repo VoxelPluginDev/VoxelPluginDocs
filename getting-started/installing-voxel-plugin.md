@@ -14,7 +14,7 @@ To start off, open the Epic Games Launcher. In the Unreal Engine section, naviga
 
 With the store page open, click the “Free” button to get access to the plugin. You will be prompted to log in if you aren’t already, and then to accept the Epic Content License Agreement. After doing this, the "Free" button will have changed to an "Install to Engine" button. Press that, select the engine version you are working in the slot dropdown and press "Install". The plugin will now download and install.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Setting up Plugin Downloader
 
@@ -46,7 +46,7 @@ If you own Voxel Plugin on the Marketplace, post a question on Voxel Plugin's Ma
 
 After posting a question at the above link using your Epic account, open the Voxel Plugin dropdown once more and click the "Verify" button at the bottom. If you posted a question correctly, the menu will update to show branch and version information, as well as a "Download" button.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Press the "Download" button to install the latest Voxel Plugin release. A progress counter will appear in the bottom-right of your editor window. Once this finishes, you will be prompted to restart the editor. Press "Yes" to do so, and once the editor starts, the Voxel dropdown will show your current installed version information.
 

@@ -18,7 +18,7 @@ Finally, MetaGraphs can work at varying granularities: they are able to generate
 
 Before getting any further, let’s break down one example:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 Meta Graphs, unlike most graphs, execute **right to left**. This is an important note to keep in mind, as it dramatically impacts the way data flows between different nodes and sections within the graph.
 
@@ -70,13 +70,13 @@ First we define a new USTRUCT to be used as pin type — we want to pass brushes
 
 We then declare a `FindLandmassHeightmapBrushes`  node that will find heightmap brushes in the scene:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 This node references a subsystem (`FVoxelLandmassHeightmapSubsystem`) which is used to track active brushes. It has one input pin: `LayerName`, which defaults to “Main”, and one output pin, `Brushes`.
 
 To define the node, we have this in the corresponding .cpp file:
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. `ResolveVoxelQueryData(FVoxelBoundsQueryData, BoundsQueryData);`Query data is the name of the data being passed from right to left by the node callers. In this case, we’re looking for a `FVoxelBoundsQueryData`: this is telling us where to find brushes. If that query data is not found, `ResolveVoxelQueryData` will raise a user-friendly error and exit.
 2. `const TVoxelFutureValue<FName> LayerName = LayerNamePin.Get(Query);`Since the graph is executing async, querying a pin returns a future value. We then need to wait for these values before doing anything with them. Here, we query `LayerNamePin` for its value, potentially starting a new background task to do so.
