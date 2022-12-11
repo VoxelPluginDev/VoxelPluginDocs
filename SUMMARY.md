@@ -19,6 +19,7 @@
     * [Working with Curves](landmass-and-metagraphs/deep-dives-into-metagraphs/working-with-curves.md)
     * [Working with Landmass](landmass-and-metagraphs/deep-dives-into-metagraphs/working-with-landmass/README.md)
       * [Using Landmass Height Brushes](landmass-and-metagraphs/deep-dives-into-metagraphs/working-with-landmass/using-landmass-height-brushes.md)
+      * [Scale and Resolution for Landmass Brushes](landmass-and-metagraphs/deep-dives-into-metagraphs/working-with-landmass/scale-and-resolution-for-landmass-brushes.md)
       * [Complex Usecases for Landmass Brushes](landmass-and-metagraphs/deep-dives-into-metagraphs/working-with-landmass/complex-usecases-for-landmass-brushes.md)
     * [Choosing the right Chunk Spawner](landmass-and-metagraphs/deep-dives-into-metagraphs/choosing-the-right-chunk-spawner.md)
     * [Using Height Canvases](landmass-and-metagraphs/deep-dives-into-metagraphs/using-height-canvases.md)
