@@ -4,7 +4,7 @@
 This page is a stub. This means that the information on this topic will be significantly expanded in the future. What is currently on this page is an incomplete picture.
 {% endhint %}
 
-`Buffers` and `Uniforms` can be distinguisehed by pin visual. `Uniform` pins have standard round pins, whereas `Buffer` pins are represented by a square pin.
+`Buffers` and `Uniforms` can be distinguished by their pin visual. `Uniform` pins have standard round pins, whereas `Buffer` pins are represented by a square pin.
 
 `Buffers` can only be used as an input for `Buffer` pins specifically. `Uniforms` can be used as an input for both `Buffer` and `Uniform` pins.
 
