@@ -13,3 +13,5 @@ This page is a stub. This means that the information on this topic will be signi
 Note nodes: Cache, Query 2D, Run on GPU
 
 Note: Single-length buffer is functionally the same as a uniform. _So you don't ever need to worry about making things uniform for perf reasons; if you plug a constant value (like a parameter or something) into a buffer pin, it'll have the exact same perf overhead as plugging that into a uniform pin._
+
+Curves do not work on the GPU, so if any part of your graph runs on the GPU (i.e. for detail textures) and uses a curve, this will cause a copy back and forth, dramatically slowing down generation times. For better performance, using math operations to replace curves is preferred.

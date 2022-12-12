@@ -32,7 +32,7 @@ Drag the created MetaGraph asset from the content browser into the editor’s vi
 Double-click the graph asset to open the MetaGraph editor. With the graph asset open, right-click and search for "On Construct" in the search bar. Click the matching result to place it as a node. Next, drag out from the "On Construct" node and let go on open space in the graph to again open a search menu.&#x20;
 
 {% hint style="info" %}
-More information on how to find the right nodes to use can be found here: [using-metagraphs.md](../using-metagraphs.md "mention")
+More information on how to find the right nodes to use can be found here: [using-metagraphs](../using-metagraphs/ "mention")
 {% endhint %}
 
 In this search menu, have a look at the available options. The `Flow Control` and `Misc` categories are not useful for generation, as they just contain utilities. TThat leaves us with the `Chunk` category. If we expand this, we get a few options. In this case - and for most terrains - we'll be choosing the `Spawn Chunks by Screen Size` node, as it works in 3D and creates LODs.
@@ -62,7 +62,7 @@ For `Create Collision Component`, we need a `Collider` and a `Body Instance`. Dr
 For the `Body Instance` (often called "Collision Preset" in the engine UI), dragging out will give no options other than `Flow Control` and `Misc`. This is because `Body Instance` is a complex struct, which needs to be configured as a variable. In the search menu, pick the `Promote to Local Variable` option. Its default collision values are fine for this example.
 
 {% hint style="info" %}
-More information on working with variables and similar UX topics can be found on the [using-metagraphs.md](../using-metagraphs.md "mention") page.
+More information on working with variables and similar UX topics can be found on the [using-metagraphs](../using-metagraphs/ "mention") page.
 {% endhint %}
 
 The graph should now look mostly like this:
