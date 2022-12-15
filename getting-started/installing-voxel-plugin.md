@@ -6,6 +6,10 @@ description: >-
 
 # Installing Voxel Plugin
 
+{% hint style="danger" %}
+In order to install the 2.0 beta, ownership of Voxel Plugin Pro is required.
+{% endhint %}
+
 ### 1. Downloading Plugin Downloader from the Unreal Engine Marketplace
 
 To start off, open the Epic Games Launcher. In the Unreal Engine section, navigate to the Marketplace and use the search-bar in the top-right to search for “Plugin Downloader”. Find the “Plugin Downloader” result, with “Voxel Plugin” as creator, and click it.

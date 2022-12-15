@@ -5,10 +5,6 @@ coverY: 172.79999999999995
 
 # Home
 
-{% hint style="danger" %}
-In order to install the 2.0 beta, ownership of Voxel Plugin Pro is required.
-{% endhint %}
-
 {% hint style="warning" %}
 **Note:** Voxel Plugin 2.0 is changing rapidly, and the master branch can be unstable or partially broken. The primary supported platform is the launcher build of 5.1.
 
