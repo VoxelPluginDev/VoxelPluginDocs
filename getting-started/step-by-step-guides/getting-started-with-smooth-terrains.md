@@ -106,7 +106,7 @@ And with that, the graph is _almost_ finished.&#x20;
 
 Looking at the viewport with the Voxel Actor, there is definitely a terrain mesh, but it has all sorts of rendering artifacts on it. This is because the mesh does not have any kind of vertex data like Vertex Normals right now, so the engine does not know how to light the terrain.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
 Going back to the graph, look back to the `Create Mesh` node. Drag out from its `Vertex Data` pin and create a `Make Vertex Data` node. Its vertex colour being black is fine, and its texture coordinates, or UVs, being zero is also fine. The issue is that the terrain normals are not being created. Drag out from the `Normal` pin, and place a `VMGM_GetGradient` node.
 
@@ -120,7 +120,7 @@ Now, try to drag from the `Density` pin into the `GetGradient`'s `Value` pin. No
 Learn more about how float and density types work together on the [floats-and-density.md](../../landmass-and-metagraphs/deep-dives-into-metagraphs/floats-and-density.md "mention") page.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 With all this connected, the graph is now entirely functional and rendering a fully configured mesh.&#x20;
 
