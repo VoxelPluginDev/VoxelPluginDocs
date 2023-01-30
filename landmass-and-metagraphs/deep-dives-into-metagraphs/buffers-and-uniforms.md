@@ -6,7 +6,9 @@ This page is a stub. This means that the information on this topic will be signi
 
 `Buffers` and `Uniforms` can be distinguished by their pin visual. `Uniform` pins have standard round pins, whereas `Buffer` pins are represented by a square pin.
 
-`Buffers` can only be used as an input for `Buffer` pins specifically. `Uniforms` can be used as an input for both `Buffer` and `Uniform` pins.
+`Buffers` can only be used as an input for `Buffer` pins specifically. `Uniforms` can be used as an input for both `Buffer` and `Uniform` pins.&#x20;
+
+A single-length `Buffer` is functionally identical to a `Uniform`, and using one will not have any impact on performance. Performance considerations only change if the `Buffer` contains multiple values.
 
 The most straight-forward rule of thumb for whether a given value should be a `Buffer`or a `uniform` is this:
 
