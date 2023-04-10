@@ -2,6 +2,7 @@
 
 * [Home](README.md)
   * [Roadmap](https://github.com/orgs/VoxelPlugin/projects/1/views/1)
+  * [Release Notes](home/release-notes.md)
 * [Getting Started](getting-started/README.md)
   * [Installing Voxel Plugin](getting-started/installing-voxel-plugin.md)
   * [Using MetaGraphs](getting-started/using-metagraphs/README.md)
