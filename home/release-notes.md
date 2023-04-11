@@ -1,12 +1,12 @@
 # Release Notes
 
-## 2.0-304
+## 2.0p-304
 
 [https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0-304](https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0-304) - Released January 26 2023
 
 * First tracked release
 
-### 2.0-304.1
+### 2.0p-304.1
 
 [https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0-304.1](https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0-304.1) - Released April 5 2023
 
@@ -14,7 +14,7 @@
 
 ## Upcoming release
 
-These changes will be included in the next release
+These changes will be included in the next preview release
 
 * Add 5.2 compatibility
 * Remove 5.0 compatibility
