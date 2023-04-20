@@ -70,7 +70,7 @@ First we define a new USTRUCT to be used as pin type — we want to pass brushes
 
 We then declare a `FindLandmassHeightmapBrushes`  node that will find heightmap brushes in the scene:
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 This node references a subsystem (`FVoxelLandmassHeightmapSubsystem`) which is used to track active brushes. It has one input pin: `LayerName`, which defaults to “Main”, and one output pin, `Brushes`.
 
