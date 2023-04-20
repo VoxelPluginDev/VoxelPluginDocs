@@ -1,5 +1,5 @@
 ---
-description: A brief article noting important UX for previewing node outputs.
+description: Important UX knowledge for previewing node outputs.
 ---
 
 # Using the Preview

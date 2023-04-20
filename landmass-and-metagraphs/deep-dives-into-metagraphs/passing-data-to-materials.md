@@ -1,7 +1,11 @@
+---
+description: Interfacing with materials through MetaGraph outputs.
+---
+
 # Passing Data to Materials
 
-{% hint style="info" %}
-This page is a stub. This means that the information on this topic will be significantly expanded in the future. What is currently on this page is an incomplete picture.
+{% hint style="danger" %}
+The information on this page is out-of-date for this release. The page exists because it needs to be updated.
 {% endhint %}
 
 Any data that can be represented as a float can be passed into materials from a MetaGraph. Information can be passed using Vertex Data, or using detail textures.

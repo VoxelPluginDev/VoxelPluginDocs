@@ -28,6 +28,6 @@
     * [Buffers and Uniforms](landmass-and-metagraphs/deep-dives-into-metagraphs/buffers-and-uniforms.md)
   * [Optimizing MetaGraphs](landmass-and-metagraphs/optimizing-metagraphs/README.md)
     * [Utilities for Performant Graphs](landmass-and-metagraphs/optimizing-metagraphs/utilities-for-performant-graphs.md)
-    * [Memory Usage & Render Performance](landmass-and-metagraphs/optimizing-metagraphs/memory-usage-and-render-performance.md)
     * [Profiling Generation Times](landmass-and-metagraphs/optimizing-metagraphs/profiling-generation-times.md)
+    * [Memory Usage & Render Performance](landmass-and-metagraphs/optimizing-metagraphs/memory-usage-and-render-performance.md)
   * [Extending MetaGraphs through C++](landmass-and-metagraphs/extending-metagraphs-through-c++.md)

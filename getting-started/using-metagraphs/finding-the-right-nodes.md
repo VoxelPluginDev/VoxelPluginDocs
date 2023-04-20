@@ -1,5 +1,5 @@
 ---
-description: How to make sense of the graph nodes when next steps are unclear.
+description: Making sense of graph nodes when next steps are unclear.
 ---
 
 # Finding the Right Nodes

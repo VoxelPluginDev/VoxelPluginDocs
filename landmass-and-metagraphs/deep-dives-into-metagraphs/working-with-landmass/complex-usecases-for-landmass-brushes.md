@@ -1,3 +1,7 @@
+---
+description: The possibilities in working with distance fields versus pure meshes.
+---
+
 # Complex Usecases for Landmass Brushes
 
 {% hint style="info" %}

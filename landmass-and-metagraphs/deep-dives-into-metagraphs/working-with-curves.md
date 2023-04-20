@@ -1,3 +1,7 @@
+---
+description: Caveats and tips on how to make the most of curves in a graph.
+---
+
 # Working with Curves
 
 {% hint style="info" %}

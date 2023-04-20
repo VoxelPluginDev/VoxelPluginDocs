@@ -1,3 +1,7 @@
+---
+description: The technical nature and inner workings of mesh brushes.
+---
+
 # Working with Landmass
 
 {% hint style="info" %}
