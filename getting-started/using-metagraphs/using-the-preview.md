@@ -2,7 +2,11 @@
 description: A brief article noting important UX for previewing node outputs.
 ---
 
-# Using the MetaGraph Preview
+# Using the Preview
+
+{% hint style="danger" %}
+The graph preview is non-functional in a large amount of usages in this release. It might work in some cases, but it isn't expected to work across the board.
+{% endhint %}
 
 When a graph is created and first opened, there are no nodes and the preview is therefore inactive. Once nodes have been placed, right-click any pin and click "Preview this node". The preview window in the top-left of the graph editor will update to show the data at the selected pin. The wires connected to this pin will get a bubble-flow effect to indicate its active preview status. &#x20;
 
@@ -16,7 +20,7 @@ The preview window has several controls at the top. Their respective functions, 
 4. Controls the resolution at which the preview is rendered. Lower resolutions give higher performance as the preview is moved around, but will look grainy when the preview is large on-screen. &#x20;
 5. This slider applies an offset along the current axis, this can be useful when previewing densities, as it allows you to easily visualize where the surface is across a few vertical slices of the terrain.
 
-<img src="../../.gitbook/assets/image.png" alt="" data-size="original">&#x20;
+<img src="../../.gitbook/assets/image (4).png" alt="" data-size="original">&#x20;
 
 Hovering over the preview will show the value underneath the mouse position as tooltip.,
 

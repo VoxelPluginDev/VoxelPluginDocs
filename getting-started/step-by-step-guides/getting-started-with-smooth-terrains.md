@@ -1,7 +1,7 @@
 ---
 description: >-
-  This guide explores the basic functionality of MetaGraphs by using noise and
-  Landmass brushes to create a smooth (Marching Cubes) terrain.
+  The basic functionality of MetaGraphs, using noise and Landmass brushes to
+  create a smooth (Marching Cubes) terrain.
 cover: ../../.gitbook/assets/image (4) (1).png
 coverY: 0
 ---
@@ -12,7 +12,7 @@ coverY: 0
 This guide was made using Unreal Engine 5.1, with a plugin release from early December.
 {% endhint %}
 
-For a more detailed understanding on how a mesh is generated from input data, we strongly recommend watching [this video by Sebastian Lague](https://www.youtube.com/watch?v=M3iI2l0ltbE). In Voxel Plugin the density field is generally an approximate distance to the nearest surface in world units (cm in stock Unreal), so we often refer to it as a “distance field”.
+For a more detailed understanding on how a mesh is generated from input data, we strongly recommend watching [this video by Sebastian Lague](https://www.youtube.com/watch?v=M3iI2l0ltbE), which explains the Marching Cubes algorithm we use. In Voxel Plugin the density field used for this is generally an approximate distance to the nearest surface in world units (cm in stock Unreal), so we refer to it as a distance field, or as the "Distance" type.
 
 ### 1. Preparing your Graph and Voxel Actor <a href="#block-f0f3707dae9d43b48c8b2ada9466e73f" id="block-f0f3707dae9d43b48c8b2ada9466e73f"></a>
 
@@ -38,10 +38,10 @@ More information on how to find the right nodes to use can be found here: [using
 In this search menu, have a look at the available options. The `Flow Control` and `Misc` categories are not useful for generation, as they just contain utilities. TThat leaves us with the `Chunk` category. If we expand this, we get a few options. In this case - and for most terrains - we'll be choosing the `Spawn Chunks by Screen Size` node, as it works in 3D and creates LODs.
 
 {% hint style="info" %}
-For an extended explanation on Chunk Spawners and when to use which, see the [choosing-the-right-chunk-spawner.md](../../landmass-and-metagraphs/deep-dives-into-metagraphs/choosing-the-right-chunk-spawner.md "mention") page.
+For an extended explanation on Chunk Spawners and when to use which, see the [Broken link](broken-reference "mention") page.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 
 Having placed a chunk spawner, there are two visible execution pins. The top one can be used for creating more chunks, and the bottom one is used for the instructions on what each chunk created by this node should do. In this case, to start creating instruction on what these chunks should look like, drag out from the second pin.
 
@@ -67,7 +67,7 @@ More information on working with variables and similar UX topics can be found on
 
 The graph should now look mostly like this:
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 With this, the groundwork for the world generation has been done. From here, all that is left is to actually tell these chunks what their mesh surfaces need to look like. That means that from this point on, the `Create Collider` and `Create Mesh` nodes will take the same surface inputs.
 
@@ -117,7 +117,7 @@ Going back to the graph, look back to the `Create Mesh` node. Drag out from its 
 Now, try to drag from the `Density` pin into the `GetGradient`'s `Value` pin. Notice that a pop-up appears, saying `Convert Float Buffer (Density) to Float Buffer`. Connect the pins, and a new node will appear in between, converting your `Density` type to a `Float` type. These nodes are how type conversions appear in MetaGraphs.
 
 {% hint style="info" %}
-Learn more about how float and density types work together on the [floats-and-density.md](../../landmass-and-metagraphs/deep-dives-into-metagraphs/floats-and-density.md "mention") page.
+Learn more about how float and density types work together on the [Broken link](broken-reference "mention") page.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>

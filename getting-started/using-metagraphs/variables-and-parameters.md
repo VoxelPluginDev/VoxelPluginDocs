@@ -1,6 +1,12 @@
+---
+description: Using and creating graph variables and parameters.
+---
+
 # Variables and Parameters
 
 Variables and parameters can be created in two ways. The first is to click the plus button in the appropriate section on the bottom-left side of the graph editor. The second is to drag out from a pin and select `Promote to Local Variable` or `Promote to Parameter`.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Pins can be promoted to a local variable or parameter through the search menu.</p></figcaption></figure>
 
 `Promote to Local Variable` will create a local variable - this will also show up on the left side of the graph editor. The details panel right above the variable will let you configure the variable's default value. You can get the value of a local variable as many times as you want. You can also set a local variable once from within your graph, overriding the default value.&#x20;
 

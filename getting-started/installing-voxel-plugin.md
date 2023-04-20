@@ -1,7 +1,7 @@
 ---
 description: >-
-  In this guide, we will be going through the process of how to install Voxel
-  Plugin to an existing project.
+  Going through the process of how to install Voxel Plugin to an existing
+  project.
 ---
 
 # Installing Voxel Plugin
@@ -24,7 +24,7 @@ With the store page open, click the “Free” button to get access to the plugi
 
 Once this has finished, start the project you want to use Voxel Plugin in. In this project, go to "Edit -> Plugins" to open the Plugin browser.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Installing Voxel Plugin
 
