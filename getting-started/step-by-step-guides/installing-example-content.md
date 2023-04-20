@@ -1,7 +1,7 @@
 ---
 description: >-
-  Each Voxel Plugin release comes with a set of samples showcasing how to use
-  plugin systems.
+  How to install the Voxel Plugin sample content, showcasing how to use plugin
+  systems, shipped with each release.
 ---
 
 # Installing Example Content
