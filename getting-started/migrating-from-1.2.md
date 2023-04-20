@@ -6,4 +6,10 @@ description: >-
 
 # Migrating from 1.2
 
-hi i'm jarrod
+### Key Differences
+
+There are several big differences between 1.2 and 2.0.
+
+### Missing Features
+
+asd
