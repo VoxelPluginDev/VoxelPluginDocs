@@ -11,6 +11,7 @@
     * [Finding the Right Nodes](getting-started/using-metagraphs/finding-the-right-nodes.md)
     * [Variables and Parameters](getting-started/using-metagraphs/variables-and-parameters.md)
   * [Migrating from 1.2](getting-started/migrating-from-1.2.md)
+  * [Getting started on Mac](getting-started/getting-started-on-mac.md)
 * [Landmass & MetaGraphs](landmass-and-metagraphs/README.md)
   * [Design Philosophy](landmass-and-metagraphs/design-philosophy/README.md)
     * [What are Landmass & MetaGraphs](landmass-and-metagraphs/design-philosophy/what-are-landmass-and-metagraphs.md)
