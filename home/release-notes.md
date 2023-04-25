@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>2.0p-316</summary>
+<summary>2.0p-317</summary>
 
 * Add 5.2 compatibility
 * Remove 5.0 compatibility
@@ -21,6 +21,8 @@
   * /VoxelPlugin is now /Voxel, existing content references will be broken
 * Start adding new material layer pipeline
   * This is not ready yet, assets will be broken by the next release
+* Add back voxel invokers
+* Fix transition meshes
 
 </details>
 
