@@ -14,4 +14,4 @@ Note nodes: Query 2D
 
 Note: Single-length buffer is functionally the same as a uniform. _So you don't ever need to worry about making things uniform for perf reasons; if you plug a constant value (like a parameter or something) into a buffer pin, it'll have the exact same perf overhead as plugging that into a uniform pin._
 
-_Read more at_ [buffers-and-uniforms.md](../deep-dives-into-metagraphs/buffers-and-uniforms.md "mention").
+_Read more at_ [buffers-and-uniforms.md](buffers-and-uniforms.md "mention").

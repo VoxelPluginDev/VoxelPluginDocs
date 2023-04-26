@@ -16,7 +16,11 @@ To start off, open the Epic Games Launcher. In the Unreal Engine section, naviga
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-With the store page open, click the “Free” button to get access to the plugin. You will be prompted to log in if you aren’t already, and then to accept the Epic Content License Agreement. After doing this, the "Free" button will have changed to an "Install to Engine" button. Press that, select the engine version you are working in the slot dropdown and press "Install". The plugin will now download and install.&#x20;
+* With the store page open, click the “Free” button to get access to the plugin
+* You will be prompted to log in if you aren’t already, and then to accept the Epic Content License Agreement
+* After doing this, the "Free" button will have changed to an "Install to Engine" button
+* Press that, select the engine version you are working in the slot dropdown and press "Install"
+* The plugin will now download and install.&#x20;
 
 <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 

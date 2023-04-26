@@ -4,7 +4,7 @@ description: >-
   exists and how it evolved from previous iterations of the plugin.
 ---
 
-# What are Landmass & MetaGraphs
+# Why Landmass & MetaGraphs
 
 ### 1. Voxel Plugin’s initial design <a href="#block-f11edb69e82b4b5bb3d30f0a00cc7309" id="block-f11edb69e82b4b5bb3d30f0a00cc7309"></a>
 
@@ -40,6 +40,6 @@ The graph executes like a call-stack, right-to-left from the Root node, with eac
 
 For example, a “Sample Landmass Brushes” node takes a position as input. The Position node used for this does not magically know its position. Instead, that information, called PositionQueryData, has to be provided by another node, such as a “Spawn Chunks” node, to work. If no nodes upstream (to the right) of the Position node were to provide a PositionQueryData, the Position node will throw an error noting it’s not being passed its required QueryData, and it will not execute.
 
-The “[A Technical Exploration of MetaGraphs](a-technical-exploration-of-metagraphs.md)” article goes deeper on these subjects.
+The “[A Technical Exploration of MetaGraphs](broken-reference)” article goes deeper on these subjects.
 
 This dynamic information dependency and passthrough framework makes it incredibly easy to bridge between different systems in the plugin. If a graph section need to bridge between two systems, the node simply needs to enforce that it requires information from both systems; if it only receives one, it will error out, if it receives both it will work. So long as those systems have a node set up to pass information into graphs in the first place, any set of systems can communicate together through graphs.
