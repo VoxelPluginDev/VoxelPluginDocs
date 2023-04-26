@@ -6,11 +6,11 @@
 
 * Add 5.2 compatibility
 * Remove 5.0 compatibility
-* Remove exec flow from graph: TODO doc link
-* Add brush system: TODO doc link
-* Add graph-based foliage: TODO doc link
+* Remove exec flow from graph
+* Add brush system
+* Add graph-based foliage
   * Existing foliage clusters & instance assets will be invalidated
-* Add UFUNCTION nodes: TODO doc link
+* Add UFUNCTION nodes
 * Add blueprint getter/setters for graph parameters
 * Remove GPU compute from graphs
   * The current approach was too messy & unusable
