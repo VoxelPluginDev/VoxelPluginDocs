@@ -23,6 +23,7 @@
   * This is not ready yet, assets will be broken by the next release
 * Add back voxel invokers
 * Fix transition meshes
+* Remove render thread throttle. All updates should feel snappier now, but you might see some frame dips. You can add the throttle back using `voxel.threading.MaxConcurrentRenderTasks 4`
 
 </details>
 
