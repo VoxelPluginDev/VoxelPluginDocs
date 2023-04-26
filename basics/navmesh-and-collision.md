@@ -12,7 +12,7 @@ To fix that, the plugin has Voxel Invokers: components you can add to actors to 
 
 Add a new Box Invoker or Sphere Invoker to your actor:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 You can then move/rotate/scale the invoker as needed.
 
@@ -21,4 +21,8 @@ You can then move/rotate/scale the invoker as needed.
 To generate collision or navmesh from invokers, we need to setup a new physics scene.
 
 First, create a new Voxel Physics Scene in your content browser:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+This is an empty asset that will be the link between nodes creating physics objects, and nodes processing them.
 
