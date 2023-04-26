@@ -2,6 +2,8 @@
 
 ## 2.0p-317
 
+https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0p-317 - Released April 26 2023
+
 * Add 5.2 compatibility
 * Remove 5.0 compatibility
 * Add downloadable example content
@@ -30,13 +32,13 @@
 
 ## 2.0p-304
 
-[https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0-304](https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0-304) - Released January 26 2023
+https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0p-304 - Released January 26 2023
 
 * First tracked release
 
 #### 2.0p-304.1
 
-[https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0-304.1](https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0-304.1) - Released April 5 2023
+https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0p-304.1 - Released April 5 2023
 
 * Fix navmesh being broken due to missing UpdateBounds
 
