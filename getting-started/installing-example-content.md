@@ -8,7 +8,7 @@ Each Voxel Plugin release ships with a set of content examples designed to showc
 
 &#x20;The Voxel Content can be accessed by right-clicking in the content browser, and selecting the `Add Voxel Content` option near the top.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Right-clicking in the content browser will bring up the option to add Voxel Content.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Right-clicking in the content browser will bring up the option to add Voxel Content.</p></figcaption></figure>
 
 Once clicked, a dialog showing the various examples currently available on the server will pop up. Selecting one of these examples will show a description of the contents of the example, after which clicking `Add to Project` will start the installation process.&#x20;
 

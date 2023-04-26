@@ -6,6 +6,8 @@
   * [Installing Voxel Plugin](getting-started/installing-voxel-plugin.md)
   * [Installing Example Content](getting-started/installing-example-content.md)
   * [Migrating from 1.2](getting-started/migrating-from-1.2.md)
+* [Basics](basics/README.md)
+  * [Navmesh & Collision](basics/navmesh-and-collision.md)
 * [Advanced Usage](advanced-usage/README.md)
   * [Memory Usage & Render Performance](advanced-usage/memory-usage-and-render-performance.md)
   * [Using Graph Preview](advanced-usage/using-graph-preview.md)
