@@ -1,16 +1,19 @@
 # Release Notes
 
-<details>
-
-<summary>2.0p-317</summary>
+## 2.0p-317
 
 * Add 5.2 compatibility
 * Remove 5.0 compatibility
+* Add downloadable example content
+  * You can right click the content browser -> Add voxel content
 * Remove exec flow from graph
+  * Check the examples to see how to use the new graph flow
 * Add brush system
 * Add graph-based foliage
   * Existing foliage clusters & instance assets will be invalidated
+  * Foliage collision is not yet supported
 * Add UFUNCTION nodes
+  * Example here: [https://github.com/VoxelPlugin/VoxelPlugin/blob/2.0p/Source/VoxelGraphNodes/Public/VoxelBasicFunctionLibrary.h](https://github.com/VoxelPlugin/VoxelPlugin/blob/2.0p/Source/VoxelGraphNodes/Public/VoxelBasicFunctionLibrary.h)
 * Add blueprint getter/setters for graph parameters
 * Remove GPU compute from graphs
   * The current approach was too messy & unusable
@@ -23,11 +26,7 @@
   * This is not ready yet, assets will be broken by the next release
 * Add back voxel invokers
 * Fix transition meshes
-* Remove render thread throttle. All updates should feel snappier now, but you might see some frame dips. You can add the throttle back using `voxel.threading.MaxConcurrentRenderTasks 4`
-
-</details>
-
-
+* Remove render thread throttle. All updates should feel snappier now, but you might see some frame dips. You can add the throttle back using voxel.threading.MaxConcurrentRenderTasks 4
 
 ## 2.0p-304
 
