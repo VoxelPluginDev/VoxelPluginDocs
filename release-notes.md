@@ -41,6 +41,10 @@
   * This is not ready yet, assets will be broken by the next release
 * Fix transition meshes
 * Remove render thread throttle. All updates should feel snappier now, but you might see some frame dips. You can add the throttle back using `voxel.threading.MaxConcurrentRenderTasks 4`
+* Voxel Meta Actors cannot be moved anymore
+  * This means setups such as rotating planets are currently not possible
+  * This will be fixed in a later release with the introduction of Voxel Domains
+  * If your voxel actor was not at origin, your entire world will be shifted with this update!
 
 ## 2.0p-304
 
