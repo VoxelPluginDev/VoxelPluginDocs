@@ -8,6 +8,7 @@
   * [Migrating from 1.2](getting-started/migrating-from-1.2.md)
 * [Basics](basics/README.md)
   * [Navmesh & Collision](basics/navmesh-and-collision.md)
+  * [Brush & Channels](basics/brush-and-channels.md)
 * [Advanced Usage](advanced-usage/README.md)
   * [Memory Usage & Render Performance](advanced-usage/memory-usage-and-render-performance.md)
   * [Using Graph Preview](advanced-usage/using-graph-preview.md)

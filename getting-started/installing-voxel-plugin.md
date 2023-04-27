@@ -36,13 +36,13 @@ With the plugin window open, use the search bar to look for "Plugin Downloader".
 
 Tick the checkbox to the left of the Plugin Downloader icon, and press the "Restart Now" button in the bottom right.
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After restarting, a Voxel Plugin icon will have appeared on the right-hand side of your editor's toolbar, next to the "Settings" dropdown.&#x20;
 
 Click the Voxel Plugin icon and a dropdown menu will appear. In this menu, click the "Login" button. This will open a login page for your Epic account in your browser. Log into your Epic account, and click "Allow" when asked to let Voxel Plugin use your Epic Games account.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Once this is done, click the Voxel Plugin icon again. Having registered Voxel Plugin to your Epic account, you will now find verification options within the dropdown.&#x20;
 

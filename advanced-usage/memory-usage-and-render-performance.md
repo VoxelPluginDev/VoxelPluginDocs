@@ -32,6 +32,6 @@ This statistic reads back performance counters from voxel tasks. These tasks onl
 
 `stat voxelmemory` reports how much memory is currently being used by the various plugin systems. &#x20;
 
-<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 This is fun because as it turns out these stats are sometimes RAM and sometimes VRAM :)

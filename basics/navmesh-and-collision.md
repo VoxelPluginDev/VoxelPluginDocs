@@ -28,13 +28,13 @@ This is an empty asset that will be the link between nodes creating physics obje
 
 Then add a new Generate Marching Cube Collider node, link its distance & assign the physics scene to it:
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (3).png" alt=""><figcaption></figcaption></figure>
 
 This node will now generate marching cube colliders in the physics scene, on demand. We now need a node that will take these colliders & create actual collision components from them.
 
 To do so, add a new Generate Collision from Physics Scene node, and set its physics scene:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Debugging
 
@@ -42,7 +42,7 @@ By default, no collision is generated in the editor. You can use `voxel.collisio
 
 Once this is done, you should be able to see colliders generated when switching the viewport to the Player Collision view:
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Multiplayer
 
@@ -50,17 +50,17 @@ Usually, you want to have different behavior on clients & servers. To do so, the
 
 A typically setup could be:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Navmesh
 
 Navmesh works pretty much the same way as collision:
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 To debug navmesh in the editor, you can use `voxel.navigation.EnableInEditor 1`
 
 Make sure to set the navmesh generation to Dynamic in your project settings:\
 
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>

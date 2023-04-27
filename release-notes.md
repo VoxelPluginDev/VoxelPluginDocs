@@ -10,7 +10,7 @@
   * You can right click the content browser -> Add voxel content
 * Remove exec flow from graph
   * Check the examples to see how to use the new graph flow
-* Add brush system
+* Add brush/channel system
 * Add graph-based foliage
   * Existing foliage clusters & instance assets will be invalidated
   * Foliage collision is not yet supported
