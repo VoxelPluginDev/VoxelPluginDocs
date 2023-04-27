@@ -16,7 +16,7 @@ Voxel Brushes allow you to write into a channel from a brush actor that you can 
 
 Leave the channel type as Distance Buffer. If you wanted to have a height channel, this would typically be a Float Buffer.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Setting up a simple meta graph
 
@@ -28,7 +28,7 @@ Create a new meta graph asset:
 
 Add the following nodes to it:
 
-<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The Sample Channel node will sample our channel for us. Make sure to set the channel reference to the asset we just created.
 
@@ -40,7 +40,7 @@ Create a new brush asset:
 
 At the top right of the asset window, switch to the Brush Graph:
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 Add the following nodes:
 
@@ -120,7 +120,7 @@ The smoothness parameter is now showing up, allowing you to tune your asset!
 
 If you increase your smoothness a lot, you might start to notice holes in the voxel mesh:
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 This is because due to the high smoothness, we're going outside of the brush bounds!
 
@@ -130,7 +130,7 @@ To fix that, we can tell what smoothness we're using to the plugin:
 
 Once that's done, the rendering auto-magically fixes itself!
 
-<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Adding brush preview
 
@@ -152,7 +152,7 @@ Add the following node to your graph:
 
 This will extend the distance field by 1m. Your brush preview should now look like this:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Improving the brush asset preview
 
@@ -162,7 +162,7 @@ If you go back to the Preview tab in your brush asset, you will see your brush i
 
 if you'd like to use a different material, you can do so like this:
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Which will get you this:
 

@@ -63,4 +63,4 @@ To debug navmesh in the editor, you can use `voxel.navigation.EnableInEditor 1`
 Make sure to set the navmesh generation to Dynamic in your project settings:\
 
 
-<figure><img src="../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3) (1).png" alt=""><figcaption></figcaption></figure>

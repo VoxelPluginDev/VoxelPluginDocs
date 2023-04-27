@@ -14,7 +14,7 @@ In order to install the 2.0 beta, ownership of Voxel Plugin Pro is required.
 
 To start off, open the Epic Games Launcher. In the Unreal Engine section, navigate to the Marketplace and use the search-bar in the top-right to search for “Plugin Downloader”. Find the “Plugin Downloader” result, with “Voxel Plugin” as creator, and click it.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * With the store page open, click the “Free” button to get access to the plugin
 * You will be prompted to log in if you aren’t already, and then to accept the Epic Content License Agreement
@@ -28,7 +28,7 @@ To start off, open the Epic Games Launcher. In the Unreal Engine section, naviga
 
 Once this has finished, start the project you want to use Voxel Plugin in. In this project, go to "Edit -> Plugins" to open the Plugin browser.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Installing Voxel Plugin
 

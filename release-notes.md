@@ -8,8 +8,6 @@
 * Remove 5.0 compatibility
 * Add downloadable example content
   * You can right click the content browser -> Add voxel content
-* Remove exec flow from graph
-  * Check the examples to see how to use the new graph flow
 * Add brush/channel system
   * [brush-and-channels.md](basics/brush-and-channels.md "mention")
 * Add back voxel invokers
@@ -17,12 +15,16 @@
 * Add graph-based foliage
   * Existing foliage clusters & instance assets will be invalidated
   * Foliage collision is not yet supported
+  * [foliage.md](basics/foliage.md "mention")
 * Add graph search
   * You can right click any parameter or any node to see where it's used
   * You can also search through all assets by clicking the global search button top right of the search tab
+* Add back density canvases
+  * [density-canvas.md](basics/density-canvas.md "mention")
 * Add UFUNCTION nodes
   * Example here: [https://github.com/VoxelPlugin/VoxelPlugin/blob/2.0p/Source/VoxelGraphNodes/Public/VoxelBasicFunctionLibrary.h](https://github.com/VoxelPlugin/VoxelPlugin/blob/2.0p/Source/VoxelGraphNodes/Public/VoxelBasicFunctionLibrary.h)
 * Add blueprint getter/setters for graph parameters
+* Remove exec flow from graph
 * Remove GPU compute from graphs
   * The current approach was too messy & unusable
   * C++: this removes all buffer views, you can use buffers directly now

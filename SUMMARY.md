@@ -10,6 +10,7 @@
   * [Brush & Channels](basics/brush-and-channels.md)
   * [Foliage](basics/foliage.md)
   * [Navmesh & Collision](basics/navmesh-and-collision.md)
+  * [Density Canvas](basics/density-canvas.md)
 * [Advanced Usage](advanced-usage/README.md)
   * [Memory Usage & Render Performance](advanced-usage/memory-usage-and-render-performance.md)
   * [Using Graph Preview](advanced-usage/using-graph-preview.md)

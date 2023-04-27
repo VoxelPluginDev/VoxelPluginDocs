@@ -12,7 +12,7 @@ Each Voxel Plugin release ships with a set of content examples designed to showc
 
 Once clicked, a dialog showing the various examples currently available on the server will pop up. Selecting one of these examples will show a description of the contents of the example, after which clicking `Add to Project` will start the installation process.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Selecting an example will show a description of its contents.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Selecting an example will show a description of its contents.</p></figcaption></figure>
 
 If the content you are trying to add to your project is already installed, you will be prompted to overwrite the current copy in your project. If you made any changes to your current copy, make sure to back these up before overwriting. Clicking `No` or `Cancel` will abort the entire operation, preventing it from adding any content to your project.
 

@@ -25,7 +25,7 @@ Create a new foliage asset:\
 
 In the foliage asset, switch to the Foliage Graph at the top right:
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 Add the following nodes:
 
@@ -54,7 +54,7 @@ You should now see spheres being spawned in your level!
 
 If you increase your Distance Between Positions in your foliage graph to 500:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 You'll get less dense spheres:
 
@@ -90,7 +90,7 @@ Spawning foliage on foliage is just a matter of outputing foliage colliders into
 
 Make a new physics scene, name it FoliagePhysicsScene:
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 Duplicate your foliage graph, and add the following at the end:
 
