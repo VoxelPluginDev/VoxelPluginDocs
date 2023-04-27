@@ -12,9 +12,14 @@
   * Check the examples to see how to use the new graph flow
 * Add brush/channel system
   * [brush-and-channels.md](basics/brush-and-channels.md "mention")
+* Add back voxel invokers
+  * [navmesh-and-collision.md](basics/navmesh-and-collision.md "mention")
 * Add graph-based foliage
   * Existing foliage clusters & instance assets will be invalidated
   * Foliage collision is not yet supported
+* Add graph search
+  * You can right click any parameter or any node to see where it's used
+  * You can also search through all assets by clicking the global search button top right of the search tab
 * Add UFUNCTION nodes
   * Example here: [https://github.com/VoxelPlugin/VoxelPlugin/blob/2.0p/Source/VoxelGraphNodes/Public/VoxelBasicFunctionLibrary.h](https://github.com/VoxelPlugin/VoxelPlugin/blob/2.0p/Source/VoxelGraphNodes/Public/VoxelBasicFunctionLibrary.h)
 * Add blueprint getter/setters for graph parameters
@@ -23,14 +28,13 @@
   * C++: this removes all buffer views, you can use buffers directly now
 * Add smart graph diffing: only values affected by the graph changes are updated
 * Add inline macros to graphs
+  * You can create graph macros using the graph left panel
 * Remove custom content mapping
   * /VoxelPlugin is now /Voxel, existing content references will be broken
 * Start adding new material layer pipeline
   * This is not ready yet, assets will be broken by the next release
-* Add back voxel invokers
-  * [navmesh-and-collision.md](basics/navmesh-and-collision.md "mention")
 * Fix transition meshes
-* Remove render thread throttle. All updates should feel snappier now, but you might see some frame dips. You can add the throttle back using voxel.threading.MaxConcurrentRenderTasks 4
+* Remove render thread throttle. All updates should feel snappier now, but you might see some frame dips. You can add the throttle back using `voxel.threading.MaxConcurrentRenderTasks 4`
 
 ## 2.0p-304
 

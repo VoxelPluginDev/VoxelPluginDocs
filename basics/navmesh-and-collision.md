@@ -12,7 +12,7 @@ To fix that, the plugin has Voxel Invokers: components you can add to actors to 
 
 Add a new Box Invoker or Sphere Invoker to your actor:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can then move/rotate/scale the invoker as needed.
 
@@ -50,7 +50,7 @@ Usually, you want to have different behavior on clients & servers. To do so, the
 
 A typically setup could be:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Navmesh
 

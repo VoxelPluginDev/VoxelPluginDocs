@@ -12,7 +12,7 @@ Within the plugin, we have several different stat commands to help you nail down
 
 The first statgroup, useful for quickly determining where the plugin is spending CPU time, is `stat voxel`. This is a good starting point when experiencing hitching or lag spikes from the game thread.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This statistic reads back performance counters from voxel tasks. These tasks only exist when the world is actively generating. Because of this, these numbers are generally only useful when the world was refreshed, or when the camera is moving.
 

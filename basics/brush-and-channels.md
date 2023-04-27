@@ -24,11 +24,11 @@ For the purpose of this tutorial, we'll need a simple meta graph.
 
 Create a new meta graph asset:
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 Add the following nodes to it:
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 The Sample Channel node will sample our channel for us. Make sure to set the channel reference to the asset we just created.
 
@@ -44,7 +44,7 @@ At the top right of the asset window, switch to the Brush Graph:
 
 Add the following nodes:
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 All this is doing is reading the previous channel value, and writing it as the new channel value. To have a brush do something, we need to do something to that distance!
 
@@ -64,11 +64,11 @@ In this graph we do quite a few things:
 
 You can then drag & drop your brush asset into the scene. Make sure you also dragged your meta graph into that same scene. You should see the following:
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you duplicate that brush actor & scale it, you can get this:
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Optimizing the brush asset
 
@@ -100,7 +100,7 @@ This will create a new parameter. That parameter will automatically copy the pin
 
 If you select a brush actor in your scene, you will see you can now set the smoothness per brush:
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 Increasing the smoothness should make the brushes blend together!
 
@@ -112,7 +112,7 @@ When you have a lot of parameters, sometimes you want to create templates for th
 
 This is possible in the plugin too! Create a new brush asset. Instead of going to the graph, assign its Parent to the first asset we created:
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 The smoothness parameter is now showing up, allowing you to tune your asset!
 
@@ -126,11 +126,11 @@ This is because due to the high smoothness, we're going outside of the brush bou
 
 To fix that, we can tell what smoothness we're using to the plugin:
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once that's done, the rendering auto-magically fixes itself!
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Adding brush preview
 
@@ -162,7 +162,7 @@ If you go back to the Preview tab in your brush asset, you will see your brush i
 
 if you'd like to use a different material, you can do so like this:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Which will get you this:
 
@@ -172,11 +172,11 @@ Which will get you this:
 
 With our current setup, the preview mesh does not account for any smoothness:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 We can fix that with a bit of math:
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 Here, we take the result of the Smooth Union and subtract from it the value of the channel before we added our brush. This effectively gives us the true delta created by our brush.
 
