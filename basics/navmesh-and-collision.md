@@ -58,7 +58,7 @@ Navmesh works pretty much the same way as collision:
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-To debug navmesh in the editor, you can use `voxel.navigation.EnableInEditor`
+To debug navmesh in the editor, you can use `voxel.navigation.EnableInEditor 1`
 
 Make sure to set the navmesh generation to Dynamic in your project settings:\
 
