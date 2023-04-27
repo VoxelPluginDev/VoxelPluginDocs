@@ -11,6 +11,7 @@
 * Remove exec flow from graph
   * Check the examples to see how to use the new graph flow
 * Add brush/channel system
+  * [brush-and-channels.md](basics/brush-and-channels.md "mention")
 * Add graph-based foliage
   * Existing foliage clusters & instance assets will be invalidated
   * Foliage collision is not yet supported
