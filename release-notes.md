@@ -45,6 +45,7 @@
   * This means setups such as rotating planets are currently not possible
   * This will be fixed in a later release with the introduction of Voxel Domains
   * If your voxel actor was not at origin, your entire world will be shifted with this update!
+* Mac is fully supported (tested on an M1 Mac Mini)
 
 ## 2.0p-304
 
