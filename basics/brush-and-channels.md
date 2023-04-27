@@ -88,6 +88,25 @@ The world will now generate faster!
 Be careful when setting the bounds. If you set bounds that are too small, you might start to get rendering glitches/holes in the voxel mesh
 {% endhint %}
 
+## Brush priorities
+
+You might have noticed the Write Channel node has a Priority pin. This is used to sort brushes.
+
+The brush with the highest priority will be queried first. If that brush calls SampleChannel, the brush with the second highest priority will then be queried, and so on.
+
+Brush priority can be useful to tune when dealing with smoothness: usually, you want to apply Smoothness after everything else has been computed. If you have a brush whose smoothness doesn't seem to be working properly, try increasing its priority!
+
+### Determinism
+
+In order to always have different priorities & make the sorting deterministic, brushes have an internal priority computed as follows:
+
+* Compare the WriteChannel Priority first
+* If equal, fall back to a priority based on the path of the graph asset the node is in
+* If equal, fall back to a priority based on the path of the brush actor
+* If equal, fall back to a priority based on the node id hash
+
+You usually don't need to care about any of that EXCEPT if you're spawning brushes at runtime. if you do so, make sure your brush actor name is the same on client & servers, otherwise you might get mismatches!
+
 ## Exposing brush smoothness
 
 You might have noticed the Smooth Union node has a Smoothness pin. This controls how smooth the blend with the previous distances is.
