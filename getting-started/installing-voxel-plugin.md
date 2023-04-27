@@ -54,7 +54,7 @@ If you own Voxel Plugin on the Marketplace, post a question on Voxel Plugin's Ma
 
 After posting a question at the above link using your Epic account, open the Voxel Plugin dropdown once more and click the "Verify" button at the bottom. If you posted a question correctly, the menu will update to show branch and version information, as well as a "Download" button.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Press the "Download" button to install the latest Voxel Plugin release. A progress counter will appear in the bottom-right of your editor window. Once this finishes, you will be prompted to restart the editor. Press "Yes" to do so, and once the editor starts, the Voxel dropdown will show your current installed version information.
 
