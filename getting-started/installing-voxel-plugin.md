@@ -22,7 +22,7 @@ To start off, open the Epic Games Launcher. In the Unreal Engine section, naviga
 * Press that, select the engine version you are working in the slot dropdown and press "Install"
 * The plugin will now download and install.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Setting up Plugin Downloader
 

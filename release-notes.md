@@ -21,9 +21,13 @@
   * You can also search through all assets by clicking the global search button top right of the search tab
 * Add back density canvases
   * [density-canvas.md](basics/density-canvas.md "mention")
+* Add blueprint getter/setters for graph parameters
+  * [setting-graph-parameters.md](basics/blueprints/setting-graph-parameters.md "mention")
+* Allow querying Voxel Graphs from blueprints
+  * Limited to floats for now
+  * [querying-voxel-graphs.md](basics/blueprints/querying-voxel-graphs.md "mention")
 * Add UFUNCTION nodes
   * Example here: [https://github.com/VoxelPlugin/VoxelPlugin/blob/2.0p/Source/VoxelGraphNodes/Public/VoxelBasicFunctionLibrary.h](https://github.com/VoxelPlugin/VoxelPlugin/blob/2.0p/Source/VoxelGraphNodes/Public/VoxelBasicFunctionLibrary.h)
-* Add blueprint getter/setters for graph parameters
 * Remove exec flow from graph
 * Remove GPU compute from graphs
   * The current approach was too messy & unusable

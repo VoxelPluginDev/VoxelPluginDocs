@@ -28,7 +28,7 @@ In the blueprint you want to use to edit your canvas, add a new variable of type
 
 You can then use a variety of functions to edit your canvas at runtime:
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 The Position/Radius are in world space.
 
