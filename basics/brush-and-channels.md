@@ -80,7 +80,7 @@ To improve that, we can set the Bounds pin to the mesh bounds. This will make it
 
 Add the following nodes:
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 The world will now generate faster!
 
@@ -120,7 +120,7 @@ The smoothness parameter is now showing up, allowing you to tune your asset!
 
 If you increase your smoothness a lot, you might start to notice holes in the voxel mesh:
 
-<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 This is because due to the high smoothness, we're going outside of the brush bounds!
 

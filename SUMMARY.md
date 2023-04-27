@@ -11,6 +11,7 @@
   * [Foliage](basics/foliage.md)
   * [Navmesh & Collision](basics/navmesh-and-collision.md)
   * [Density Canvas](basics/density-canvas.md)
+  * [Setting graph parameters](basics/setting-graph-parameters.md)
 * [Advanced Usage](advanced-usage/README.md)
   * [Memory Usage & Render Performance](advanced-usage/memory-usage-and-render-performance.md)
   * [Using Graph Preview](advanced-usage/using-graph-preview.md)
