@@ -15,6 +15,8 @@ Only Unreal Engine 5.1 is currently supported if you're not building the engine 
 
 Extract the following files under `UE_5.1/Engine/Source/ThirdParty/Intel/ISPC/`: [https://drive.google.com/file/d/11WY797J\_olw6ptlbH0KKOYwdoWdFR56A/view?usp=share\_link](https://drive.google.com/file/d/11WY797J\_olw6ptlbH0KKOYwdoWdFR56A/view?usp=share\_link)
 
+Make sure you have `.../Intel/ISPC/bin/Mac/ispc`
+
 ## IOS
 
 For iOS, you'll need to do the same. If you're using 5.1 or earlier, you'll also need to backport this CL: [https://github.com/EpicGames/UnrealEngine/commit/7b4a384ba802074927456e30722a9788226680c0](https://github.com/EpicGames/UnrealEngine/commit/7b4a384ba802074927456e30722a9788226680c0)
