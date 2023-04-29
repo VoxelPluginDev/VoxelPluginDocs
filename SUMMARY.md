@@ -17,6 +17,7 @@
 * [Advanced Usage](advanced-usage/README.md)
   * [Memory Usage & Render Performance](advanced-usage/memory-usage-and-render-performance.md)
   * [Using Graph Preview](advanced-usage/using-graph-preview.md)
+  * [Debugging plugin code](advanced-usage/debugging-plugin-code.md)
 * [Platform Support](platform-support/README.md)
   * [Targetting Mac & iOS](platform-support/targetting-mac-and-ios.md)
 * [Design Insights](design-insights/README.md)
