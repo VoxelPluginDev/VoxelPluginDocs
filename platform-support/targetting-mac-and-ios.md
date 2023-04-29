@@ -1,4 +1,4 @@
-# Getting started on Mac & iOS
+# Targetting Mac & iOS
 
 Mac currently requires building the plugin from source.
 
@@ -6,8 +6,15 @@ In order to so, you will need to add this to your Project.Target.cs and ProjectE
 
 ```
 bCompileISPC = true;
+bOverrideBuildEnvironment = true;
 ```
 
+## Using a Launcher engine
 
+Only Unreal Engine 5.1 is currently supported if you're not building the engine from source.
 
-For iOS, you'll need to do the same. If you're using 5.1 or earlier, you'll also need to backport this CL: [https://github.com/EpicGames/UnrealEngine/commit/7b4a384ba802074927456e30722a9788226680c0](https://github.com/EpicGames/UnrealEngine/commit/7b4a384ba802074927456e30722a9788226680c0)t
+Extract the following files under `UE_5.1/Engine/Source/ThirdParty/Intel/ISPC/`: [https://drive.google.com/file/d/11WY797J\_olw6ptlbH0KKOYwdoWdFR56A/view?usp=share\_link](https://drive.google.com/file/d/11WY797J\_olw6ptlbH0KKOYwdoWdFR56A/view?usp=share\_link)
+
+## IOS
+
+For iOS, you'll need to do the same. If you're using 5.1 or earlier, you'll also need to backport this CL: [https://github.com/EpicGames/UnrealEngine/commit/7b4a384ba802074927456e30722a9788226680c0](https://github.com/EpicGames/UnrealEngine/commit/7b4a384ba802074927456e30722a9788226680c0)
