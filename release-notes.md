@@ -1,5 +1,10 @@
 # Release Notes
 
+## Upcoming
+
+* Split buffer storage in chunks
+  * Much better performance when using BinnedMalloc2 (ie, packaged dev or shipping)
+
 ## 2.0p-317.1
 
 [https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0p-317.1](https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0p-317.1) - Released May 2 2023
