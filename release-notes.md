@@ -1,5 +1,12 @@
 # Release Notes
 
+## 2.0p-317.1
+
+[https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0p-317.1](https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0p-317.1) - Released May 2 2023
+
+* Add Sample Heightmap node
+* C++: you can now do `VoxelMetaActor->ParameterCollection.Set("ParameterName", ParameterValue);`
+
 ## 2.0p-317
 
 [https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0p-317](https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0p-317) - Released April 26 2023
