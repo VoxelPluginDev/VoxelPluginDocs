@@ -5,6 +5,10 @@
 * Split buffer storage in chunks & add custom allocator
   * Much better performance when using BinnedMalloc2 (ie, packaged dev or shipping)
   * Packaged games should generate 2x as fast
+* Disable foliage distance fields
+  * This causes huge hitches when generating foliage
+  * Foliage should be a lot faster now
+  * Will be exposed as a setting in a future release
 
 ## 2.0p-317.1
 
