@@ -12,6 +12,7 @@
 * Add IsGameWorld/IsEditorWorld nodes
 * Fix standalone
 * Fix VR shaders
+* Add CreatePreviewInGame to brush actors, letting you use their preview meshes in game
 
 ## 2.0p-317.1
 
