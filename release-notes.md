@@ -2,8 +2,9 @@
 
 ## Upcoming
 
-* Split buffer storage in chunks
+* Split buffer storage in chunks & add custom allocator
   * Much better performance when using BinnedMalloc2 (ie, packaged dev or shipping)
+  * Packaged games should generate 2x as fast
 
 ## 2.0p-317.1
 
