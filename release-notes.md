@@ -9,6 +9,9 @@
   * This causes huge hitches when generating foliage
   * Foliage should be a lot faster now
   * Will be exposed as a setting in a future release
+* Add IsGameWorld/IsEditorWorld nodes
+* Fix standalone
+* Fix VR shaders
 
 ## 2.0p-317.1
 
