@@ -13,6 +13,8 @@
 * Fix standalone
 * Fix VR shaders
 * Add CreatePreviewInGame to brush actors, letting you use their preview meshes in game
+* Fix node interaction after placing a comment
+* Add custom blueprint node QueryVoxelChannel to query any value type
 
 ## 2.0p-317.1
 
