@@ -17,6 +17,7 @@
 * Add custom blueprint node QueryVoxelChannel to query any value type
 * Add MaxLOD to screen size chunk spawner
 * Add GetDistanceToCubemapPlanet
+* Fix GetGradient costing too much
 
 ## 2.0p-317.1
 
