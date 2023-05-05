@@ -15,6 +15,8 @@
 * Add CreatePreviewInGame to brush actors, letting you use their preview meshes in game
 * Fix node interaction after placing a comment
 * Add custom blueprint node QueryVoxelChannel to query any value type
+* Add MaxLOD to screen size chunk spawner
+* Add GetDistanceToCubemapPlanet
 
 ## 2.0p-317.1
 
