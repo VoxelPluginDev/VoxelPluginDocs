@@ -18,6 +18,10 @@
 * Add MaxLOD to screen size chunk spawner
 * Add GetDistanceToCubemapPlanet
 * Fix GetGradient costing too much
+* Meta Graphs are renamed to Voxel Scenes, you'll have to manually copy them over
+* AVoxelMetaActor is renamed to AVoxelSceneActor
+* VoxelFoliage is renamed to VoxelSpawner
+* Existing brush & foliage instance parameters (ie, assets with a Parent being set) will be invalidated
 
 ## 2.0p-317.1
 
