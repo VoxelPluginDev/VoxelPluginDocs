@@ -9,30 +9,146 @@
 * Advanced Noise 2D may eventually be deprecated in favor of a more versatile Noise node
   * The Noise node would use Noise Layers with customizable logic
 
-## Other changes
-
 </details>
 
-## 2.0p-335
+## 2.0p-339
 
-* [Foliage](knowledgebase/foliage.md) has been refactored into a point-based spawning system, following design patterns similar to Unreal 5.2's PCG
-  * This will likely require some changes to the first few nodes of existing foliage graphs
-  * Existing per-instance logic will still be valid, only requiring nodes to be replaced with their point-type equivalent
-* Materials are entirely redesigned
-  * Voxel Material assets are redesigned from scratch, existing ones (which weren't functional) will be invalidated
-  * This might affect the way detail textures work
-* The Distance pin type has been superceded by the [Surface ](knowledgebase/surfaces-and-materials/)type
+[https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0p-339.0](https://github.com/VoxelPlugin/VoxelPlugin/tree/2.0p-339.0) - Released October 1 2023
+
+This release drops 5.1 support and adds 5.3 support.
 
 **New features:**
 
-* Macro Libraries
-* You can now selectively override parameters in instances now, with a tickbox just like in material instances
+* New material pipeline
+  * The new voxel material pipeline is now ready, letting you assign materials per voxel
+  * See [Material Definitions](knowledgebase/surfaces-and-materials/material-definitions/)
+* New foliage pipeline
+  * Foliage has been refactored into a point-based spawning system, following design patterns similar to Unreal's PCG
+  * Existing foliage nodes will be broken, you will need to manually migrate to the new system
+  * This pipeline supports invoker-based collision and has been stress tested in large projects
+    * Collision is only generated near the players to reduce the load on the Chaos scene and avoid hitching
+  * Each foliage is assigned a unique Point Id that can be used as globally unique identifier
+  * The pipeline supports attribute overrides: you can use MakePointHandle to get a point handle from a hit result. This handle is replicable & can be sent through RPCs
+    * You can then use SetAttribute to change point attributes
+    * Rendering will be updated automatically on the fly
+    * Typical use cases: having a HasBerries attribute for a bush
+    * New instances will be detected & rendered through an instanced static mesh component to not trigger a full rebuild of the hierarchical instanced mesh component tree
+  * Here is a simple graph:
+  * See [Foliage](knowledgebase/foliage.md)
+* Fast curve sampling: sampling curves now uses SIMD logic, making it 10x faster than previous curve sampling logic
+  * Fast curves doesn't support advanced curve features such as weighted tangents.
+  * You can now also define curves inline without having to make a new asset for each curve.
+* Parameter override tickboxes
+  * You can now selectively override parameters in instances, with a tickbox similar to material instances
+  * Existing parameters will be automatically enabled.
+* New exec flow
+  * All exec nodes (red nodes) now have an optional execution pin
+  * Exec nodes in the main graph that have their exec pin unplugged will be executed automatically
+  * You can use the Execute node to call exec nodes that are located in macros
+  * You can use the Select node on execution wires to selectively enable/disable parts of your graphs
+* Detail texture improvements
+  * Detail textures are now pooled into large textures
+    * This reduces render thread cost when voxel chunks are updated
+    * Use `stat voxelmemory` to see detail texture memory usage
+  * You can easily sample detail textures in materials using the new SampleVoxelFloatDetailTexture node
+  * You can easily assign detail textures in graphs using SetSurfaceAttribute and BindFloatAttributeDetailTexture
+* Graph preview is fixed
+  * Use R on any node to preview its output
+* New graph debug
+  * Press D to debug a node
+  * For marching cube: will output the node value as color on the mesh itself
+  * For foliage: will preview the points at that stage
+* Distance Field & Lumen support
+  * Lumen & distance field are now supported
+  * Tick the "Generate Distance Fields" checkbox on the Generate Marching Cube Surface node to enable Lumen
+  * Be mindful that this will use GPU memory
+  * We recommend doing something like "LOD == 0" as input to the checkbox to only enable Lumen on nearby chunks
+  * There might still be issues with Lumen in packaged games - we will iron this out in the future
+* Density canvases are gone and replaced by a unified sculpt pipeline
+  * All voxel actors now hold a Sculpt Storage and can be sculpted into
+  * You can sculpt using the new Voxel Sculpt editor mode
+  * You can also sculpt at runtime using the Apply Sculpt node
+    * This currently requires spawning another Voxel Actor to handle the sculpting
+    * We will add easier to use nodes down the road
+  * To enable sculpting in your graph, use the Set Sculpt Source and Get Sculpt Surface nodes
+  * Sculpt tools are defined through graph. Here is a simple Sphere Sculpt graph. We will provide examples with sculpt graphs in the future.
+* Voxel Actors can now be moved and fully support actor transforms
+  * Brush transforms are detected relative to the actor they affect
+  * Typically, if you have a planet with brushes attached to it, moving the planet will not trigger any refresh as the brush transforms relative to the planet will not change
+* Voxel Graphs now support thumbnails
+  * You need to tick EnableThumbnails in your graph settings
+  * Note that thumbnails might cause additional crashes
+  * Use with CreatePreviewMesh
+* LLM memory tracking & Insights memory tracking are now fully supported
+  * We did a full pass on memory allocations and fixed several leaks in the plugin
+* Recursive graph parameters
+  * You can now have foliage recursively call on itself
+  * This is useful for clustering
+  * Detail panels are generated on-demand
+* Array support in graphs
+  * You can now use arrays in voxel graphs
+  * This is currently used by the Random Select node
+* Graph stats
+  * Graphs now have per-node stats and per-exec node stats
+  * Exec node stats are great to easily see which parts of your graph are taking time
+* New graph compilation pipeline
+  * Graph compilation has been fully refactored to be more stable
+  * You can now bulk compile all voxel graphs in your project using the Compile All button. It will open all graphs that failed to compile.
+  * Graphs are now re-compiled on cook and graph errors are logged as warnings to avoid cook failures
+* Optimized voxel invokers
+  * Only sphere invokers are supported now
+  * The system is designed to smoothly handle up to 500 invokers in a scene
+* New performance monitoring
+  * If the average framerate of the last 128 frames is below 8fps, all voxel runtimes will be destroyed
+  * This is useful to avoid freezes when using incorrect foliage spawning settings as it's very easy to generate too many instances
+  * This can be disabled in project settings
+* New blueprint editor utility functions to create voxel graph instances from existing actors
+
+Technical notes:
+
+* New task bypass option to make it easier to debug voxel task: pass -VoxelBypassTaskQueue or use voxel.BypassTaskQueue
+* VOXEL\_ON\_COMPLETE doesn't take a Thread anymore. Use VOXEL\_ON\_COMPLETE\_GAMETHREAD to run on the game thread
+* SceneNode are now ExecNodes
+* You can use -checkVoxelNaNs or voxel.CheckNaNs to raise ensures whenever a NaN is generated
+* DEFINE\_VOXEL\_NODE is now DEFINE\_VOXEL\_NODE\_COMPUTE
+* On runtime shutdown, the game thread will stall until all voxel tasks are completed or cancelled.  This shouldn't create major hitches and will help having cleaner logic in subsystems.
+* The move to Channel Registry assets means we need to wait for them to be loaded before creating any voxel runtime. See `FVoxelRuntime::CanBeCreated`
+* Dense/morton-order position queries are now gone as using them to computed derivatives proved inaccurate
+* Foliage FVoxelPointId are technically only unique within a single foliage chunk. FVoxelPointHandle is globally unique.
+* You can now use the `ConstantPin` tag in exec node pins. This will compute the pin value before the exec node runtime is created and will recreate the runtime on value change. Use `GetConstantPin(Node.PinName)` to get the pin value in the exec runtime.
+  * This replaces DECLARE\_VOXEL\_PIN\_VALUES which is now removed
+* Any allocation done inside a `VOXEL_FUNCTION_COUNTER` will have the voxel LLM tag
+* The rotator pin type has been removed and Quaternion pins now break into euler angles instead
+* You can now use the voxel.get and voxel.set console commands to easily set voxel parameters at runtime
+* All voxel singletons now inherit from FVoxelSingleton and are destroyed on shutdown
+  * This helps with memory leak detection as we can now ensure that all allocations made through the voxel allocator are freed on shutdown
+  * This might cause crashes if you try to access any voxel singleton after the voxel module is unloaded (typically through an async task)
+* FVoxelTicker is now manually registering instances and they are all ticked together in FVoxelTickerManager::Tick
+* This release includes multiple bug fixes for running Unreal on a Linux system with Vulkan
+* `VOXEL_CONST_CAST` is now `ConstCast`
+* `voxel.StartInsights` and `voxel.StopInsights` can be used to easily start/stop an insights capture with the right settings.
 
 **Migration notes:**
 
-* Parameter override tickboxes are disabled by default when loading an old asset. You will have to check all the parameters you do want to override.
+* You can now use the Compile All button in graphs to easily see graphs with errors
+* Exposed Data nodes are gone - please use Register to Channel/Query Channel instead
+* Voxel Scene, Voxel Brush and Voxel Foliage graphs are now all Voxel Graphs
+  * They will be automatically migrated
+  * Voxel Meta Actor and Voxel Brush Actor are now Voxel Actor
+* The Distance pin type is gone and is replaced by Surfaces
+  * Surfaces are a high-level way of defining 3D shapes
+  * Make Height Distance is now Make Height Surface
+  * To create a surface from a SDF, use Create Volumetric Surface
+  * See [Working with Surfaces](knowledgebase/surfaces-and-materials/working-with-surfaces/)
+* Voxel Channel are now project settings and can also be defined in Channel Registry assets. Existing channels & their references will be automatically migrated to the new system.
+* Foliage nodes are broken and will need to be migrated to the new system
+* Voxelized Mesh Assets will have their VoxelSize reset to 20cm
+  * This is due to the removal of the project settings BaseVoxelSize
+* Physics Scene are removed, you can now directly use the Generate Marching Cube Collision & Navmesh node
 * The Graph property of Voxel Components is now private. You'll need to use the `Set Graph` function
 * `ConstructBrush`/`UpdateBrush`/`DestroyBrush` are now `CreateRuntime`/`DestroyRuntime`. `UpdateBrush` doesn't need to be called anymore when moving a voxel brush.
+* Local Variables must always have a declaration now. Existing local variables without a declaration will have one added on load at the center of the graph.
+* The `Voxel/MaterialFunctions` content folder has been entirely removed. If you are missing material functions, copy them over from a previous voxel release.&#x20;
 
 ## 2.0p-320.2
 
