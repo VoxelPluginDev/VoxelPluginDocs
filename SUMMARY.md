@@ -43,7 +43,7 @@
     * [Targeting Android](knowledgebase/platform-support/targeting-android.md)
 * [Licensing](licensing.md)
 * [Release Notes](release-notes/README.md)
-  * [2.0p-339 Release Notes](release-notes/2.0p-339-release-notes.md)
+  * [2.0p-340 Release Notes](release-notes/2.0p-340-release-notes.md)
   * [2.0p-320 Release Notes](release-notes/2.0p-320-release-notes.md)
   * [2.0p-317 Release Notes](release-notes/2.0p-317-release-notes.md)
   * [2.0p-304 Release Notes](release-notes/2.0p-304-release-notes.md)

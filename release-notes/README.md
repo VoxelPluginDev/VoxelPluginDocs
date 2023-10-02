@@ -2,8 +2,8 @@
 
 ## Releases
 
-{% content-ref url="2.0p-339-release-notes.md" %}
-[2.0p-339-release-notes.md](2.0p-339-release-notes.md)
+{% content-ref url="2.0p-340-release-notes.md" %}
+[2.0p-340-release-notes.md](2.0p-340-release-notes.md)
 {% endcontent-ref %}
 
 {% content-ref url="2.0p-320-release-notes.md" %}
