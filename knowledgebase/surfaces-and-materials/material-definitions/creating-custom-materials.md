@@ -26,13 +26,13 @@ Material definitions and instances are similar to Multi-Index Layers from Voxel 
 
 A material definition's preview material can be configured in the Details panel when no parameters are selected. This material will only be used for previewing the definition and its instances in editor viewports. It's usually the same material as the terrain uses, but it doesn't have to be. &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>A material definition on the left, with an instance using it as parent on the left.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>A material definition on the left, with an instance using it as parent on the left.</p></figcaption></figure>
 
 ### &#x20;  1.1 | Configuring Texture Parameters
 
 While most parameter types are very straight-forward - just click the plus button, set the name and type, and then set a default value - texture parameters have a few extra configuration settings that are important to consider. Most Material Definitions will have quite a few texture parameters configured, and these settings will vary across them.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>A Material Definition with a Texture2D parameter selected.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>A Material Definition with a Texture2D parameter selected.</p></figcaption></figure>
 
 Instead of only having a default value, texture parameters have some important things to be configured in the value dropdown underneath.
 
@@ -69,7 +69,7 @@ With a material definition configured as above, instances can be created and con
 
 ### &#x20;  2.1 Reading Data from Material Definitions
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>A material graph with the Material Definition workflow nodes placed. </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>A material graph with the Material Definition workflow nodes placed. </p></figcaption></figure>
 
 The three nodes in the center of the above image are used to access the data being passed by material definitions assigned to the surface. The **Get Voxel Material ID** node is used for advanced materials that require custom blends, for instance when height blending is desired. (Example TBD)
 

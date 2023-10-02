@@ -30,8 +30,8 @@ When portability or multi-user collaboration is needed, storing data in a single
 
 Channels can be managed from the place they are stored (the Project Settings or a Channel Registry asset). From there, channels can be created, renamed (this will break existing references), and their types and defaults can be changed. Note that a channel can be either a [uniform or a buffer](graph-design/buffers-and-uniforms.md), and this is also configurable here.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Channels can be managed from the place they are stored.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Channels can be managed from the place they are stored.</p></figcaption></figure>
 
 Alternatively, channels can be managed from the channel management dropdown which appears when clicking a channel field. From this widget, channels can be added from scratch in any location, as well as have their type and defaults edited by clicking the pen icon in the list, regardless of where they're stored.&#x20;
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>The channel management dropdown (shown here with add/edit section expanded by clicking the arrow) streamlines channel setup.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>The channel management dropdown (shown here with add/edit section expanded by clicking the arrow) streamlines channel setup.</p></figcaption></figure>
