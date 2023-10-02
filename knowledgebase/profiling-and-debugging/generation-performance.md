@@ -24,13 +24,13 @@ The&#x20;
 
 ## 2. Integrated stats
 
-### &#x20;  2.1 | Enabling stats
+### &#x20;  2.1 Enabling stats
 
 If the **Enable Stats** toggle in the top-left is enabled (showing blue, instead grey like when disabled), supported (not all) nodes will start tracking their execution times.&#x20;
 
 When tracking stats is enabled, world generation may be slower.&#x20;
 
-### &#x20;  2.2 | Interpreting stats
+### &#x20;  2.2 Interpreting stats
 
 Each node will show a yellow banner underneath, showing how often the node was run, how long a single run took on average, and how much time has been spent on the node in total. These values do not reset until stats are disabled and re-enabled. When re-generating the world, the stats will simply continue counting upwards without resetting their state.
 

@@ -28,7 +28,7 @@ A material definition's preview material can be configured in the Details panel 
 
 <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>A material definition on the left, with an instance using it as parent on the left.</p></figcaption></figure>
 
-### &#x20;  1.1 | Configuring Texture Parameters
+### &#x20;  1.1 Configuring Texture Parameters
 
 While most parameter types are very straight-forward - just click the plus button, set the name and type, and then set a default value - texture parameters have a few extra configuration settings that are important to consider. Most Material Definitions will have quite a few texture parameters configured, and these settings will vary across them.
 
@@ -44,7 +44,7 @@ The Last Mip Texture Size value should generally be left at its default, unless 
 
 That leaves Texture Compression.
 
-#### &#x20;     1.1.1 | Texture Compression Settings
+#### &#x20;     1.1.1 Texture Compression Settings
 
 The Compression type is the most important of these three values. If it is configured incorrectly, instances will throw errors when assigning textures, and your materials might not compile. Currently, the following compression types are available:
 
@@ -57,7 +57,7 @@ The Compression type is the most important of these three values. If it is confi
 
 The compression type picked here has to match whichever compression method is selected in a texture asset's texture settings.&#x20;
 
-#### &#x20;     1.1.2 | Using Alpha Channels
+#### &#x20;     1.1.2 Using Alpha Channels
 
 Because DXT5 (colour with alpha) uses twice as much memory as DXT1 (colour without alpha), DXT1 should be used for colour textures wherever possible. Attempting to assign a texture asset with an alpha channel when DXT1 compression is selected on the material definition will cause errors. In these cases, the texture asset can be easily swapped to be without alpha by ticking the "Compress Without Alpha" tickbox in the asset's compression settings.
 
@@ -81,7 +81,7 @@ If there is an assigned Material Definition, the Parameter Name field will chang
 
 The **Get Voxel Material Texture Array** node has Default Sampler Type as an additional field. This field functions the same as the sampler type on texture sample nodes in the material editor; if the parameter being sampled is set to normal map compression (BC5), this should be set to Normal. If the parameter being sampled is set to color compression (DXT1/DXT5), this should be set to Color. Like the Parameter Name, this field is only used when no material definition has been assigned. When one is assigned, the node will automatically match the parameter settings.&#x20;
 
-### &#x20;  2.2 | How Layers Blend
+### &#x20;  2.2 How Layers Blend
 
 The **Get Voxel Material** nodes can be used without plugging anything into the MaterialId pin. When used like this, they will do a lerp (linear blend) between the top three layers' attributes. More complex blending behaviour can be achieved by using the Get Voxel Material ID.&#x20;
 

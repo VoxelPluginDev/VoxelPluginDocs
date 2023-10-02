@@ -28,7 +28,7 @@ By default, they are part of the Voxel Plugin section in the Project Settings. B
 
 When portability or multi-user collaboration is needed, storing data in a single file can be a problem. To deal with that, channels can also be stored in Voxel Channel Registry assets. There is no limit to the amount of Channel Registries that can exist in a project, so these can be used wherever convenient without drawbacks. &#x20;
 
-Channels can be managed from the place they are stored (the Project Settings or a Channel Registry asset). From there, channels can be created, renamed (this will break existing references), and their types and defaults can be changed. Note that a channel can be either a [uniform or a buffer](graph-design/buffers-and-uniforms.md), and this is also configurable here.
+Channels can be managed from the place they are stored (the Project Settings or a Channel Registry asset). From there, channels can be created, renamed (this will break existing references), and their types and defaults can be changed. Note that a channel can be either a [uniform or a buffer](using-graphs/buffers-and-uniforms.md), and this is also configurable here.
 
 <figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Channels can be managed from the place they are stored.</p></figcaption></figure>
 

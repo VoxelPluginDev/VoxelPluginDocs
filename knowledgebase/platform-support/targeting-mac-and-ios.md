@@ -4,8 +4,6 @@
 Mac & iOS support are experimental. If issues appear, please reach out on [Discord](https://discord.voxelplugin.com).
 {% endhint %}
 
-reach out on discord w/ issues
-
 Mac currently requires building the plugin from source.
 
 In order to so, you will need to add this to your Project.Target.cs and ProjectEditor.Target.cs:

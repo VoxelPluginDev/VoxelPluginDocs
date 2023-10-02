@@ -8,7 +8,7 @@ description: Generating foliage onto an existing surface.
 The [downloadable Voxel Content](../getting-started/installing-voxel-content.md) includes a fully featured foliage cluster generator.&#x20;
 {% endhint %}
 
-As of 2.0p-334, foliage uses a point-based workflow, drawing inspiration from Unreal Engine's PCG, with a focus on high-performance bulk compute. The result is a powerful and flexible system, without needing to rely on inherently expensive techniques.
+As of 2.0p-340, foliage uses a point-based workflow, drawing inspiration from Unreal Engine's PCG, with a focus on high-performance bulk compute. The result is a powerful and flexible system, without needing to rely on inherently expensive techniques.
 
 {% hint style="warning" %}
 This article assumes basic knowledge about [Channels ](channels.md)and [Surfaces](surfaces-and-materials/).
@@ -16,7 +16,7 @@ This article assumes basic knowledge about [Channels ](channels.md)and [Surfaces
 
 ## 1. Generating starting points
 
-Before we can do anything meaningful with our foliage, we need to create a set of points to start working from. There are a couple of approaches we can take for this. The two primary ones are to ~~_**simply scatter points on a grid to adjust afterwards**_~~, or to to spawn points directly from a volumetric surface, the latter generally being significantly more costly.
+Before we can do anything meaningful with our foliage, we need to create a set of points to start working from. There are a couple of approaches we can take for this. The two primary ones are to ~~_**simply scatter points on a grid to adjust afterwards**_~~_** (not yet implemented)**_, or to to spawn points directly from a volumetric surface, the latter generally being significantly more costly.
 
 ### &#x20;  1.1 Scattering on a Volumetric Surface
 
@@ -38,7 +38,7 @@ For a given point, this will sample the surface's distance field at its current 
 
 <details>
 
-<summary>  1.2 | Scattering on a 2D Grid</summary>
+<summary>  1.2 Scattering on a 2D Grid</summary>
 
 **2D Point Scattering is not yet implemented.**
 

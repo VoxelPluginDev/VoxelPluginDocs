@@ -4,10 +4,6 @@ description: Important UX knowledge for previewing node outputs.
 
 # Graph Preview
 
-{% hint style="danger" %}
-The graph preview is non-functional in a large amount of usages in this release. It might work in some cases, but it isn't expected to work across the board.
-{% endhint %}
-
 When a graph is created and first opened, there are no nodes and the preview is therefore inactive. Once nodes have been placed, right-click any node and click "Preview this node". The preview window in the top-left of the graph editor will update to show the data from the selected node. A red dot will appear on the node to indicate it's being previewed.
 
 Note that the selected pin and the type of preview can be changed in the **Preview Settings** panel, which is by default located in the same place as the **Details** panel as another tab. &#x20;

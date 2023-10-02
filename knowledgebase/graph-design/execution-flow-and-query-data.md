@@ -8,7 +8,7 @@ description: >-
 
 ### 1. Graph Execution
 
-#### &#x20;    1.1 | Calling an Execution node
+#### &#x20;    1.1 Calling an Execution node
 
 Any (red) MetaNodes that exist in a graph with nothing plugged into their execution pin will be run, but only when that graph is called directly from the world. MetaNodes will not automatically run when a graph is called as a function from within another graph.
 
@@ -22,7 +22,7 @@ If a graph called as function should run its MetaNodes, the execution pins can b
 
 Any called MetaNodes will call whatever nodes are connected to their input pins. These nodes will then call the nodes connected to their input pins, and so on until the end of the chain is reached.
 
-#### &#x20;  1.2 | Right-to-left execution
+#### &#x20;  1.2 Right-to-left execution
 
 Graph execution flows right to left.&#x20;
 
