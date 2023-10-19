@@ -10,9 +10,11 @@ description: >-
 
 The Material Definition workflow allows users to easily create and handle layered terrain materials, but it does have compromises. The biggest drawback is that this workflow relies heavily on Texture  Arrays, which don't allow for granular texture streaming. Additionally, due to performance considerations, only three layers can be applied at a given position.&#x20;
 
+All per-layer float information is stored in [detail-textures.md](../detail-textures.md "mention").
+
 ### &#x20;  1.1 Layer Blending
 
-When generating graph outputs, the plugin will keep track of all layer weights assigned throughout the graph. When outputting the final mesh, the index and weights of the three most prominent layers for each voxel will be written into a texture. This data can then be read in the material through the **GetVoxelMaterialID** node.
+When generating graph outputs, the plugin will keep track of all layer weights assigned throughout the graph. When outputting the final mesh, the index and weights of the three most prominent layers for each voxel will be written into a texture. This data can then be read in the material through the **GetVoxelMaterialID** node. This node returns the layer index for these three layers through the Layer0/1/2 pins, and their blend weights through the LerpAlphaA/B pins.&#x20;
 
 The three layer limit does mean that seams can occur if more than three materials meet at a given point. From internal experience and testing, 4+ layer intersections are rare in practice. Additionally, the seams aren't usually very visible due to the low weight of the discarded layers.
 
