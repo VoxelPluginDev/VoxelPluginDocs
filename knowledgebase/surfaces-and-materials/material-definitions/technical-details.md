@@ -20,7 +20,7 @@ The three layer limit does mean that seams can occur if more than three material
 
 ### &#x20;  1.2 Texture Arrays
 
-The use of texture arrays allows for incredibly efficient sampling of a very high amount of terrain layers per chunk. Unlike with Landscape materials and Voxel Plugin 1.2's Multi-Index materials, there is no theoretical limit on how many layers can be present in one chunk.&#x20;
+The use of texture arrays allows for very efficient sampling of a large amount of terrain layers. Unlike with Landscape materials and Voxel Plugin 1.2's Multi-Index materials, there is no theoretical limit on how many layers can be present in one chunk.&#x20;
 
 #### &#x20;     1.2.1 Texture Streaming
 

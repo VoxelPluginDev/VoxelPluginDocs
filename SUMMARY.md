@@ -15,7 +15,7 @@
     * [Working with Surfaces](knowledgebase/surfaces-and-materials/working-with-surfaces/README.md)
       * [Distance Fields & Distance Checks](knowledgebase/surfaces-and-materials/working-with-surfaces/distance-fields-and-distance-checks.md)
     * [Material Definitions](knowledgebase/surfaces-and-materials/material-definitions/README.md)
-      * [Creating Custom Materials](knowledgebase/surfaces-and-materials/material-definitions/creating-custom-materials.md)
+      * [Creating Materials from Scratch](knowledgebase/surfaces-and-materials/material-definitions/creating-materials-from-scratch.md)
       * [Extending the Complex Material Sample](knowledgebase/surfaces-and-materials/material-definitions/extending-the-complex-material-sample.md)
       * [Applying Materials to a Surface](knowledgebase/surfaces-and-materials/material-definitions/applying-materials-to-a-surface.md)
       * [Technical Details](knowledgebase/surfaces-and-materials/material-definitions/technical-details.md)
