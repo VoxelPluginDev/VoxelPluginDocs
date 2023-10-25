@@ -1,3 +1,20 @@
 # Make Box Surface
 
-<figure><img src="Make_Box_Surface.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Make_Box_Surface.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Make a box surface in local space
+ie, the box will be relative to the current brush
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Vector</td><td>Center</td><td>Center</td></tr>
+<tr><td>Vector</td><td>Extent</td><td>Extent</td></tr>
+<tr><td>Float</td><td>Smoothness</td><td>Will smooth out the box edges, same unit as Extent</td></tr>
+<tr><td>Surface</td><td>Surface</td><td>Surface</td></tr>
+</tbody>
+</table>

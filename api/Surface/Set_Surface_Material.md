@@ -1,3 +1,18 @@
 # Set Surface Material
 
-<figure><img src="Set_Surface_Material.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Set_Surface_Material.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Set Surface Material
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Surface</td><td>Surface</td><td>Surface</td></tr>
+<tr><td>Material Blending Buffer</td><td>Material</td><td>Material</td></tr>
+<tr><td>Surface</td><td>New Surface</td><td>NewSurface</td></tr>
+</tbody>
+</table>

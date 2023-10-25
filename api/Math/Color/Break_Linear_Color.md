@@ -1,3 +1,20 @@
 # Break Linear Color
 
-<figure><img src="Break_Linear_Color.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Break_Linear_Color.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Break Linear Color
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Linear Color Buffer</td><td>Value</td><td>Break Linear Color</td></tr>
+<tr><td>Float Buffer</td><td>R</td><td>Break Linear Color</td></tr>
+<tr><td>Float Buffer</td><td>G</td><td>Break Linear Color</td></tr>
+<tr><td>Float Buffer</td><td>B</td><td>Break Linear Color</td></tr>
+<tr><td>Float Buffer</td><td>A</td><td>Break Linear Color</td></tr>
+</tbody>
+</table>

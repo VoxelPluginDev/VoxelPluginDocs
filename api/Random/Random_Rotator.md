@@ -1,3 +1,20 @@
 # Random Rotator
 
-<figure><img src="Random_Rotator.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Random_Rotator.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Random Rotator
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Float Range</td><td>Roll</td><td>Roll</td></tr>
+<tr><td>Float Range</td><td>Pitch</td><td>Pitch</td></tr>
+<tr><td>Float Range</td><td>Yaw</td><td>Yaw</td></tr>
+<tr><td>Seed Buffer</td><td>Seed</td><td>Seed</td></tr>
+<tr><td>Quat Buffer</td><td>Return Value</td><td>ReturnValue</td></tr>
+</tbody>
+</table>

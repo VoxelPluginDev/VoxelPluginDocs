@@ -1,3 +1,18 @@
 # Atan2 (Degrees)
 
-<figure><img src="Atan2_(Degrees).png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Atan2_(Degrees).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Returns the inverse tan (atan2) of Y/X (result is in Degrees)
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Float Buffer</td><td>Y</td><td>Y</td></tr>
+<tr><td>Float Buffer</td><td>X</td><td>X</td></tr>
+<tr><td>Float Buffer</td><td>Return Value</td><td>Angle in degrees</td></tr>
+</tbody>
+</table>

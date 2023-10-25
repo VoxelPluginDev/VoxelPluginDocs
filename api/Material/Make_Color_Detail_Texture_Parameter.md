@@ -1,3 +1,18 @@
 # Make Color Detail Texture Parameter
 
-<figure><img src="Make_Color_Detail_Texture_Parameter.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Make_Color_Detail_Texture_Parameter.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Make Color Detail Texture Parameter
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Linear Color Buffer</td><td>Color</td><td>Color</td></tr>
+<tr><td>Color Detail Texture</td><td>Texture</td><td>Texture</td></tr>
+<tr><td>Material Parameter</td><td>Parameter</td><td>Parameter</td></tr>
+</tbody>
+</table>

@@ -1,3 +1,18 @@
 # Extend Box
 
-<figure><img src="Extend_Box.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Extend_Box.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Extend Box
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Box</td><td>Box</td><td>Extend Box</td></tr>
+<tr><td>Float</td><td>Amount</td><td>Extend Box</td></tr>
+<tr><td>Box</td><td>Return Value</td><td>Extend Box</td></tr>
+</tbody>
+</table>

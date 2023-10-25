@@ -1,3 +1,18 @@
 # Distance to Color
 
-<figure><img src="Distance_to_Color.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Distance_to_Color.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Distance to Color
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Float Buffer</td><td>Distance</td><td>Distance</td></tr>
+<tr><td>Float Buffer</td><td>Scale</td><td>Scale</td></tr>
+<tr><td>Linear Color Buffer</td><td>Color</td><td>Color</td></tr>
+</tbody>
+</table>

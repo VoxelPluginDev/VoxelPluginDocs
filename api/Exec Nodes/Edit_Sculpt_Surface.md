@@ -6,6 +6,14 @@
 
 </div>
 
-This is a node that does something
+Used in sculpt tools
 
-<table><thead><tr><th width="171.33333333333331">Type</th><th width="140">Name</th><th>Description</th></tr></thead><tbody><tr><td>bool</td><td>Enable Node</td><td>Enable the node</td></tr><tr><td>Voxel Surface</td><td>New Surface</td><td>Bounds</td></tr><tr><td>Voxel Bounds</td><td>Bounds</td><td>Bounds of the sculpt</td></tr></tbody></table>
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Boolean</td><td>Enable Node</td><td>If false, the node will never be executed</td></tr>
+<tr><td>Surface</td><td>New Surface</td><td>NewSurface</td></tr>
+<tr><td>Bounds</td><td>Bounds</td><td>Bounds</td></tr>
+<tr><td>Exec</td><td>Exec</td><td>If not connected, will be executed automatically</td></tr>
+</tbody>
+</table>

@@ -1,3 +1,16 @@
 # Get Transform
 
-<figure><img src="Get_Transform.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Get_Transform.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Returns the transform of the current actor/brush
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Transform</td><td>Return Value</td><td>Returns the transform of the current actor/brush</td></tr>
+</tbody>
+</table>

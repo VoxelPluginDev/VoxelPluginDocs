@@ -1,3 +1,23 @@
 # Make Invoker Chunk Spawner
 
-<figure><img src="Make_Invoker_Chunk_Spawner.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Make_Invoker_Chunk_Spawner.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Make Invoker Chunk Spawner
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Integer</td><td>LOD</td><td>LOD</td></tr>
+<tr><td>Float</td><td>World Size</td><td>WorldSize</td></tr>
+<tr><td>Name</td><td>Invoker Channel</td><td>InvokerChannel</td></tr>
+<tr><td>Integer</td><td>Chunk Size</td><td>ChunkSize</td></tr>
+<tr><td>Integer</td><td>Group Size</td><td>Distance checks will be done for chunks in bulk
+Bulk query size (actual amount will be cubed)
+Will also affect render granularity, if too many chunks are spawned at once reduce this</td></tr>
+<tr><td>Chunk Spawner</td><td>Spawner</td><td>Spawner</td></tr>
+</tbody>
+</table>

@@ -1,3 +1,18 @@
 # Set Actor Class
 
-<figure><img src="Set_Actor_Class.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Set_Actor_Class.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Voxel Template Node Set Actor Class
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Point Set</td><td>In</td><td>In</td></tr>
+<tr><td>Actor Class Buffer</td><td>Class</td><td>Class</td></tr>
+<tr><td>Point Set</td><td>Out</td><td>Out</td></tr>
+</tbody>
+</table>

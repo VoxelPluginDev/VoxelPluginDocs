@@ -1,3 +1,16 @@
 # Get Point Rotation
 
-<figure><img src="Get_Point_Rotation.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Get_Point_Rotation.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Voxel Template Node Get Point Rotation
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Quat Buffer</td><td>Rotation</td><td>Rotation</td></tr>
+</tbody>
+</table>

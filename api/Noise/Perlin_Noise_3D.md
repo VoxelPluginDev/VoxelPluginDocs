@@ -1,3 +1,20 @@
 # Perlin Noise 3D
 
-<figure><img src="Perlin_Noise_3D.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Perlin_Noise_3D.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Perlin Noise 3D
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Vector Buffer</td><td>Position</td><td>Position</td></tr>
+<tr><td>Float Buffer</td><td>Amplitude</td><td>Amplitude</td></tr>
+<tr><td>Float Buffer</td><td>Feature Scale</td><td>FeatureScale</td></tr>
+<tr><td>Seed Buffer</td><td>Seed</td><td>Seed</td></tr>
+<tr><td>Float Buffer</td><td>Value</td><td>Value</td></tr>
+</tbody>
+</table>

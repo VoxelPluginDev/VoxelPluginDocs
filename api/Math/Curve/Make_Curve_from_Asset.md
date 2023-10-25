@@ -1,3 +1,17 @@
 # Make Curve from Asset
 
-<figure><img src="Make_Curve_from_Asset.png"></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="Make_Curve_from_Asset.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Make Curve from Asset
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Curve</td><td>Asset</td><td>Make Curve from Asset</td></tr>
+<tr><td>Curve</td><td>Return Value</td><td>Make Curve from Asset</td></tr>
+</tbody>
+</table>
