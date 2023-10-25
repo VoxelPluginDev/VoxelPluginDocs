@@ -13,7 +13,7 @@ All the heightmap settings will be ignored - heightmap values will be between 0 
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Heightmap Ref</td><td>Pos X</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size
@@ -48,7 +48,7 @@ All the heightmap settings will be ignored - heightmap values will be between 0 
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Cubemap Planet Surface</td><td>Return Value</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size

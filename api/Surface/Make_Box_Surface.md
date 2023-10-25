@@ -12,7 +12,7 @@ ie, the box will be relative to the current brush
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Vector</td><td>Center</td><td>Center</td></tr>
 <tr><td>Vector</td><td>Extent</td><td>Extent</td></tr>
@@ -23,7 +23,7 @@ ie, the box will be relative to the current brush
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Surface</td><td>Surface</td><td>Surface</td></tr>
 </tbody>

@@ -11,7 +11,7 @@ Extend Box
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Box</td><td>Box</td><td>Extend Box</td></tr>
 <tr><td>Float</td><td>Amount</td><td>Extend Box</td></tr>
@@ -21,7 +21,7 @@ Extend Box
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Box</td><td>Return Value</td><td>Extend Box</td></tr>
 </tbody>

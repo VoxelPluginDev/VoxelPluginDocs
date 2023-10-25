@@ -12,7 +12,7 @@ The attribute can then be accessed in the material graph through that detail tex
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Surface</td><td>Surface</td><td>Surface</td></tr>
 <tr><td>Name</td><td>Name</td><td>Name</td></tr>
@@ -23,7 +23,7 @@ The attribute can then be accessed in the material graph through that detail tex
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Surface</td><td>New Surface</td><td>NewSurface</td></tr>
 </tbody>

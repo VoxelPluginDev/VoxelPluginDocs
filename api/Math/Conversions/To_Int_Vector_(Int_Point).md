@@ -11,7 +11,7 @@ Cast from Int Point to Int Vector
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Int Point Buffer</td><td>Int Point</td><td>Int Point to Int Vector</td></tr>
 <tr><td>Integer Buffer</td><td>Z</td><td>Int Point to Int Vector</td></tr>
@@ -21,7 +21,7 @@ Cast from Int Point to Int Vector
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Int Vector Buffer</td><td>Return Value</td><td>Int Point to Int Vector</td></tr>
 </tbody>

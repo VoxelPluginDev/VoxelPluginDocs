@@ -11,7 +11,7 @@ Make Material Detail Texture Parameter
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Material Blending Buffer</td><td>Material</td><td>Material</td></tr>
 <tr><td>Material Detail Texture</td><td>Texture</td><td>Texture</td></tr>
@@ -21,7 +21,7 @@ Make Material Detail Texture Parameter
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Material Parameter</td><td>Parameter</td><td>Parameter</td></tr>
 </tbody>

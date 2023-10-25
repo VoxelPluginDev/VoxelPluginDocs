@@ -11,7 +11,7 @@ Make Material
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Material</td><td>Material</td><td>Material</td></tr>
 <tr><td>Material Parameter</td><td>Parameter 0</td><td>Parameter</td></tr>
@@ -21,7 +21,7 @@ Make Material
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Material</td><td>Out Material</td><td>OutMaterial</td></tr>
 </tbody>

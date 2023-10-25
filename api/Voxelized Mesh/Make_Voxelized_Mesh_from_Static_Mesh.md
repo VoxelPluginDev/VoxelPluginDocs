@@ -11,7 +11,7 @@ Make Voxelized Mesh from Static Mesh
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Voxelized Mesh Static Mesh</td><td>Static Mesh</td><td>Make Voxelized Mesh from Static Mesh</td></tr>
 </tbody>
@@ -20,7 +20,7 @@ Make Voxelized Mesh from Static Mesh
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Voxelized Mesh</td><td>Return Value</td><td>Make Voxelized Mesh from Static Mesh</td></tr>
 </tbody>

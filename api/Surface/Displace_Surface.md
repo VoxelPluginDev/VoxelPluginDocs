@@ -12,7 +12,7 @@ Useful to eg add noise to a surface
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Surface</td><td>Surface</td><td>Surface</td></tr>
 <tr><td>Vector Buffer</td><td>Displacement</td><td>In local space
@@ -25,7 +25,7 @@ Will increase bounds, so try to keep small</td></tr>
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Surface</td><td>New Surface</td><td>NewSurface</td></tr>
 </tbody>

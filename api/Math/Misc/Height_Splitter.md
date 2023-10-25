@@ -11,7 +11,7 @@ Height Splitter
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float Buffer</td><td>Height</td><td>Height</td></tr>
 <tr><td>Float</td><td>Height 0</td><td>Height of this layer</td></tr>
@@ -22,7 +22,7 @@ Height Splitter
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float Buffer</td><td>Strength 0</td><td>Strength of this layer</td></tr>
 <tr><td>Float Buffer</td><td>Strength 1</td><td>Strength of this layer</td></tr>

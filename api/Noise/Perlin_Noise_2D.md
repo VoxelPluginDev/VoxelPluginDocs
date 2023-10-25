@@ -11,7 +11,7 @@ Perlin Noise 2D
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Vector 2D Buffer</td><td>Position</td><td>Position</td></tr>
 <tr><td>Float Buffer</td><td>Amplitude</td><td>Amplitude</td></tr>
@@ -23,7 +23,7 @@ Perlin Noise 2D
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float Buffer</td><td>Value</td><td>Value</td></tr>
 </tbody>

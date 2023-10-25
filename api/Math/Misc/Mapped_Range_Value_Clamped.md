@@ -11,7 +11,7 @@ For the given Value clamped to the [InMin:InMax], returns the corresponding perc
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Wildcard Buffer</td><td>Value</td><td>Value</td></tr>
 <tr><td>Wildcard Buffer</td><td>In Min</td><td>InMin</td></tr>
@@ -24,7 +24,7 @@ For the given Value clamped to the [InMin:InMax], returns the corresponding perc
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Wildcard Buffer</td><td>Result</td><td>Result</td></tr>
 </tbody>

@@ -11,7 +11,7 @@ Three dimensional cellular noise
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Vector Buffer</td><td>Position</td><td>Position at which to calculate output noise</td></tr>
 <tr><td>Float Buffer</td><td>Amplitude</td><td>Amplitude</td></tr>
@@ -24,7 +24,7 @@ Three dimensional cellular noise
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float Buffer</td><td>Value</td><td>Distance to nearest cell center at position</td></tr>
 </tbody>

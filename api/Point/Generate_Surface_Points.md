@@ -11,7 +11,7 @@ Generate points on a voxel surface
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Box</td><td>Bounds</td><td>Bounds</td></tr>
 <tr><td>Surface</td><td>Surface</td><td>Surface</td></tr>
@@ -26,7 +26,7 @@ Decrease if you're missing points due to the surface being too "thin"</td></tr>
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Point Set</td><td>Out</td><td>Out</td></tr>
 </tbody>

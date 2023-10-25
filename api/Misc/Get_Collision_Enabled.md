@@ -11,7 +11,7 @@ Get Collision Enabled
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Body Instance</td><td>Body Instance</td><td>Get Collision Enabled</td></tr>
 </tbody>
@@ -20,7 +20,7 @@ Get Collision Enabled
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>ECollision Enabled</td><td>Return Value</td><td>Get Collision Enabled</td></tr>
 </tbody>

@@ -13,7 +13,7 @@ ie, if this brush is scaled up, Amount will increase accordingly
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Surface</td><td>Surface</td><td>Surface</td></tr>
 <tr><td>Float</td><td>Amount</td><td>In local space
@@ -24,7 +24,7 @@ ie, if this brush is scaled up, will increase accordingly</td></tr>
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Surface</td><td>New Surface</td><td>NewSurface</td></tr>
 </tbody>

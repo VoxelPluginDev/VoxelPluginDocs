@@ -12,7 +12,7 @@ Will make any node before this 6x more expensive, use with caution
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float Buffer</td><td>Value</td><td>Value</td></tr>
 </tbody>
@@ -21,7 +21,7 @@ Will make any node before this 6x more expensive, use with caution
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Vector Buffer</td><td>Gradient</td><td>Gradient</td></tr>
 </tbody>

@@ -11,7 +11,7 @@ Generates multi-octave, highly configurable height noise for easy procedural cre
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Vector Buffer</td><td>Position</td><td>Position at which to calculate output noise</td></tr>
 <tr><td>Float Buffer</td><td>Amplitude</td><td>Height difference of the lowest and highest point of the noise's largest octave</td></tr>
@@ -28,7 +28,7 @@ Generates multi-octave, highly configurable height noise for easy procedural cre
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float Buffer</td><td>Value</td><td>Result of all octaves being added together</td></tr>
 </tbody>

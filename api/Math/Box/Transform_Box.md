@@ -11,7 +11,7 @@ Transform Box
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Box</td><td>Local Box</td><td>Transform Box</td></tr>
 <tr><td>Transform</td><td>Local to World</td><td>Transform Box</td></tr>
@@ -21,7 +21,7 @@ Transform Box
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Box</td><td>Return Value</td><td>Transform Box</td></tr>
 </tbody>

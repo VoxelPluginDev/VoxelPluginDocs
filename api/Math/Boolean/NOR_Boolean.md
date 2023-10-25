@@ -11,7 +11,7 @@ Returns the logical Not OR of two values: !(A || B)
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Boolean Buffer</td><td>A</td><td>A</td></tr>
 <tr><td>Boolean Buffer</td><td>B</td><td>B</td></tr>
@@ -21,7 +21,7 @@ Returns the logical Not OR of two values: !(A || B)
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Boolean Buffer</td><td>Return Value</td><td>ReturnValue</td></tr>
 </tbody>

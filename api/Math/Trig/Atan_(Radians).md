@@ -11,7 +11,7 @@ Returns the inverse tan (atan) (result is in Radians)
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float Buffer</td><td>Value</td><td>Value</td></tr>
 </tbody>
@@ -20,7 +20,7 @@ Returns the inverse tan (atan) (result is in Radians)
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float Buffer</td><td>Return Value</td><td>Angle in radians</td></tr>
 </tbody>

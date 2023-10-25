@@ -11,7 +11,7 @@ Voxel Write Channel Exec Node
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Boolean</td><td>Enable Node</td><td>If false, the node will never be executed</td></tr>
 <tr><td>Channel</td><td>Channel</td><td>Channel</td></tr>
@@ -26,7 +26,7 @@ Previous brushes will be queried with additional precision - ie, their bounds wi
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Exec</td><td>Exec</td><td>If not connected, will be executed automatically</td></tr>
 </tbody>

@@ -11,7 +11,7 @@ Make Box from Radius
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float</td><td>Radius</td><td>Make Box from Radius</td></tr>
 </tbody>
@@ -20,7 +20,7 @@ Make Box from Radius
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Box</td><td>Return Value</td><td>Make Box from Radius</td></tr>
 </tbody>

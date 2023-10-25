@@ -11,7 +11,7 @@ Linearly interpolates between A and B based on clamped Alpha (100% of A when Alp
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Wildcard Buffer</td><td>A</td><td>A</td></tr>
 <tr><td>Wildcard Buffer</td><td>B</td><td>B</td></tr>
@@ -22,7 +22,7 @@ Linearly interpolates between A and B based on clamped Alpha (100% of A when Alp
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Wildcard Buffer</td><td>Result</td><td>Result</td></tr>
 </tbody>

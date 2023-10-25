@@ -11,7 +11,7 @@ Query with Gradient Step
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Wildcard Buffer</td><td>Data</td><td>Data</td></tr>
 <tr><td>Float</td><td>Step</td><td>Step</td></tr>
@@ -21,7 +21,7 @@ Query with Gradient Step
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Wildcard Buffer</td><td>Out Data</td><td>OutData</td></tr>
 </tbody>

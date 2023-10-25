@@ -11,7 +11,7 @@ Is Valid Object
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Wildcard Buffer</td><td>Object</td><td>Object</td></tr>
 </tbody>
@@ -20,7 +20,7 @@ Is Valid Object
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Boolean Buffer</td><td>Result</td><td>Result</td></tr>
 </tbody>

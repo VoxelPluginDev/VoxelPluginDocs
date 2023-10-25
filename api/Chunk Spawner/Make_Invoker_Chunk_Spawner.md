@@ -11,7 +11,7 @@ Make Invoker Chunk Spawner
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Integer</td><td>LOD</td><td>LOD</td></tr>
 <tr><td>Float</td><td>World Size</td><td>WorldSize</td></tr>
@@ -26,7 +26,7 @@ Will also affect render granularity, if too many chunks are spawned at once redu
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Chunk Spawner</td><td>Spawner</td><td>Spawner</td></tr>
 </tbody>

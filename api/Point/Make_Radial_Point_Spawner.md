@@ -11,7 +11,7 @@ Make Radial Point Spawner
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float Range</td><td>Radius</td><td>Radius</td></tr>
 <tr><td>Float</td><td>Radial Offset</td><td>In degrees</td></tr>
@@ -23,7 +23,7 @@ Make Radial Point Spawner
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Point Spawner</td><td>Point Spawner</td><td>PointSpawner</td></tr>
 </tbody>

@@ -11,7 +11,7 @@ Merge Surface
 ## Inputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Surface</td><td>Base</td><td>Base</td></tr>
 <tr><td>Surface</td><td>Brush</td><td>Brush</td></tr>
@@ -33,7 +33,7 @@ Use GetMergeData to get the smooth alpha</td></tr>
 ## Outputs
 
 <table>
-<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Surface</td><td>New Surface</td><td>NewSurface</td></tr>
 </tbody>
