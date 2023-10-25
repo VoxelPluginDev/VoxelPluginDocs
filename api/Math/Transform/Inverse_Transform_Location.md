@@ -12,11 +12,11 @@ For example, if Transform was an object's transform, this would transform a posi
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Vector Buffer</td><td>Location</td><td>Transform a position by the inverse of the supplied transform.
+<tr><td>Location</td><td>Transform a position by the inverse of the supplied transform.
 For example, if Transform was an object's transform, this would transform a position from world space to local space.</td></tr>
-<tr><td>Transform</td><td>Transform</td><td>Transform a position by the inverse of the supplied transform.
+<tr><td>Transform</td><td>Transform a position by the inverse of the supplied transform.
 For example, if Transform was an object's transform, this would transform a position from world space to local space.</td></tr>
 </tbody>
 </table>
@@ -24,9 +24,9 @@ For example, if Transform was an object's transform, this would transform a posi
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Vector Buffer</td><td>Return Value</td><td>Transform a position by the inverse of the supplied transform.
+<tr><td>Return Value</td><td>Transform a position by the inverse of the supplied transform.
 For example, if Transform was an object's transform, this would transform a position from world space to local space.</td></tr>
 </tbody>
 </table>

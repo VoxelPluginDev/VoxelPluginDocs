@@ -11,7 +11,7 @@ Is Preview Scene
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 </tbody>
 </table>
@@ -19,8 +19,8 @@ Is Preview Scene
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Boolean</td><td>Return Value</td><td>Is Preview Scene</td></tr>
+<tr><td>Return Value</td><td>Is Preview Scene</td></tr>
 </tbody>
 </table>

@@ -11,17 +11,17 @@ Cast from Integer to Float
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Integer Buffer</td><td>Value</td><td>Integer to Float</td></tr>
+<tr><td>Value</td><td>Integer to Float</td></tr>
 </tbody>
 </table>
 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Float Buffer</td><td>Return Value</td><td>Integer to Float</td></tr>
+<tr><td>Return Value</td><td>Integer to Float</td></tr>
 </tbody>
 </table>

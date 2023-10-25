@@ -11,7 +11,7 @@ Get MergeSurface data to drive BlendAlpha or BlendBias
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 </tbody>
 </table>
@@ -19,10 +19,10 @@ Get MergeSurface data to drive BlendAlpha or BlendBias
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Float Buffer</td><td>Base Distance</td><td>BaseDistance</td></tr>
-<tr><td>Float Buffer</td><td>Brush Distance</td><td>BrushDistance</td></tr>
-<tr><td>Float Buffer</td><td>Alpha</td><td>Alpha</td></tr>
+<tr><td>Base Distance</td><td>BaseDistance</td></tr>
+<tr><td>Brush Distance</td><td>BrushDistance</td></tr>
+<tr><td>Alpha</td><td>Alpha</td></tr>
 </tbody>
 </table>

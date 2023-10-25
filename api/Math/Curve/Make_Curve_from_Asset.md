@@ -11,17 +11,17 @@ Make Curve from Asset
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Curve</td><td>Asset</td><td>Make Curve from Asset</td></tr>
+<tr><td>Asset</td><td>Make Curve from Asset</td></tr>
 </tbody>
 </table>
 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Curve</td><td>Return Value</td><td>Make Curve from Asset</td></tr>
+<tr><td>Return Value</td><td>Make Curve from Asset</td></tr>
 </tbody>
 </table>

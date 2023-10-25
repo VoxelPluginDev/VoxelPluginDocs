@@ -12,12 +12,12 @@ Useful to eg add noise to a surface
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Surface</td><td>Surface</td><td>Surface</td></tr>
-<tr><td>Vector Buffer</td><td>Displacement</td><td>In local space
+<tr><td>Surface</td><td>Surface</td></tr>
+<tr><td>Displacement</td><td>In local space
 ie, if this brush is scaled up, will increase accordingly</td></tr>
-<tr><td>Float</td><td>Max Displacement</td><td>Max amount to displace by, used to compute bounds. Displacement will be clamped between -MaxDisplacement and +MaxDisplacement
+<tr><td>Max Displacement</td><td>Max amount to displace by, used to compute bounds. Displacement will be clamped between -MaxDisplacement and +MaxDisplacement
 Will increase bounds, so try to keep small</td></tr>
 </tbody>
 </table>
@@ -25,8 +25,8 @@ Will increase bounds, so try to keep small</td></tr>
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Surface</td><td>New Surface</td><td>NewSurface</td></tr>
+<tr><td>New Surface</td><td>NewSurface</td></tr>
 </tbody>
 </table>

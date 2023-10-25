@@ -11,18 +11,18 @@ Cast from Vector to Double Linear Color
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Vector Buffer</td><td>Vector</td><td>Vector to Double Linear Color</td></tr>
-<tr><td>Double Buffer</td><td>A</td><td>Vector to Double Linear Color</td></tr>
+<tr><td>Vector</td><td>Vector to Double Linear Color</td></tr>
+<tr><td>A</td><td>Vector to Double Linear Color</td></tr>
 </tbody>
 </table>
 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Double Linear Color Buffer</td><td>Return Value</td><td>Vector to Double Linear Color</td></tr>
+<tr><td>Return Value</td><td>Vector to Double Linear Color</td></tr>
 </tbody>
 </table>

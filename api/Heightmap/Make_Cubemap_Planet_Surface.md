@@ -13,33 +13,33 @@ All the heightmap settings will be ignored - heightmap values will be between 0 
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Heightmap Ref</td><td>Pos X</td><td>Creates a planet from 6 heightmaps
+<tr><td>Pos X</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size
 All the heightmap settings will be ignored - heightmap values will be between 0 and MaxHeight</td></tr>
-<tr><td>Heightmap Ref</td><td>Neg X</td><td>Creates a planet from 6 heightmaps
+<tr><td>Neg X</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size
 All the heightmap settings will be ignored - heightmap values will be between 0 and MaxHeight</td></tr>
-<tr><td>Heightmap Ref</td><td>Pos Y</td><td>Creates a planet from 6 heightmaps
+<tr><td>Pos Y</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size
 All the heightmap settings will be ignored - heightmap values will be between 0 and MaxHeight</td></tr>
-<tr><td>Heightmap Ref</td><td>Neg Y</td><td>Creates a planet from 6 heightmaps
+<tr><td>Neg Y</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size
 All the heightmap settings will be ignored - heightmap values will be between 0 and MaxHeight</td></tr>
-<tr><td>Heightmap Ref</td><td>Pos Z</td><td>Creates a planet from 6 heightmaps
+<tr><td>Pos Z</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size
 All the heightmap settings will be ignored - heightmap values will be between 0 and MaxHeight</td></tr>
-<tr><td>Heightmap Ref</td><td>Neg Z</td><td>Creates a planet from 6 heightmaps
+<tr><td>Neg Z</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size
 All the heightmap settings will be ignored - heightmap values will be between 0 and MaxHeight</td></tr>
-<tr><td>Vector</td><td>Planet Center</td><td>Creates a planet from 6 heightmaps
+<tr><td>Planet Center</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size
 All the heightmap settings will be ignored - heightmap values will be between 0 and MaxHeight</td></tr>
-<tr><td>Float</td><td>Planet Radius</td><td>Creates a planet from 6 heightmaps
+<tr><td>Planet Radius</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size
 All the heightmap settings will be ignored - heightmap values will be between 0 and MaxHeight</td></tr>
-<tr><td>Float</td><td>Max Height</td><td>Creates a planet from 6 heightmaps
+<tr><td>Max Height</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size
 All the heightmap settings will be ignored - heightmap values will be between 0 and MaxHeight</td></tr>
 </tbody>
@@ -48,9 +48,9 @@ All the heightmap settings will be ignored - heightmap values will be between 0 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Cubemap Planet Surface</td><td>Return Value</td><td>Creates a planet from 6 heightmaps
+<tr><td>Return Value</td><td>Creates a planet from 6 heightmaps
 All the heightmaps should have the same size
 All the heightmap settings will be ignored - heightmap values will be between 0 and MaxHeight</td></tr>
 </tbody>

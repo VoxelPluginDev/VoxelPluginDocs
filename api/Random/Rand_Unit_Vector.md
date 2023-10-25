@@ -11,17 +11,17 @@ Rand Unit Vector
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Seed Buffer</td><td>Seed</td><td>Rand Unit Vector</td></tr>
+<tr><td>Seed</td><td>Rand Unit Vector</td></tr>
 </tbody>
 </table>
 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Vector Buffer</td><td>Return Value</td><td>Rand Unit Vector</td></tr>
+<tr><td>Return Value</td><td>Rand Unit Vector</td></tr>
 </tbody>
 </table>

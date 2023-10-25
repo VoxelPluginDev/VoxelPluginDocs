@@ -14,11 +14,11 @@ ie, if this brush is scaled up, smoothness will increase accordingly
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Surface</td><td>Surface</td><td>Surface</td></tr>
-<tr><td>Surface</td><td>Mask</td><td>Mask</td></tr>
-<tr><td>Float</td><td>Smoothness</td><td>Distance in local space
+<tr><td>Surface</td><td>Surface</td></tr>
+<tr><td>Mask</td><td>Mask</td></tr>
+<tr><td>Smoothness</td><td>Distance in local space
 ie, if this brush is scaled up, smoothness will increase accordingly</td></tr>
 </tbody>
 </table>
@@ -26,8 +26,8 @@ ie, if this brush is scaled up, smoothness will increase accordingly</td></tr>
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Surface</td><td>New Surface</td><td>NewSurface</td></tr>
+<tr><td>New Surface</td><td>NewSurface</td></tr>
 </tbody>
 </table>

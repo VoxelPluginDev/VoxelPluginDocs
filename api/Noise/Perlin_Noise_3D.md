@@ -11,20 +11,20 @@ Perlin Noise 3D
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Vector Buffer</td><td>Position</td><td>Position</td></tr>
-<tr><td>Float Buffer</td><td>Amplitude</td><td>Amplitude</td></tr>
-<tr><td>Float Buffer</td><td>Feature Scale</td><td>FeatureScale</td></tr>
-<tr><td>Seed Buffer</td><td>Seed</td><td>Seed</td></tr>
+<tr><td>Position</td><td>Position</td></tr>
+<tr><td>Amplitude</td><td>Amplitude</td></tr>
+<tr><td>Feature Scale</td><td>FeatureScale</td></tr>
+<tr><td>Seed</td><td>Seed</td></tr>
 </tbody>
 </table>
 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Float Buffer</td><td>Value</td><td>Value</td></tr>
+<tr><td>Value</td><td>Value</td></tr>
 </tbody>
 </table>

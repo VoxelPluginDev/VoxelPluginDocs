@@ -11,18 +11,18 @@ Make Box
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Vector</td><td>Min</td><td>Make Box</td></tr>
-<tr><td>Vector</td><td>Max</td><td>Make Box</td></tr>
+<tr><td>Min</td><td>Make Box</td></tr>
+<tr><td>Max</td><td>Make Box</td></tr>
 </tbody>
 </table>
 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Box</td><td>Return Value</td><td>Make Box</td></tr>
+<tr><td>Return Value</td><td>Make Box</td></tr>
 </tbody>
 </table>

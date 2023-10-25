@@ -11,7 +11,7 @@ Get LOD
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 </tbody>
 </table>
@@ -19,8 +19,8 @@ Get LOD
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Integer</td><td>Return Value</td><td>Get LOD</td></tr>
+<tr><td>Return Value</td><td>Get LOD</td></tr>
 </tbody>
 </table>

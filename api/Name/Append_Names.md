@@ -11,18 +11,18 @@ Append Names
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Name</td><td>Names 0</td><td>Names</td></tr>
-<tr><td>Name</td><td>Names 1</td><td>Names</td></tr>
+<tr><td>Names 0</td><td>Names</td></tr>
+<tr><td>Names 1</td><td>Names</td></tr>
 </tbody>
 </table>
 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Name</td><td>Name</td><td>Name</td></tr>
+<tr><td>Name</td><td>Name</td></tr>
 </tbody>
 </table>

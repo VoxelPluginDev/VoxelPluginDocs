@@ -11,18 +11,18 @@ Make Float Range
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Float Buffer</td><td>Min</td><td>Make Float Range</td></tr>
-<tr><td>Float Buffer</td><td>Max</td><td>Make Float Range</td></tr>
+<tr><td>Min</td><td>Make Float Range</td></tr>
+<tr><td>Max</td><td>Make Float Range</td></tr>
 </tbody>
 </table>
 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Float Range Buffer</td><td>Return Value</td><td>Make Float Range</td></tr>
+<tr><td>Return Value</td><td>Make Float Range</td></tr>
 </tbody>
 </table>

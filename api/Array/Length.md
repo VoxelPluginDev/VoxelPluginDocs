@@ -11,17 +11,17 @@ Get the number of items in an array
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Wildcard Array</td><td>Values</td><td>Values</td></tr>
+<tr><td>Values</td><td>Values</td></tr>
 </tbody>
 </table>
 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Integer</td><td>Result</td><td>Result</td></tr>
+<tr><td>Result</td><td>Result</td></tr>
 </tbody>
 </table>

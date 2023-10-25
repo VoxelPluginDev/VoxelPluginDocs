@@ -11,7 +11,7 @@ Listen server: a server that also has a local player who is hosting the game, av
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
 </tbody>
 </table>
@@ -19,8 +19,8 @@ Listen server: a server that also has a local player who is hosting the game, av
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Boolean</td><td>Return Value</td><td>Listen server: a server that also has a local player who is hosting the game, available to other players on the network</td></tr>
+<tr><td>Return Value</td><td>Listen server: a server that also has a local player who is hosting the game, available to other players on the network</td></tr>
 </tbody>
 </table>

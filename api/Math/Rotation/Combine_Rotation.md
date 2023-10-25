@@ -11,18 +11,18 @@ Combine Rotation
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Quat Buffer</td><td>A</td><td>Combine Rotation</td></tr>
-<tr><td>Quat Buffer</td><td>B</td><td>Combine Rotation</td></tr>
+<tr><td>A</td><td>Combine Rotation</td></tr>
+<tr><td>B</td><td>Combine Rotation</td></tr>
 </tbody>
 </table>
 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Quat Buffer</td><td>Return Value</td><td>Combine Rotation</td></tr>
+<tr><td>Return Value</td><td>Combine Rotation</td></tr>
 </tbody>
 </table>

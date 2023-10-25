@@ -11,20 +11,20 @@ Random Rotator
 ## Inputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Float Range</td><td>Roll</td><td>Roll</td></tr>
-<tr><td>Float Range</td><td>Pitch</td><td>Pitch</td></tr>
-<tr><td>Float Range</td><td>Yaw</td><td>Yaw</td></tr>
-<tr><td>Seed Buffer</td><td>Seed</td><td>Seed</td></tr>
+<tr><td>Roll</td><td>Roll</td></tr>
+<tr><td>Pitch</td><td>Pitch</td></tr>
+<tr><td>Yaw</td><td>Yaw</td></tr>
+<tr><td>Seed</td><td>Seed</td></tr>
 </tbody>
 </table>
 
 ## Outputs
 
 <table>
-<thead><tr><th width="170">Type</th><th width="170">Name</th><th>Description</th></tr></thead>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
 <tbody>
-<tr><td>Quat Buffer</td><td>Return Value</td><td>ReturnValue</td></tr>
+<tr><td>Return Value</td><td>ReturnValue</td></tr>
 </tbody>
 </table>
