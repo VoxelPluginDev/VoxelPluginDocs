@@ -8,10 +8,20 @@
 
 Cast from Int Point to Vector 2D
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Int Point Buffer</td><td>Int Point</td><td>Int Point to Vector 2D</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Vector 2D Buffer</td><td>Return Value</td><td>Int Point to Vector 2D</td></tr>
 </tbody>
 </table>

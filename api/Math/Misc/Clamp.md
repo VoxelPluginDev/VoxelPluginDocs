@@ -8,12 +8,22 @@
 
 Returns Value clamped to be between A and B
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Wildcard Buffer</td><td>Value</td><td>Value</td></tr>
 <tr><td>Wildcard Buffer</td><td>Min</td><td>Min</td></tr>
 <tr><td>Wildcard Buffer</td><td>Max</td><td>Max</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Wildcard Buffer</td><td>Result</td><td>Result</td></tr>
 </tbody>
 </table>

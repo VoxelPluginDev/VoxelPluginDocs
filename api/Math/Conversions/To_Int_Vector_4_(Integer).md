@@ -8,10 +8,20 @@
 
 Cast from Integer to Int Vector 4
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Integer Buffer</td><td>Value</td><td>Integer to Int Vector 4</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Int Vector 4 Buffer</td><td>Return Value</td><td>Integer to Int Vector 4</td></tr>
 </tbody>
 </table>

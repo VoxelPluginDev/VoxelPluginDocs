@@ -8,6 +8,8 @@
 
 Voxel Write Channel Exec Node
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -18,6 +20,14 @@ Voxel Write Channel Exec Node
 <tr><td>Surface</td><td>Value</td><td>Value</td></tr>
 <tr><td>Float</td><td>Smoothness</td><td>Use this if you're using a SmoothUnion/SmoothIntersection/SmoothSubtraction node and you're seeing glitches
 Previous brushes will be queried with additional precision - ie, their bounds will be increase by Smoothness</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Exec</td><td>Exec</td><td>If not connected, will be executed automatically</td></tr>
 </tbody>
 </table>

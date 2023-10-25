@@ -8,10 +8,20 @@
 
 Break Linear Color
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Linear Color Buffer</td><td>Value</td><td>Break Linear Color</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Float Buffer</td><td>R</td><td>Break Linear Color</td></tr>
 <tr><td>Float Buffer</td><td>G</td><td>Break Linear Color</td></tr>
 <tr><td>Float Buffer</td><td>B</td><td>Break Linear Color</td></tr>

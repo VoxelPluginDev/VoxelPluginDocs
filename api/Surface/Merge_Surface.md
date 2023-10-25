@@ -8,6 +8,8 @@
 
 Merge Surface
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -25,6 +27,14 @@ If not set defaults to Y = X * (1 - X)</td></tr>
 0 = Base
 1 = Brush
 Use GetMergeData to get the smooth alpha</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Surface</td><td>New Surface</td><td>NewSurface</td></tr>
 </tbody>
 </table>

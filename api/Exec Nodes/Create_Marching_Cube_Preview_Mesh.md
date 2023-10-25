@@ -8,6 +8,8 @@
 
 Voxel Marching Cube Preview Exec Node
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -18,6 +20,14 @@ Voxel Marching Cube Preview Exec Node
 <tr><td>Integer</td><td>Size</td><td>The size of the mesh to create in voxels</td></tr>
 <tr><td>Material</td><td>Material</td><td>Material</td></tr>
 <tr><td>Body Instance</td><td>Body Instance</td><td>Body instance for the collision, ignored in editor worlds</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Exec</td><td>Exec</td><td>If not connected, will be executed automatically</td></tr>
 </tbody>
 </table>

@@ -8,6 +8,8 @@
 
 Voxel Point Collision Exec Node
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -24,6 +26,14 @@ Both components (this and the other) must have this enabled for overlap events t
 <tr><td>Boolean</td><td>Multi Body Overlap</td><td>If true, this component will generate individual overlaps for each overlapping physics body</td></tr>
 <tr><td>Double</td><td>Priority Offset</td><td>Priority offset, added to the task distance from camera
 Closest tasks are computed first, so set this to a very low value (eg, -1000000) if you want it to be computed first</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Exec</td><td>Exec</td><td>If not connected, will be executed automatically</td></tr>
 </tbody>
 </table>

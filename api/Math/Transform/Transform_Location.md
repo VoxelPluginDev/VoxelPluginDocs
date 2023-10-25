@@ -9,6 +9,8 @@
 Transform a position by the supplied transform.
 For example, if Transform was an object's transform, this would transform a position from local space to world space.
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -16,6 +18,14 @@ For example, if Transform was an object's transform, this would transform a posi
 For example, if Transform was an object's transform, this would transform a position from local space to world space.</td></tr>
 <tr><td>Transform</td><td>Transform</td><td>Transform a position by the supplied transform.
 For example, if Transform was an object's transform, this would transform a position from local space to world space.</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Vector Buffer</td><td>Return Value</td><td>Transform a position by the supplied transform.
 For example, if Transform was an object's transform, this would transform a position from local space to world space.</td></tr>
 </tbody>

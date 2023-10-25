@@ -8,6 +8,8 @@
 
 Voxel Render Mesh Exec Node
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -19,6 +21,14 @@ Voxel Render Mesh Exec Node
 <tr><td>Foliage Settings</td><td>Foliage Settings</td><td>FoliageSettings</td></tr>
 <tr><td>Double</td><td>Priority Offset</td><td>Priority offset, added to the task distance from camera
 Closest tasks are computed first, so set this to a very low value (eg, -1000000) if you want it to be computed first</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Exec</td><td>Exec</td><td>If not connected, will be executed automatically</td></tr>
 </tbody>
 </table>

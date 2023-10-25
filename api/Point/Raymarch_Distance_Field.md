@@ -8,6 +8,8 @@
 
 Raymarch Distance Field
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -25,6 +27,14 @@ Keep low for performance</td></tr>
 NewPoint = OldPoint + DistanceToSurface * Direction * Speed
 Decrease if the raymarching is imprecise</td></tr>
 <tr><td>Float</td><td>Gradient Step</td><td>Distance between points when sampling gradients</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Point Set</td><td>Out</td><td>Out</td></tr>
 </tbody>
 </table>

@@ -8,6 +8,16 @@
 
 Standalone: a game without networking, with one or more local players. Still considered a server because it has all server functionality
 
+## Inputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+</tbody>
+</table>
+
+## Outputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>

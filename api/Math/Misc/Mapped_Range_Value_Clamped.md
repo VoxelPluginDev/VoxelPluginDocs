@@ -8,6 +8,8 @@
 
 For the given Value clamped to the [InMin:InMax], returns the corresponding percentage in [OutMin:OutMax]
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -16,6 +18,14 @@ For the given Value clamped to the [InMin:InMax], returns the corresponding perc
 <tr><td>Wildcard Buffer</td><td>In Max</td><td>InMax</td></tr>
 <tr><td>Wildcard Buffer</td><td>Out Min</td><td>OutMin</td></tr>
 <tr><td>Wildcard Buffer</td><td>Out Max</td><td>OutMax</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Wildcard Buffer</td><td>Result</td><td>Result</td></tr>
 </tbody>
 </table>

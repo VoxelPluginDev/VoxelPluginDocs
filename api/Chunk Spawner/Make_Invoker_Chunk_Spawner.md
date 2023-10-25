@@ -8,6 +8,8 @@
 
 Make Invoker Chunk Spawner
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -18,6 +20,14 @@ Make Invoker Chunk Spawner
 <tr><td>Integer</td><td>Group Size</td><td>Distance checks will be done for chunks in bulk
 Bulk query size (actual amount will be cubed)
 Will also affect render granularity, if too many chunks are spawned at once reduce this</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Chunk Spawner</td><td>Spawner</td><td>Spawner</td></tr>
 </tbody>
 </table>

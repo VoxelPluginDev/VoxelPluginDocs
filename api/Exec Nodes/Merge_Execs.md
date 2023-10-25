@@ -8,10 +8,20 @@
 
 Merge Execs
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Exec</td><td>Execs 0</td><td>Execs</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Exec</td><td>Exec</td><td>Exec</td></tr>
 </tbody>
 </table>

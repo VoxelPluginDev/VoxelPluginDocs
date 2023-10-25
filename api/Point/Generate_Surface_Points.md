@@ -8,6 +8,8 @@
 
 Generate points on a voxel surface
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -18,6 +20,14 @@ This is more or less the average distance between points</td></tr>
 <tr><td>Float</td><td>Max Resolution</td><td>Max surface resolution to check for
 Decrease if you're missing points due to the surface being too "thin"</td></tr>
 <tr><td>Float</td><td>Distance Checks Tolerance</td><td>Keep low, increase if you have missing points</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Point Set</td><td>Out</td><td>Out</td></tr>
 </tbody>
 </table>

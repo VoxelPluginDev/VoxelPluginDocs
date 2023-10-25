@@ -9,12 +9,22 @@
 Make a box surface in local space
 ie, the box will be relative to the current brush
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Vector</td><td>Center</td><td>Center</td></tr>
 <tr><td>Vector</td><td>Extent</td><td>Extent</td></tr>
 <tr><td>Float</td><td>Smoothness</td><td>Will smooth out the box edges, same unit as Extent</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Surface</td><td>Surface</td><td>Surface</td></tr>
 </tbody>
 </table>

@@ -8,11 +8,21 @@
 
 Cast from Vector to Linear Color
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Vector Buffer</td><td>Vector</td><td>Vector to Linear Color</td></tr>
 <tr><td>Float Buffer</td><td>A</td><td>Vector to Linear Color</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Linear Color Buffer</td><td>Return Value</td><td>Vector to Linear Color</td></tr>
 </tbody>
 </table>

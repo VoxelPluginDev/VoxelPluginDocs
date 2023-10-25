@@ -8,10 +8,20 @@
 
 Make Curve from Asset
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Curve</td><td>Asset</td><td>Make Curve from Asset</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Curve</td><td>Return Value</td><td>Make Curve from Asset</td></tr>
 </tbody>
 </table>

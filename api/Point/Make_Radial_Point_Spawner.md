@@ -8,6 +8,8 @@
 
 Make Radial Point Spawner
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -15,6 +17,14 @@ Make Radial Point Spawner
 <tr><td>Float</td><td>Radial Offset</td><td>In degrees</td></tr>
 <tr><td>Integer Range</td><td>Num Points</td><td>NumPoints</td></tr>
 <tr><td>Seed</td><td>Seed</td><td>Seed</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Point Spawner</td><td>Point Spawner</td><td>PointSpawner</td></tr>
 </tbody>
 </table>

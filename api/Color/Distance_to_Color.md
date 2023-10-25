@@ -8,11 +8,21 @@
 
 Distance to Color
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float Buffer</td><td>Distance</td><td>Distance</td></tr>
 <tr><td>Float Buffer</td><td>Scale</td><td>Scale</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Linear Color Buffer</td><td>Color</td><td>Color</td></tr>
 </tbody>
 </table>

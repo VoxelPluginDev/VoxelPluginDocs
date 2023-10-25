@@ -8,10 +8,20 @@
 
 Make Bounds from Local Box
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Box</td><td>Box</td><td>Make Bounds from Local Box</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Bounds</td><td>Return Value</td><td>Make Bounds from Local Box</td></tr>
 </tbody>
 </table>

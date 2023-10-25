@@ -9,10 +9,20 @@
 Make a surface from 2D height data
 Typically, a heightmap
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Float Buffer</td><td>Height</td><td>Height</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Surface</td><td>Surface</td><td>Surface</td></tr>
 </tbody>
 </table>

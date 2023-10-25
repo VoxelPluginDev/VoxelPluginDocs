@@ -8,11 +8,21 @@
 
 Get a previous output if this is used in a recursive macro
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Name</td><td>Name</td><td>Name</td></tr>
 <tr><td>Wildcard Buffer</td><td>Default</td><td>Default</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Wildcard Buffer</td><td>Value</td><td>Value</td></tr>
 </tbody>
 </table>

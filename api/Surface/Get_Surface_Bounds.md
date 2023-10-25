@@ -9,12 +9,22 @@
 Get the bounds of a surface
 @param        Smoothness      Bounds will be increased by Smoothness. Should be the same as the SmoothUnion smoothness.
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
 <tr><td>Surface</td><td>Surface</td><td>Get the bounds of a surface
 @param        Smoothness      Bounds will be increased by Smoothness. Should be the same as the SmoothUnion smoothness.</td></tr>
 <tr><td>Float</td><td>Smoothness</td><td>Bounds will be increased by Smoothness. Should be the same as the SmoothUnion smoothness.</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Bounds</td><td>Return Value</td><td>Get the bounds of a surface
 @param        Smoothness      Bounds will be increased by Smoothness. Should be the same as the SmoothUnion smoothness.</td></tr>
 </tbody>

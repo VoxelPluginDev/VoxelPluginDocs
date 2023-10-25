@@ -8,6 +8,8 @@
 
 Random Rotator
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -15,6 +17,14 @@ Random Rotator
 <tr><td>Float Range</td><td>Pitch</td><td>Pitch</td></tr>
 <tr><td>Float Range</td><td>Yaw</td><td>Yaw</td></tr>
 <tr><td>Seed Buffer</td><td>Seed</td><td>Seed</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Quat Buffer</td><td>Return Value</td><td>ReturnValue</td></tr>
 </tbody>
 </table>

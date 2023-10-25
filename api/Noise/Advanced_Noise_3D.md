@@ -8,6 +8,8 @@
 
 Generates multi-octave, highly configurable height noise for easy procedural creation
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -20,6 +22,14 @@ Generates multi-octave, highly configurable height noise for easy procedural cre
 <tr><td>Integer</td><td>Num Octaves</td><td>Amount of layers this noise should have</td></tr>
 <tr><td>Seed</td><td>Seed</td><td>Used to randomize the output noise</td></tr>
 <tr><td>Advanced Noise Octave Type</td><td>Default Octave Type</td><td>Default octave type</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Float Buffer</td><td>Value</td><td>Result of all octaves being added together</td></tr>
 </tbody>
 </table>

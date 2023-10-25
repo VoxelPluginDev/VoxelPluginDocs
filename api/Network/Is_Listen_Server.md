@@ -8,6 +8,16 @@
 
 Listen server: a server that also has a local player who is hosting the game, available to other players on the network
 
+## Inputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
+</tbody>
+</table>
+
+## Outputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>

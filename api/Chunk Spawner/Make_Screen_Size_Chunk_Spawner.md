@@ -8,6 +8,8 @@
 
 Make Screen Size Chunk Spawner
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -17,6 +19,14 @@ Make Screen Size Chunk Spawner
 Smaller = higher quality</td></tr>
 <tr><td>Integer</td><td>Max LOD</td><td>Max LOD to apply</td></tr>
 <tr><td>Boolean</td><td>Enable Transitions</td><td>Add transition meshes in-between LODs to hide holes</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Chunk Spawner</td><td>Spawner</td><td>Spawner</td></tr>
 </tbody>
 </table>

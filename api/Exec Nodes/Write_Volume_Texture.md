@@ -8,6 +8,8 @@
 
 Voxel Write Volume Texture Exec Node
 
+## Inputs
+
 <table>
 <thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
 <tbody>
@@ -17,6 +19,14 @@ Voxel Write Volume Texture Exec Node
 <tr><td>Int Vector</td><td>Size</td><td>Size</td></tr>
 <tr><td>Float</td><td>Voxel Size</td><td>VoxelSize</td></tr>
 <tr><td>Float Buffer</td><td>Distance</td><td>Distance</td></tr>
+</tbody>
+</table>
+
+## Outputs
+
+<table>
+<thead><tr><th width="250">Type</th><th width="200">Name</th><th>Description</th></tr></thead>
+<tbody>
 <tr><td>Exec</td><td>Exec</td><td>If not connected, will be executed automatically</td></tr>
 </tbody>
 </table>
