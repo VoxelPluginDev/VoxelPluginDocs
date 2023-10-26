@@ -8,9 +8,9 @@ description: Using graphs as modular, non-destructive pieces for world-creation.
 This article assumes basic knowledge about [Channels](../channels.md).
 {% endhint %}
 
-Any Voxel Graph can run any logic, and therefore fulfill any function, so there are no predefined graph types. But the way graphs are used in practice often does end up following a few common patterns.&#x20;
+Any Voxel Graph can run any nodes, which means there are no preset graph types. But the way graphs are used in practice often does end up following a few common patterns.
 
-One of these patterns is the 'brush' pattern, where a graph represents a moveable object that doesn't do anything other than writing data into a channel, which another graph then reads back and produces a visible output from.
+One of these patterns is the 'brush' pattern, where a graph is used on a moveable object that doesn't output anything into the world - it only writes data into a channel. Another graph then reads back that channel, and produces a visible output from it.
 
 Examples of this (which can be found in the [Voxel Content](../../getting-started/installing-voxel-content.md)) are:
 
@@ -19,9 +19,9 @@ Examples of this (which can be found in the [Voxel Content](../../getting-starte
 
 ## 1. Blending Brushes
 
-Brushes are generally blended into existing terrain, rather than being used by themselves. Additionally, most usecases involve multiple brushes adding on top of each other.&#x20;
+By default when registering to a channel, the previous state of the channel is completely ignored. Because brushes are generally used on top of other terrain elements, that's inconvenient and should be accounted for. This can be done by combining the brush' surface with the existing state of the channel using a **Query Channel**.&#x20;
 
-Because of this, writing a brush' surface directly into a channel is usually not desirable. Instead, it is generally desirable to combine the brush surface with the current state of the channel the brush is about to write into. The result of that combination can then be written into the channel. This prevents brushes completely overriding others that come before them (and therefore making those previous brushes useless).
+It is usually desirable to combine the brush surface with the current state of the channel the brush is about to write into. The result of that combination can then be written into the channel. This prevents brushes completely overriding others that come before them (and therefore making those previous brushes useless).
 
 _Image_
 
