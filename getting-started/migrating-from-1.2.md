@@ -25,10 +25,10 @@ Voxel World save files from 1.2 cannot be migrated to 2.0!
 (We will add to this list as we determine more features that underwent significant changes or that exist in 1.2 but not 2.0)
 
 * The graph system in 2.0 has been entirely re-written; 1.2 graphs cannot be migrated to 2.0.
-* Voxel Spawner Actor / Voxel Foliage Actor have been replaced by the [point-based foliage nodes for Voxel Graphs](../knowledgebase/foliage.md).
-* [Materials ](../knowledgebase/surfaces-and-materials/material-definitions/)have been overhauled; the plugin no longer uses Single Index or Multi Index materials. 1.2 materials must be updated to work with 2.0.
+* Voxel Spawner Actor / Voxel Foliage Actor have been replaced by the [point-based foliage nodes for Voxel Graphs](../knowledgebase-1/foliage.md).
+* [Materials ](../knowledgebase-1/surfaces-and-materials/material-definitions/)have been overhauled; the plugin no longer uses Single Index or Multi Index materials. 1.2 materials must be updated to work with 2.0.
 * Cubic rendering is not yet supported in 2.0.
-* Data Items and Data Assets have been removed and replaced by [Voxel Brushes](../knowledgebase/brushes/).
+* Data Items and Data Assets have been removed and replaced by [Voxel Brushes](../knowledgebase-1/brushes/).
 * Landscape importer (and most other importers) do not currently exist in 2.0.
 * Editor tools (for sculpting and painting voxel actors) are not yet available.
 * Voxel Physics do not currently exist or have a replacement in 2.0.

@@ -1,9 +1,25 @@
 ---
 cover: .gitbook/assets/PromoShot.png
-coverY: 172.79999999999995
+coverY: 139.51102791014296
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Home
+
+
 
 {% hint style="danger" %}
 This release is targeted at Unreal Engine 5.2 and 5.3.
