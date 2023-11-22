@@ -13,7 +13,7 @@ Materials can be applied to voxel terrains using the Material Definition workflo
 With the Material Definition workflow, it is possible to use hundreds of material layers on a voxel terrain. Within voxel graphs, you can assign different layers based on noise or other values. The three highest-weight layers will then be automatically sent to and processed by the material using some voxel-specific nodes. Each layer runs the same logic. This means that a snow layer will have to use the same instructions as a rock layer - it can only change the float and textures values used.
 
 {% hint style="warning" %}
-Landscape materials found on the Unreal Engine Marketplace be used with voxel terrains. Landscape materials are built specifically for native Landscapes, which use their own specialized nodes.&#x20;
+Landscape materials (found, for example, on the Unreal Engine Marketplace) can not be used with voxel terrains. Landscape materials are built specifically for native Landscapes, which use their own specialized nodes.&#x20;
 
 These nodes are incompatible with Voxel Plugin, so Landscape layers will not function. Additionally, most of these materials are not triplanar, leading to texture stretching on slopes.
 
