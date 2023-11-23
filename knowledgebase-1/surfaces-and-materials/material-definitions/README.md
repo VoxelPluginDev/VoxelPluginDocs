@@ -26,7 +26,7 @@ Getting a terrain set up with multiple material layers, you will end up with the
 
 * One 'master' Material Definition (MD), where you configure what parameters layers will have.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>A material definition with a handful parameters, and a correctly configured material assigned.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>A material definition with a handful parameters, and a correctly configured material assigned.</p></figcaption></figure>
 
 * One 'master' material, which is used both for the preview and the actual terrain. This material uses voxel helper nodes, and will reference the Material Definition.
 
@@ -34,7 +34,7 @@ Getting a terrain set up with multiple material layers, you will end up with the
 
 * As many Material Definition Instances (MDI) as you want to have layers. There isn't a practical limit to the amount of layers you can use.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>As many </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>As many </p></figcaption></figure>
 
 If you want to simply add a new layer, you only have to create a new MDI. This MDI can then immediately be used in voxel graphs (using the [Set Surface Material ](../../../resources/api/surface/set\_surface\_material.md)node), without needing any further set-up. The voxel graph will automatically pass the needed information to the material.
 

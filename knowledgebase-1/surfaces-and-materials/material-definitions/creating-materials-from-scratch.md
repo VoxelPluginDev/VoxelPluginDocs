@@ -26,7 +26,7 @@ Material definitions and instances are similar to Multi-Index Layers from Voxel 
 
 A material definition's preview material can be configured in the Details panel when no parameters are selected. This material will only be used for previewing the definition and its instances in editor viewports. It should usually be the same material as the terrain has assigned.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>A material definition on the left, with an instance using it as parent on the right.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>A material definition on the left, with an instance using it as parent on the right.</p></figcaption></figure>
 
 ### &#x20;  1.1 Configuring Parameters
 
@@ -38,7 +38,7 @@ Material and material definitions like the one shown throughout this article are
 
 Texture parameters have a few extra configuration settings that can be important to consider, which can be found in the Value dropdown underneath the Default Value. Most Material Definitions will have quite a few texture parameters configured, and these settings will vary across them.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>A Material Definition with a Texture2D parameter selected. Note the additional settings underneath the Default Value.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>A Material Definition with a Texture2D parameter selected. Note the additional settings underneath the Default Value.</p></figcaption></figure>
 
 #### &#x20;     1.1.1 Texture and Mip Size
 
