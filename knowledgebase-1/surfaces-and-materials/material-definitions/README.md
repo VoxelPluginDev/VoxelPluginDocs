@@ -6,7 +6,7 @@ description: >-
 
 # Material Definitions
 
-## 1. What Material Definitions Are For&#x20;
+## 1. The Purpose of Material Definitions&#x20;
 
 Materials can be applied to voxel terrains using the Material Definition workflow. &#x20;
 
