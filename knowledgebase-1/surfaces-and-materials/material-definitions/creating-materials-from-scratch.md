@@ -63,11 +63,11 @@ The compression type picked here has to match whichever compression method is se
 
 #### &#x20;     1.1.3 Using Alpha Channels
 
-Because DXT5 (colour with alpha) uses twice as much memory as DXT1 (colour without alpha), DXT1 should be used for colour textures wherever possible.&#x20;
+Because DXT5 (color with alpha) uses twice as much VRAM as DXT1 (color without alpha), DXT1 should be used for color textures wherever possible. Only set the compression to DXT5 if the alpha channel is really necessary. Doing so doubles the VRAM usage of the **entire array**, not just for the textures that have an alpha.&#x20;
 
-Attempting to assign a texture asset with an alpha channel when DXT1 compression is selected on the material definition will cause errors. In these cases, the texture asset can be easily swapped to be without alpha by ticking the "Compress Without Alpha" tickbox in the asset's compression settings.
+Attempting to assign a texture asset with an alpha channel when DXT1 compression is selected on the material definition will cause errors. When this happens, just tick the "Compress Without Alpha" tickbox in the asset's compression settings and save it - this will switch the texture to DXT1.
 
-If the alpha channel is absolutely needed, the material definition's compression setting can be set to DXT5. Unlike the other way around, color textures without alpha can also be assigned without problems. Be very mindful that this will double the VRAM usage for **all** textures assigned on this parameter, even if most of those textures do not have an alpha channel.
+Color textures without alpha can be assigned without issues when the texture parameter is set to DXT5.&#x20;
 
 ## 2. Configuring a Custom Material
 
@@ -78,6 +78,10 @@ With a material definition configured as above, instances can be created and con
 <figure><img src="../../../.gitbook/assets/image (146).png" alt=""><figcaption><p>A material graph with the Material Definition workflow nodes placed, and a Voxel Parameter node selected.</p></figcaption></figure>
 
 Data from a Material Definition and its instances can be accessed in materials using a handful of helper nodes. To do so, a combination of a **Voxel Parameter** node and a **Get Voxel ... Parameter** node is used.
+
+{% hint style="info" %}
+When working with Material Functions, **Voxel Parameter** nodes can be passed as input pin. The input type needs to be set to `Function Input TextureExternal`.&#x20;
+{% endhint %}
 
 The **Voxel Parameter** node can be configured in the details panel when selected; it takes a reference to a Material Definition, and will then show a dropdown with all the parameters from that Material Definition. The output from this node can then be plugged into the Parameter pin on a **Get Voxel ... Parameter**. Use the appropriate Get node for the type the parameter has in the Material Definition. For example, if a parameter is a Linear Color, use the **Get Voxel Color Parameter** node.
 
