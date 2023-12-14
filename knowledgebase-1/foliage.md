@@ -54,7 +54,9 @@ For a given point, this will sample the surface's distance field at its current 
 
 ## 2. Filtering Points and Randomizing Visuals&#x20;
 
-
+{% hint style="info" %}
+If Nanite is enabled on a foliage mesh, and not explicitly disabled in the foliage render settings, said meshes will automatically render through the Nanite pipeline.
+{% endhint %}
 
 ### &#x20;  2.1 Controlling foliage density with brushes
 

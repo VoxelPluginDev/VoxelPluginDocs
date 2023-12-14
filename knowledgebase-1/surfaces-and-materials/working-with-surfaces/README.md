@@ -10,3 +10,5 @@ At its most basic, a surface just holds a set of bounds (infinite by default) wi
 
 Generally, surfaces are created by special nodes. For example, the **Create Voxelized Mesh Surface** node, which allows you to turn a static mesh asset into a voxel surface. \
 Nodes like this will output a surface with correct bounds and a coherent distance field.
+
+Surfaces are finally used to generate an output mesh using nodes like the **Generate Marchig Cubes Surface** one. Nanite is not currently supported for terrain rendering.
