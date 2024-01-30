@@ -23,7 +23,6 @@
     * [Detail Textures](knowledgebase-1/surfaces-and-materials/material-definitions/detail-textures.md)
 * [Brushes](knowledgebase-1/brushes/README.md)
   * [Voxelized Meshes](knowledgebase-1/brushes/voxelized-meshes.md)
-  * [Brush Previews](knowledgebase-1/brushes/brush-previews.md)
 * [Foliage](knowledgebase-1/foliage.md)
 * [Navmesh & Collision](knowledgebase-1/navmesh-and-collision.md)
 * [Sculpt Volumes](knowledgebase-1/sculpt-volumes.md)
