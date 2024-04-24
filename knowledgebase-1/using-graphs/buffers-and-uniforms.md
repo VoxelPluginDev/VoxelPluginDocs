@@ -10,7 +10,7 @@ Data used in the plugin can be a Buffer or a Uniform. Generally, Uniforms are us
 
 Both types have their own pin visual. Uniform pins have round pin icons, whereas Buffer pins have a square pin icon.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Some pins are uniform (round), others are buffers (square), and some pins (grey center) can be either.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Some pins are uniform (round), others are buffers (square), and some pins (grey center) can be either.</p></figcaption></figure>
 
 Buffers can only be used as an input for Buffer pins specifically. They cannot be plugged into a Uniform pin. Uniforms can be used as an input for both Buffer and Uniform pins.&#x20;
 

@@ -67,7 +67,7 @@ Instead, use [the disconnected output from the right-most `Lerp` node](#user-con
 
 Do make sure to connect the individual texture channels to appropriate material properties, both at the output node in **MF\_CompleteLayer**, as well as in the **MF\_FinalOutput** configuration.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;  1.2 Increase texture size on distant terrain
 

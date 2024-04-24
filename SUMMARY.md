@@ -3,7 +3,7 @@
 * [Home](README.md)
 * [Getting Started](getting-started/README.md)
   * [Installing Voxel Plugin](getting-started/installing-voxel-plugin.md)
-  * [Installing Voxel Content](getting-started/installing-voxel-content.md)
+  * [Installing Example Content](getting-started/installing-voxel-content.md)
   * [Migrating from 1.2](getting-started/migrating-from-1.2.md)
 
 ## Knowledgebase
