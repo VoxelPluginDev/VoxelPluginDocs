@@ -4,7 +4,9 @@ description: How a voxel terrain's material and surface workflows work together.
 
 # Applying Materials to a Surface
 
-
+{% hint style="info" %}
+Make sure that the same material used in the Voxel Material Definition is assigned on the graph's mesh output node!
+{% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>A graph applying two materials weighted by noise to a surface.  </p></figcaption></figure>
 
