@@ -34,6 +34,7 @@
   * [Execution Flow & Query Data](knowledgebase-1/graph-design/execution-flow-and-query-data.md)
   * [Node Types](knowledgebase-1/graph-design/node-types.md)
   * [MetaGraph Macros](knowledgebase-1/graph-design/metagraph-macros.md)
+  * [Adding Custom Nodes](knowledgebase-1/graph-design/adding-custom-nodes.md)
 * [Profiling & Debugging](knowledgebase-1/profiling-and-debugging/README.md)
   * [Generation Performance](knowledgebase-1/profiling-and-debugging/generation-performance.md)
   * [Memory Usage & Render Performance](knowledgebase-1/profiling-and-debugging/memory-usage-and-render-performance.md)
