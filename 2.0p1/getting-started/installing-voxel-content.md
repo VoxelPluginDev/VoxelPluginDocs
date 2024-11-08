@@ -4,10 +4,6 @@ description: Installing the Voxel Plugin sample content shipped with each releas
 
 # Installing Example Content
 
-{% hint style="warning" %}
-There are not currently any examples for the new Fixed Function Pipeline.
-{% endhint %}
-
 Each Voxel Plugin release ships with a set of content examples designed to showcase plugin systems and how to utilize them. By default, none of these content examples are present on the plugin installation. Instead, they are downloaded from a server on demand.
 
 &#x20;The Voxel Content can be accessed by right-clicking in the content browser, and selecting the `Add Voxel Content` option near the top.

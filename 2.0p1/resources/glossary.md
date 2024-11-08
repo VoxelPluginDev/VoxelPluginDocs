@@ -23,12 +23,5 @@ Note that any blue text snippets can be clicked to take you to another page with
 ## Voxel Plugin Terminology
 
 * [**Voxel Graph**](../knowledgebase-1/using-graphs/): Voxel Plugin's graph system. It is used for everything from procedural terrains, to foliage scattering, to sculpting tools. It is not the same graph system as Blueprints.
-* [**Channel**](broken-reference)**:** Used to communicate between graphs. A channel holds a list of references to nodes. Each node in the list has a user-assigned priority and bounds. A channel does not cache any data.
-  * **Query Channel (Read)**: A channel can be queried by calling the **Query Channel** node. This will run the most relevant node (based on priority and bounds) in the channel's list of nodes.
-  * **Register to Channel (Write)**: Nodes can be added to a channel's list by calling the **Register to Channel** node.&#x20;
-  * **Dependencies**: A channel dependency is a technical term for a system keeping track of state-changes that might happen on a channel-registered node, for instance, voxel actor positions changing.&#x20;
-* [**(Landmass) Brushes**](broken-reference): This does not refer to a specific plugin system. It is just a term for a graph that can be placed in the world, non-destructively modifying the terrain (or foliage).
-  * **Non-destructive**: A term used to describe that a brush does not 'destroy' the terrain it affects. This is means it can be moved, changed or removed after having been added, without impacting the original terrain underneath.
-* [**Surface**](broken-reference): A type used in Voxel Graphs which holds a distance field, bounds, material information and potentially other attributes. Using surfaces allows for the easy combining of two terrains, as the distance field as well as all its attributes can be merged in one go.&#x20;
-* [**Material Definition**](broken-reference): Similar in purpose to Unreal Engine's Lanscape Layers. A template with configurable parameters which is used to create different surface types for use in voxel graphs. It interacts with materials through a handful of voxel-specific material nodes. Materials need to be specifically designed for this workflow.
+* **Non-destructive**: A term used to describe that a brush does not 'destroy' the terrain it affects. This is means it can be moved, changed or removed after having been added, without impacting the original terrain underneath.
 * [**Distance Checks**](broken-reference): An optimization step where chunks check whether the distance field value in their corners is larger than the size of the chunk. If yes, that implies that there cannot be a surface in the chunk, and its further computation is skipped. This can cause holes when the distance field is not perfect.

@@ -27,7 +27,7 @@ There is an [example ](../getting-started/installing-voxel-content.md)available 
 As of this release, native Voxel Plugin foliage has been replaced with a [PCG ](https://dev.epicgames.com/documentation/en-us/unreal-engine/procedural-content-generation-overview)integration. This gives full control over scattering behavior, and allows for spawning actors (including voxel brushes) as well as the usual static meshes.
 
 {% hint style="info" %}
-PCG updates from the Voxel Landscape can be paused using the `voxel.landscape.DisablePCGRegen` console command.
+PCG updates from the Voxel World can be paused using the `voxel.DisablePCGRegen 1` console command.
 {% endhint %}
 
 With PCG comes the ability to analyze points and do contextual operations on them. This opens the door to things like combining multiple smaller cliff points into a single larger cliff mesh. The logic that would be used for that kind of behavior is generic to any PCG-based system.&#x20;

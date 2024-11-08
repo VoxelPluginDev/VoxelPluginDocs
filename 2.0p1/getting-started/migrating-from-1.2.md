@@ -28,7 +28,7 @@ Voxel World save files from 1.2 cannot be migrated to 2.0!
 * Voxel Spawner Actor / Voxel Foliage Actor have been replaced by a [PCG ](https://dev.epicgames.com/documentation/en-us/unreal-engine/procedural-content-generation-overview)integration.
 * Materials have been overhauled; the plugin no longer uses Single Index or Multi Index materials. VPL materials must be reworked to work with VP2.
 * Cubic rendering is not yet supported in VP2.
-* Data Items and Data Assets have been removed and replaced by [Voxel Brushes](broken-reference).
+* Data Items and Data Assets have been removed and replaced by Voxel Stamps
 * Landscape importer (and most other importers) do not currently exist in VP2.
 * Editor tools (for sculpting and painting voxel actors) are not yet available.
 * Voxel Physics do not currently exist or have a replacement in VP2.
