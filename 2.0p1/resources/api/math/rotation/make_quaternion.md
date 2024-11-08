@@ -2,7 +2,7 @@
 
 <div align="left" data-full-width="false">
 
-<figure><img src="../../../../.gitbook/assets/Make_Quaternion.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="make_quaternion.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -10,8 +10,20 @@ Make Quaternion
 
 ## Inputs
 
-<table><thead><tr><th width="170">Name</th><th>Description</th></tr></thead><tbody><tr><td>Roll</td><td>Roll</td></tr><tr><td>Pitch</td><td>Pitch</td></tr><tr><td>Yaw</td><td>Yaw</td></tr></tbody></table>
+<table>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Roll</td><td>Roll</td></tr>
+<tr><td>Pitch</td><td>Pitch</td></tr>
+<tr><td>Yaw</td><td>Yaw</td></tr>
+</tbody>
+</table>
 
 ## Outputs
 
-<table><thead><tr><th width="170">Name</th><th>Description</th></tr></thead><tbody><tr><td>Return Value</td><td>ReturnValue</td></tr></tbody></table>
+<table>
+<thead><tr><th width="170">Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Return Value</td><td>ReturnValue</td></tr>
+</tbody>
+</table>
