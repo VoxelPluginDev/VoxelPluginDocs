@@ -1,6 +1,6 @@
 ---
 description: Generating foliage onto an existing surface.
-cover: ../.gitbook/assets/image (198).png
+cover: ../../.gitbook/assets/image (198).png
 coverY: 66.19718309859152
 layout:
   cover:
@@ -21,7 +21,7 @@ layout:
 # Foliage & PCG
 
 {% hint style="info" %}
-There is an [example ](../getting-started/installing-voxel-content.md)available on this topic!
+There is an [example ](../../getting-started/installing-voxel-content.md)available on this topic!
 {% endhint %}
 
 As of this release, native Voxel Plugin foliage has been replaced with a [PCG ](https://dev.epicgames.com/documentation/en-us/unreal-engine/procedural-content-generation-overview)integration. This gives full control over scattering behavior, and allows for spawning actors (including voxel brushes) as well as the usual static meshes.
@@ -34,11 +34,11 @@ With PCG comes the ability to analyze points and do contextual operations on the
 
 ### Using PCG on Voxel Terrains
 
-<figure><img src="../.gitbook/assets/image (198).png" alt=""><figcaption><p>A terrain, including its volumetric shapes like a floating brush, being populated with trees, with a spline used as a mask.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (198).png" alt=""><figcaption><p>A terrain, including its volumetric shapes like a floating brush, being populated with trees, with a spline used as a mask.</p></figcaption></figure>
 
 The key node for anything voxel-related on the PCG side is the `Get Voxel Data` node. This can be plugged into a `Voxel Sampler` to spawn new points, or into a `Voxel Projection` node to make existing points conform to the terrain. Both of these can be configured from the details panel to be height-based or volumetric.
 
-<figure><img src="../.gitbook/assets/image (197).png" alt=""><figcaption><p>Scattering points on the terrain is done using the Get Voxel Landscape Data and Voxel Landscape Sampler nodes.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (197).png" alt=""><figcaption><p>Scattering points on the terrain is done using the Get Voxel Landscape Data and Voxel Landscape Sampler nodes.</p></figcaption></figure>
 
 #### PCG Configuration
 
