@@ -12,15 +12,11 @@ There are some general considerations when it comes to building graphs that func
 
 ### &#x20;  1.1 Node settings
 
-Many of the more complex nodes within the plugin come have a variety of settings that will affect performance. Using these properly will lead to more performance for often similar results.
+Many of the more complex nodes within the plugin come have a variety of settings that will affect performance. Using these properly will lead to more performance for often similar results. An example of this would be the octave count on the Advanced Noise node. Noise nodes with lower octave counts will generate faster.
 
-#### &#x20;      1.1.1 Channel registration / brush bounds
+#### &#x20;      1.1.1 Stamp bounds
 
-When calling Register to Channel, the node takes a bounds input. By default, these are infinite bounds, meaning this graph will be run for every voxel in the world. Using bounds that are as small as possible will allow graphs to be skipped when they aren't relevant. More information can be found on the [Brushes](broken-reference) page.
-
-#### &#x20;     1.1.2 Distance Check Tolerance
-
-The&#x20;
+Stamps only affect the terrain inside their bounds. Using bounds that are as small as possible will allow graphs to be skipped when they aren't relevant. Bounds are increased by the smoothness of the stamp, and in the case of graph-based stamps, whatever is plugged into the bounds pin in the graph.
 
 ## 2. Integrated stats
 
