@@ -22,7 +22,7 @@ Skip to [Section 2.1](installing-voxel-plugin.md#id-2.1-linking-accounts) for re
 
 To start off, open the Epic Games Launcher. In the Unreal Engine section, navigate to Fab and use the search-bar to look for “Voxel Plugin Installer”. Find the “Voxel Plugin Installer” result, with “Voxel Plugin” as creator, and click it.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 * With the store page open, click the “Add to my Library” button to get access to the plugin
 * You will be prompted to log in if you aren’t already, and to accept the Epic Content License Agreement
@@ -30,7 +30,7 @@ To start off, open the Epic Games Launcher. In the Unreal Engine section, naviga
 * Press the "Install to Engine" button, select the engine version you are working in the slot dropdown and press "Install"
 *   The plugin will now download and install.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Setting up Voxel Plugin Installer & Verifying Ownership
 
@@ -56,15 +56,15 @@ On the Voxel Plugin website, [create an account](https://voxelplugin.com/registe
 
 Once logged in, you will be taken to the account dashboard. Click the "Connect" button in the Epic Games Account section.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 On the page that opens, log into the Epic account on which you own Voxel Plugin Pro. Click "Allow" on the Epic Games Account pop-up; these permissions allow the plugin to remember your Epic ID.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once finished, the page will close and you will be taken back to the account dashboard, where you will now see your Epic Games Account being successfully linked.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 The automated verification pipeline is currently unavailable as Fab is spinning up.&#x20;
