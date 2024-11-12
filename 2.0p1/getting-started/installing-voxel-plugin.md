@@ -7,7 +7,7 @@ description: >-
 # Installing Voxel Plugin
 
 {% hint style="info" %}
-This release is targeted at Unreal Engine 5.4.
+This release is targeted at Unreal Engine 5.4 & 5.5
 {% endhint %}
 
 {% hint style="danger" %}
@@ -66,13 +66,7 @@ Once finished, the page will close and you will be taken back to the account das
 
 <figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="danger" %}
-The automated verification pipeline is currently unavailable as Fab is spinning up.&#x20;
-
-Send a direct message on Discord to the user @Phyronnaz  to be verified.
-{% endhint %}
-
-After verifying, the "Voxel Plugin Pro Legacy" section should update with a green banner, saying "Purchase verified".
+Click Verify and follow the instructions. After verifying, the "Voxel Plugin Pro Legacy" section should update with a green banner, saying "Purchase verified".
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
