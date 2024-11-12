@@ -11,6 +11,7 @@
 ## Knowledgebase
 
 * [Working with Stamps](knowledgebase-1/working-with-stamps/README.md)
+  * [Layers & Priority](knowledgebase/working-with-stamps/layers-and-priority.md)
   * [Blend Modes](knowledgebase-1/working-with-stamps/blend-modes.md)
 * [Using Graphs](knowledgebase-1/using-graphs/README.md)
   * [Graph Preview](knowledgebase-1/using-graphs/graph-preview.md)
