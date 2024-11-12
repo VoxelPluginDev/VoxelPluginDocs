@@ -4,6 +4,15 @@ description: An outline on how the material rendering pipeline functions in Voxe
 
 # Materials
 
+{% hint style="warning" %}
+**Nanite Tesselation is disabled by default.**&#x20;
+
+Add the following lines to your project's DefaultEngine.ini to enable it:
+
+* `r.Nanite.AllowTessellation=1`
+* `r.Nanite.Tessellation=1`
+{% endhint %}
+
 {% hint style="info" %}
 There is an [example ](../getting-started/installing-voxel-content.md)available on this topic!
 {% endhint %}
@@ -33,13 +42,6 @@ If Nanite is disabled on the Voxel World, the terrain will be rendered with the 
 <figure><img src="../.gitbook/assets/image (222).png" alt=""><figcaption><p>The terrain's color changed with Nanite disabled, because the Color parameter is multiplied by a reddish tint in the Base Material.</p></figcaption></figure>
 
 The Base Material is used to render the terrain whenever Nanite rendering is not available. It's used when Nanite is simply disabled in the project or on the Voxel World, but it's also used for things like rendering the Lumen Surface Cache.&#x20;
-
-{% hint style="warning" %}
-Nanite Tesselation is disabled by default. Add the following lines to your project's DefaultEngine.ini to enable it:
-
-* r.Nanite.AllowTessellation=1
-* &#x20;r.Nanite.Tessellation=1
-{% endhint %}
 
 ## How Materials Are Drawn
 
