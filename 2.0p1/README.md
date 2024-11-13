@@ -19,7 +19,7 @@ layout:
 
 # Home
 
-{% hint style="danger" %}
+{% hint style="info" %}
 This release is targeted at Unreal Engine 5.4. It should largely work on 5.5, but full support for 5.5 is not guaranteed.
 {% endhint %}
 
