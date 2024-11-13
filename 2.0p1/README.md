@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/PromoShot.png
-coverY: 139.51102791014296
+cover: .gitbook/assets/image (223).png
+coverY: 28
 layout:
   cover:
     visible: true
