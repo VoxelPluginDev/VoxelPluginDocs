@@ -21,7 +21,7 @@ In order to install the 2.0 preview, ownership of Voxel Plugin Pro Legacy is req
 Skip to [Section 2.1](installing-voxel-plugin.md#id-2.1-linking-accounts) for retrieving the plugin from Github.
 {% endhint %}
 
-To start off, open the Epic Games Launcher. In the Unreal Engine section, navigate to Fab and use the search-bar to look for “Voxel Plugin Installer”. Find the “Voxel Plugin Installer” result, with “Voxel Plugin” as creator, and click it.
+To start off, open the Epic Games Launcher. In the Unreal Engine section, navigate to Fab and use the search-bar to look for “[Voxel Plugin Installer](https://www.fab.com/listings/d3f93b8f-1718-406a-96ac-f96755678f1e)”. Find the “[Voxel Plugin Installer](https://www.fab.com/listings/d3f93b8f-1718-406a-96ac-f96755678f1e)” result, with “Voxel Plugin” as creator, and click it.
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
