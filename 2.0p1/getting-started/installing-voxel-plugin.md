@@ -31,7 +31,7 @@ To start off, open the Epic Games Launcher. In the Unreal Engine section, naviga
 * Press the "Install to Engine" button, select the engine version you are working in the slot dropdown and press "Install"
 *   The plugin will now download and install.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Setting up Voxel Plugin Installer & Verifying Ownership
 
@@ -61,7 +61,7 @@ Once logged in, you will be taken to the account dashboard. Click the "Connect" 
 
 On the page that opens, log into the Epic account on which you own Voxel Plugin Pro. Click "Allow" on the Epic Games Account pop-up; these permissions allow the plugin to remember your Epic ID.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once finished, the page will close and you will be taken back to the account dashboard, where you will now see your Epic Games Account being successfully linked.
 
