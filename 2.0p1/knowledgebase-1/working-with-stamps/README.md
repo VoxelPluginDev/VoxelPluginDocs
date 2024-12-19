@@ -13,7 +13,7 @@ Stamps are used to tell the Voxel World what kind of terrain to generate, and wh
 When talking about stamp 'performance', we specifically mean generation performance - so the time it takes for the world to generate.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>A stamp actor, its primary type set to Volume, and data source to Mesh. It writes a voxelized mesh into the scene.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>A stamp actor, its primary type set to Volume, and data source to Mesh. It writes a voxelized mesh into the scene.</p></figcaption></figure>
 
 For each of those, there are four kinds of [data sources](#user-content-fn-1)[^1]:
 

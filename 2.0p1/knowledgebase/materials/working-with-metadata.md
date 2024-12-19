@@ -6,5 +6,5 @@ Stamps can write their own information into these named Metadata values. Graphs 
 
 #### Passing  Metadata to Materials
 
-<table data-header-hidden data-full-width="false"><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><p>Metadata can be passed into materials by configuring the Materials Channels settings on the Voxel World. A single Metadata attribute can be tied (by name) to a single channel of a vertex-attribute (Vertex Color or a UV).</p><p>The Metadata can then be accessed by getting those vertex attributes using the standard material nodes (VertexColor / TexCoord).<br><br><br><br></p></td><td><img src="../../.gitbook/assets/image (3).png" alt="" data-size="original"></td><td></td></tr></tbody></table>
+<table data-header-hidden data-full-width="false"><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><p>Metadata can be passed into materials by configuring the Materials Channels settings on the Voxel World. A single Metadata attribute can be tied (by name) to a single channel of a vertex-attribute (Vertex Color or a UV).</p><p>The Metadata can then be accessed by getting those vertex attributes using the standard material nodes (VertexColor / TexCoord).<br><br><br><br></p></td><td><img src="../../.gitbook/assets/image (3) (1).png" alt="" data-size="original"></td><td></td></tr></tbody></table>
 

@@ -17,6 +17,6 @@ In the MegaMaterial's base material, the `Voxel Fallback Weights` can be used to
 
 Every Voxel Parameter node has a `Layer` input pin. To set up alpha blending, the material logic needs to be copy-pasted three times, with each copy using one of the layers. At the end of each layer's logic, multiply the values by that layer's weight, and then add the three layers' values together.
 
-<div><figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Three layers blended together.</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Three layers blended together.</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>The above logic used on the Nanite Materials example.</p></figcaption></figure>
