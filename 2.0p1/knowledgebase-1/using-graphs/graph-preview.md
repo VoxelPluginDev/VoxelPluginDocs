@@ -6,7 +6,7 @@ description: Important UX knowledge for previewing node outputs.
 
 When a graph is created and first opened, there are no nodes and the preview is therefore inactive. Once nodes have been placed, right-click any node and click "Preview this node". The preview window in the top-left of the graph editor will update to show the data from the selected node. A red dot will appear on the node to indicate it's being previewed.
 
-Note that the selected pin and the type of preview can be changed in the **Preview Settings** panel, which is by default located in the same place as the **Details** panel as another tab. &#x20;
+Note that the selected pin and the type of preview can be changed in the **Preview Settings** panel, which is by default located in the same place as the **Details** panel as another tab.  This also allows you to change whether the preview for a given node is automatically normalized or not.
 
 <figure><img src="../../.gitbook/assets/PreviewPic.png" alt=""><figcaption></figcaption></figure>
 
