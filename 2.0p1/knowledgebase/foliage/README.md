@@ -34,13 +34,9 @@ With PCG comes the ability to analyze points and do contextual operations on the
 
 ### Using PCG on Voxel Terrains
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>A large world with PCG-based procedural foliage, masked by a voxel stamp (writing metadata which is then used to filter in PCG).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (198).png" alt=""><figcaption><p>A terrain, including its volumetric shapes like a floating brush, being populated with trees, with a spline used as a mask.</p></figcaption></figure>
 
-Points can be scattered on the terrain using the Voxel Sampler node. &#x20;
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-
+The key node for anything voxel-related on the PCG side is the `Get Voxel Data` node. This can be plugged into a `Voxel Sampler` to spawn new points, or into a `Voxel Projection` node to make existing points conform to the terrain. Both of these can be configured from the details panel to be height-based or volumetric.
 
 <figure><img src="../../.gitbook/assets/image (197).png" alt=""><figcaption><p>Scattering points on the terrain is done using the Get Voxel Landscape Data and Voxel Landscape Sampler nodes.</p></figcaption></figure>
 

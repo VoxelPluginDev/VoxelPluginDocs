@@ -11,7 +11,7 @@ With the release of Voxel Plugin 2 getting closer, we are now ready to announce 
 * Licenses will be shareable within reason, rather than being per-seat. Projects with a budget over $100k USD need to contact us for separate terms.
 
 {% hint style="info" %}
-This isn't subscription licensing. When you buy a license, you get access to the current Voxel Plugin version **forever**, with three years of bug fixes & engine upgrades included.
+This isn't subscription licensing. When you buy a license, you get access to the current Voxel Plugin version **forever**, with bug fixes & engine upgrades included.
 {% endhint %}
 
 We're making these changes for multiple reasons. The first one is sustainability: so far we have relied on userbase growth for revenue, and that's not sustainable long term. Our company being sustainable isn't just important for our own sake - it's critical for the plugin's viability. We need to support the plugin long term so all the games using it can rely on the plugin working as expected.
@@ -99,15 +99,15 @@ Moving forward, you'll be able to purchase Voxel Plugin 2 directly on our websit
 
 ## License sharing
 
-Technically speaking, plugins sold on the Unreal Marketplace and Fab are per-seat. We've never enforced that rule, and moving forward we are making it explicit that you're allowed to share the plugin when working on the same project.
+Technically speaking, plugins sold on the Unreal Marketplace are per-seat. We've never enforced that rule, and moving forward we are making it explicit that you're allowed to share the plugin when working on a project.
 
 We do ask that you keep such sharing reasonable: don't share your Voxel Plugin 2 license with a dozen projects at once, and don't join a project just to give it your Voxel Plugin license.
 
 {% hint style="info" %}
 For example:
 
-* You're working on a project with a few friends, and you already own the plugin. You are allowed to share it with them as long as you actively contribute to the project.
-* Some people on discord are asking you to join their project, and ask you to give them access to your Voxel Plugin license. You are only allowed to do so if you plan to actively contribute to the project afterwards.
+* I'm working on a project with a few friends, and I already own the plugin. I'm allowed to share it with them as long as I actively contribute to the project.
+* Some people on discord are asking me to join their project so I can give them my Voxel Plugin license. I'm only allowed to do so if I plan to actively contribute to the project afterwards.
 {% endhint %}
 
 ## Budget cap
@@ -118,12 +118,9 @@ We can also offer dedicated support through Slack along with custom licenses.
 
 ### What if my game ends up earning more than $100k?
 
-First off, congratulations! \
-As long as the budget for the first release of your game **using the plugin** was under $100k, you can still use the $349 license and you don't owe us anything. If you released your game without Voxel Plugin 2, but are looking to add it post-release, with earnings over $100k, [contact us](mailto:contact@voxelplugin.com) to see if a custom license is needed.\
-If you'd like to setup a custom license to get additional support afterwards, that's also totally possible.\
-Should you be unsure if you need a custom license, or have any questions, don't hesitate to reach out to us at [contact@voxelplugin.com](mailto:contact@voxelplugin.com).
+First off, congratulations! As long as your initial budget before the first release of your game using the plugin was under $100k, you can still use the $349 license and don't owe us anything. If you are unsure whether you can keep using your license, just reach out to contact@voxelplugin.com.
 
-
+If you'd like to setup a custom license to get additional support afterwards, that's also totally possible.
 
 {% hint style="info" %}
 For example:
