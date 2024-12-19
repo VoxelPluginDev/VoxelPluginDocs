@@ -16,7 +16,7 @@ When trying to solve compiler errors according to this article, do **not** use a
 
     * If there are warnings, click them to install any missing components.
 
-    <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Warnings about missing packages in Visual Studio 2022. Sometimes missing packages can entirely break compilation.</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Warnings about missing packages in Visual Studio 2022. Sometimes missing packages can entirely break compilation.</p></figcaption></figure>
 * If there are no (remaining) warnings, click the green play button with Local Windows Debugger in the toolbar.
 
 At this point, the compilation process will start and the editor should launch after a while.
