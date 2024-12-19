@@ -12,13 +12,13 @@ It should largely work on 5.5, but full support for 5.5 is not guaranteed.
 {% endhint %}
 
 {% hint style="danger" %}
-In order to install the 2.0 preview, you need to own **Voxel Plugin Pro Legacy** on the Marketplace or Fab.
+In order to install the 2.0 preview, ownership of Voxel Plugin Pro Legacy is required.
 {% endhint %}
 
 ### 1. Downloading Voxel Plugin Installer from the Unreal Engine Marketplace
 
 {% hint style="info" %}
-Skip to [Section 2.1](installing-voxel-plugin.md#id-2.1-linking-accounts) for downloading the plugin from Github.
+Skip to [Section 2.1](installing-voxel-plugin.md#id-2.1-linking-accounts) for retrieving the plugin from Github.
 {% endhint %}
 
 To start off, open the Epic Games Launcher. In the Unreal Engine section, navigate to Fab and use the search-bar to look for “[Voxel Plugin Installer](https://www.fab.com/listings/d3f93b8f-1718-406a-96ac-f96755678f1e)”. Find the “[Voxel Plugin Installer](https://www.fab.com/listings/d3f93b8f-1718-406a-96ac-f96755678f1e)” result, with “Voxel Plugin” as creator, and click it.
@@ -31,7 +31,7 @@ To start off, open the Epic Games Launcher. In the Unreal Engine section, naviga
 * Press the "Install to Engine" button, select the engine version you are working in the slot dropdown and press "Install"
 *   The plugin will now download and install.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Setting up Voxel Plugin Installer & Verifying Ownership
 
@@ -61,7 +61,7 @@ Once logged in, you will be taken to the account dashboard. Click the "Connect" 
 
 On the page that opens, log into the Epic account on which you own Voxel Plugin Pro. Click "Allow" on the Epic Games Account pop-up; these permissions allow the plugin to remember your Epic ID.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once finished, the page will close and you will be taken back to the account dashboard, where you will now see your Epic Games Account being successfully linked.
 
@@ -83,7 +83,7 @@ Aside from your Epic account, you can connect:
 With this done, go back to the Unreal Engine editor and click the Voxel Plugin icon again. The menu should now be different, allowing you to download Voxel Plugin 2. Select a version to install, whether you want it to be installed to the engine, and press the Install button.
 
 {% hint style="warning" %}
-If you have **Voxel Plugin Pro Legacy** installed:
+If you have Voxel Plugin Pro Legacy installed on the engine version you're using:
 
 * Voxel Plugin 2 **must** be installed to the project. Untick the "Install in engine" box.&#x20;
 * Voxel Plugin Pro Legacy **must** be disabled in this project's plugin list. Only one version of Voxel Plugin can be active at once.
