@@ -22,6 +22,11 @@ layout:
 
 ### 2.0p3
 
+This release brings mostly back-end improvements like the move from our own threadpool to Unreal's task system, and the foundation of the new sculpting system (not yet usable in this release). \
+It also introduces **automatic MegaMaterials**, which lets you use any material that's set up for Nanite displacement as an automatically displaced and height-blended material on voxel terrains.&#x20;
+
+Unrelated to this release, but worth mentioning, is that we've spun up a new [public issue tracker](https://voxelplugin.youtrack.cloud/dashboard?id=208-1), where we track bugs, crashes and (small) features we're planning to add.&#x20;
+
 **General Improvements**
 
 * Remove voxel threads and move to the Unreal task system
@@ -29,6 +34,7 @@ layout:
   * Voxel tasks are scheduled as BackgroundLow, so they shouldn't block the game or render thread in any way
   * `voxel.SetNumWorkerThreads` can be used to lower the amount of worker threads to simulate lower-end hardware. Be mindful that this now affects the entire engine's thread pool, not just the voxel threads
 * Allow for removing parts of the terrain entirely by assigning translucent materials
+*
 * Fix override blend mode on mesh stamps
 * Disable bulk data in StampComponents to fix packaged game crash
 * Fix issues with applying shader hooks
@@ -47,18 +53,19 @@ layout:
 
 #### **Materials**
 
-* Fix auto-level heightmap action
-* _**Add scalar & vector parameter pooling**_
-  * _Fix voxel scalar & vector parameter derivatives_
-* Improve voxel texture mip selection
-* Remove WPO support
+* **Add automatic MegaMaterials**
+* Add tangents (to allow use of tangent space transforms)
+* Remove support for baking WPO to collision
 
 #### **Blueprint API**
 
+* Add Async Query Layer nodes
+* Update Sync/Async Export Data to Render Target nodes, to support multiple channels
+
 #### **Back-end**
 
-* Add height modifiers
-  * These will be the backbone for the new sculpting system
+* Add modifiers as sculpting framework
+  * These will be the backbone for the new sculpting system, which is partially implemented but not yet usable
 * Refactor Get/SetVoxelGraphParameter
 * Fix stamp serialization
 * Fix various warnings
@@ -77,6 +84,12 @@ layout:
 * Improve DEFINE\_PRIVATE\_ACCESS
 * Fix deadlock in FVoxelMaterialManager::FindOrAddMaterialIndex
 * Fix segmented bitmask enum undetermined value
+* Fix StampBehavior enum
+* Exclude RF\_MirroredGarbage in ForEachObjectOfClass
+
+
+
+
 
 ### 2.0p2
 
