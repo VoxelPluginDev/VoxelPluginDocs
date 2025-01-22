@@ -17,28 +17,23 @@ Add the following lines to your project's DefaultEngine.ini to enable it:
 There is an [example ](../../../getting-started/installing-voxel-content.md)available on this topic!
 {% endhint %}
 
-## A Simple Material
+When materials are assigned to the voxel world from a stamp, they are automatically tracked by the MegaMaterial, and are automatically combined into a single material.
 
-{% hint style="info" %}
-This section is just a quick illustration of how the materials 'communicate' - more technical details can be found in the [Technical Overview](technical-overview.md).&#x20;
+Because many materials are being combined, your terrain material not render, with errors related to  SRV and Sampler limits appearing.&#x20;
+
+This can be worked around by enabling Bindless Rendering by adding the following lines to your project's DefaultEngine.ini, under the rendering section:
+
+* `rhi.Bindless.Resources=Enabled`
+* `rhi.Bindless.Samplers=Enabled`
+
+{% hint style="danger" %}
+Bindless Rendering is in most contexts beneficial or neutral, but it is **only supported on** (modern hardware which supports) **SM6**.
 {% endhint %}
 
-The stamp in the level has a flat color material assigned, with a `Vector Parameter` named Color. This material is rendered on the terrain **directly** because Nanite is enabled.
+Whatever is plugged into a material's  `Displacement` pin is treated as height information for heightblends. It is also used for Nanite displacement.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+Rendering **translucent** materials on a voxel world is not supported.
 
-The Voxel World has a MegaMaterial assigned, which in turn has a Base Material assigned:
-
-<figure><img src="../../../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
-
-The BaseMaterial has a `Voxel Vector Parameter` in it, also named Color. In this case, it's multiplied by another color so it's easy to see in what contexts the BaseMaterial is used.
-
-This voxel parameter will make the voxel terrain look for materials assigned to it that have non-voxel parameters with the same name.&#x20;
-
-<figure><img src="../../../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
-
-If Nanite is disabled on the Voxel World, the terrain will be rendered with the MegaMaterial's Base Material instead. It will pull parameters from the materials that were assigned through stamps, but won't render those materials directly.
-
-<figure><img src="../../../.gitbook/assets/image (240).png" alt=""><figcaption><p>The terrain's color changed with Nanite disabled, because the Color parameter is multiplied by a reddish tint in the Base Material.</p></figcaption></figure>
-
-The Base Material is used to render the terrain whenever Nanite rendering is not available. For instance, it's used when Nanite is simply disabled in the project or on the Voxel World, but it's also used for things like rendering the Lumen Surface Cache.&#x20;
+If a translucent material is assigned, those voxels will be entirely invisible in the final mesh.
+{% endhint %}

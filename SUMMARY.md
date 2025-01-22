@@ -23,7 +23,6 @@
   * [Voxel PCG Graphs](knowledgebase/foliage/voxel-pcg-graphs.md)
 * [Materials & Metadata](knowledgebase/materials/README.md)
   * [Authoring Materials](knowledgebase/materials/authoring-materials/README.md)
-    * [Technical Overview](knowledgebase/materials/authoring-materials/technical-overview.md)
     * [Smooth (Alpha) Blends](knowledgebase/materials/authoring-materials/smooth-alpha-blends.md)
   * [Working with Metadata](knowledgebase/materials/working-with-metadata.md)
 * [Gameplay Systems](knowledgebase/blueprints/README.md)
