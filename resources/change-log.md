@@ -22,7 +22,7 @@ layout:
 
 ### 2.0p3
 
-This release brings mostly back-end improvements like the move from our own threadpool to Unreal's task system, and the foundation of the new sculpting system (not yet usable in this release). \
+This release brings mostly back-end improvements like the move from our own threadpool to Unreal's task system, the foundation of the new sculpting system (not yet usable in this release) and layers and stacks now being asset-based. \
 It also introduces **automatic MegaMaterials**, which lets you use any material that's set up for Nanite displacement as an automatically displaced and height-blended material on voxel terrains.&#x20;
 
 Unrelated to this release, but worth mentioning, is that we've spun up a new [public issue tracker](https://voxelplugin.youtrack.cloud/dashboard?id=208-1), where we track bugs, crashes and (small) features we're planning to add.&#x20;
@@ -33,6 +33,7 @@ Unrelated to this release, but worth mentioning, is that we've spun up a new [pu
   * This should help avoid scheduling conflicts between voxel and unreal threads
   * Voxel tasks are scheduled as BackgroundLow, so they shouldn't block the game or render thread in any way
   * `voxel.SetNumWorkerThreads` can be used to lower the amount of worker threads to simulate lower-end hardware. Be mindful that this now affects the entire engine's thread pool, not just the voxel threads
+* **Layers** and **Stacks** are now asset-based, instead of being defined in the project settings&#x20;
 * Allow for removing parts of the terrain entirely by assigning translucent materials
 * Fix override blend mode on mesh stamps
 * Disable bulk data in StampComponents to fix packaged game crash
