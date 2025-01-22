@@ -34,18 +34,16 @@ Unrelated to this release, but worth mentioning, is that we've spun up a new [pu
   * Voxel tasks are scheduled as BackgroundLow, so they shouldn't block the game or render thread in any way
   * `voxel.SetNumWorkerThreads` can be used to lower the amount of worker threads to simulate lower-end hardware. Be mindful that this now affects the entire engine's thread pool, not just the voxel threads
 * Allow for removing parts of the terrain entirely by assigning translucent materials
-*
 * Fix override blend mode on mesh stamps
 * Disable bulk data in StampComponents to fix packaged game crash
 * Fix issues with applying shader hooks
 * Fix tooltips
 * Fix Mac compilation
 
-#### **Voxel Graphs**
-
 #### **Stamps**
 
-* Add static metadata to Height and Volume graph stamps
+* Add static metadata to height and volume graph stamps
+* Add material overrides to placed heightmap stamps
 
 #### **PCG**
 
