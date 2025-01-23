@@ -20,7 +20,7 @@ layout:
 
 # Change Log
 
-### 2.0p3
+### 2.0p4
 
 This release brings mostly back-end improvements like the move from our own threadpool to Unreal's task system, the foundation of the new sculpting system (not yet usable in this release) and layers and stacks now being asset-based. \
 It also introduces **automatic MegaMaterials**, which lets you use any material that's set up for Nanite displacement as an automatically displaced and height-blended material on voxel terrains.&#x20;
