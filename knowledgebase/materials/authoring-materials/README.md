@@ -17,17 +17,15 @@ Add the following lines to your project's DefaultEngine.ini to enable it:
 There is an [example ](../../../getting-started/installing-voxel-content.md)available on this topic!
 {% endhint %}
 
-When materials are assigned to the voxel world from a stamp, they are automatically tracked by the MegaMaterial, and are automatically combined into a single material.
+When materials are assigned to the voxel world from a stamp, they are automatically tracked by the MegaMaterial, and are then combined into a single material.
 
-Because many materials are being combined, your terrain material not render, with errors related to  SRV and Sampler limits appearing.&#x20;
-
-This can be worked around by enabling Bindless Rendering by adding the following lines to your project's DefaultEngine.ini, under the rendering section:
+Because many materials are being combined, your terrain material may not render. Errors related to SRV and Sampler limits may appear. If you experience see these errors, they can be worked around by enabling Bindless Rendering (not recommended on 5.4). Bindless Rendering can be enabled by adding the following lines to your project's DefaultEngine.ini, under the rendering section:
 
 * `rhi.Bindless.Resources=Enabled`
 * `rhi.Bindless.Samplers=Enabled`
 
 {% hint style="danger" %}
-Bindless Rendering is in most contexts beneficial or neutral, but it is **only supported on** (modern hardware which supports) **SM6**.
+Bindless Rendering is in most contexts beneficial or neutral, but it is **only supported on** (modern hardware which supports) **SM6**, and is unstable on 5.4.
 {% endhint %}
 
 Whatever is plugged into a material's  `Displacement` pin is treated as height information for heightblends. It is also used for Nanite displacement.&#x20;
