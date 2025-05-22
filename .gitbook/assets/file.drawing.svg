@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 376 219" width="376" height="219">
+  <!-- svg-source:excalidraw -->
+  <!-- payload-type:application/vnd.excalidraw+json --><!-- payload-version:2 --><!-- payload-start -->eyJ2ZXJzaW9uIjoiMSIsImVuY29kaW5nIjoiYnN0cmluZyIsImNvbXByZXNzZWQiOnRydWUsImVuY29kZWQiOiJ4nGVSTW/cIFx1MDAxNLznV1jkWm28rI3xXHUwMDFlk1btXHUwMDFlWqnyoaqiKlwi9ltcdTAwMWKZgFx1MDAwNTjOdrX/vYAj42w5IDHvY+Zccu98kyTInlx1MDAwNkD7XHUwMDA0wVvNXHUwMDA0bzSb0CePv4I2XFxJXHUwMDE3wuFt1KjrkNlZO5j93Vx1MDAxZFx1MDAxYoZNy+2zUv2mVi9zXHUwMDE5XGJ4XHUwMDAxaY1LfHTvJDmHe0WkobZMtlx1MDAwMkJBXGKtuNJr8IeSgXab03JXZDgnS1x1MDAwNjefXHUwMDFknYXGhY9MXHUwMDE4iFx1MDAxMVx1MDAwZqHvh+qw/VnRp29cdTAwMTOop8PXSVH7O7JcdTAwMWW5XHUwMDEwlT2JeShWd6NeaTJWq1x1MDAxZX7xxnae/VxuX+qMcqbFKq3GtpNgzIdcdTAwMWE1sJrbk8fSOOBswj6JyJt3gJZcdTAwMWJakJxkKc5pQcslXHUwMDFh6jO8KVx0Jlx1MDAxOclotivyK1lcdTAwMGZKKO1l3abhRGHPrO5bp042S47VTJqBafddMW96XHUwMDFmeLfyuVx1MDAwM9521rOXUY2B4DshTkmOV2N5luHQhFxy+HNtW8f08G5cdTAwMGYy/rFS6MV9Wa1PLFx1MDAxZYeGzd+8JUW6yylNKcZ4iVx1MDAwYi57XHUwMDE3lKNcdTAwMTBcdTAwMTFTdVx1MDAxZjcjoFx1MDAxN3eHpsitbmVdS1x1MDAxN57306nmTcX/woc26JXDdP+/c7fHcJBLuoR+bpXAaz5fbi7/XHUwMDAwLcbepSJ9<!-- payload-end -->
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@0.13.0/dist/excalidraw-assets/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@0.13.0/dist/excalidraw-assets/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="376" height="219" fill="#ffffff"/><g stroke-linecap="round" transform="translate(10 10) rotate(0 178 99.5)"><path d="M-1.02 -0.52 C85.5 0.57, 171.9 0.42, 356.41 -0.12 M-0.4 -0.13 C110.79 -0.72, 220.66 0.37, 356.37 0.59 M357.46 0.58 C357.5 65.03, 357.52 126.02, 356.1 199.03 M356.9 -0.21 C355.79 60.68, 356.1 122.69, 355.23 199.78 M354.85 198.8 C273.4 197.91, 190.87 197.44, 0.95 199.55 M355.98 198.56 C270.15 198.6, 183.52 198.58, -0.2 198.82 M1.08 200.55 C-0.22 147.08, 0.89 98.14, 1.92 1.19 M0.8 198.77 C-0.31 145.21, 0.48 89.96, -0.39 0.45" stroke="#000000" stroke-width="1" fill="none"/></g></svg>
