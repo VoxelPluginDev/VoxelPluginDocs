@@ -1,2 +1,0 @@
-# Voxel Graph API
-
