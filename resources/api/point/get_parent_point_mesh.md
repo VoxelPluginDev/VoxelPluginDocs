@@ -1,6 +1,6 @@
 # Get Parent Point Mesh
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Get_Parent_Point_Mesh.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/get_parent_point_mesh.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Get Parent Point Mesh
 

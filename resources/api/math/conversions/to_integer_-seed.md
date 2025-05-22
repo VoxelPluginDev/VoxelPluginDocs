@@ -1,6 +1,6 @@
 # To Integer (Seed)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Conversions/To_Integer_(Seed).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/to_integer_-seed.png" alt=""><figcaption></figcaption></figure></div>
 
 Cast from Seed to Integer
 

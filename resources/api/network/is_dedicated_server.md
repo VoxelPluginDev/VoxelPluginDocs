@@ -1,6 +1,6 @@
 # Is Dedicated Server
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Network/Is_Dedicated_Server.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/is_dedicated_server.png" alt=""><figcaption></figcaption></figure></div>
 
 Dedicated server: server with no local players
 

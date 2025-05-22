@@ -1,6 +1,6 @@
 # Sample Curve
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Curve/Sample_Curve.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/sample_curve.png" alt=""><figcaption></figcaption></figure></div>
 
 Sample Curve
 

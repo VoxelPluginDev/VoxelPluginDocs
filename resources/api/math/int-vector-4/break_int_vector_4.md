@@ -1,6 +1,6 @@
 # Break Int Vector 4
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Int Vector 4/Break_Int_Vector_4.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/break_int_vector_4.png" alt=""><figcaption></figcaption></figure></div>
 
 Break Int Vector 4
 

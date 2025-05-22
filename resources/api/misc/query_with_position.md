@@ -1,6 +1,6 @@
 # Query with Position
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Misc/Query_with_Position.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/query_with_position.png" alt=""><figcaption></figcaption></figure></div>
 
 Query with Position
 

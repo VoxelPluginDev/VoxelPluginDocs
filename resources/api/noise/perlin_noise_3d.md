@@ -1,6 +1,6 @@
 # Perlin Noise 3D
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Noise/Perlin_Noise_3D.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/perlin_noise_3d.png" alt=""><figcaption></figcaption></figure></div>
 
 Perlin Noise 3D
 

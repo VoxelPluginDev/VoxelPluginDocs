@@ -1,6 +1,6 @@
 # Make Quaternion
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Rotation/Make_Quaternion.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_quaternion.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Quaternion
 

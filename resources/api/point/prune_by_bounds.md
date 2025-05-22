@@ -1,6 +1,6 @@
 # Prune by Bounds
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Prune_by_Bounds.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/prune_by_bounds.png" alt=""><figcaption></figcaption></figure></div>
 
 Prune by Bounds
 

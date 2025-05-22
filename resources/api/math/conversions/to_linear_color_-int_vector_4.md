@@ -1,6 +1,6 @@
 # To Linear Color (Int Vector 4)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Conversions/To_Linear_Color_(Int_Vector_4).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/to_linear_color_-int_vector_4.png" alt=""><figcaption></figcaption></figure></div>
 
 Cast from Int Vector 4 to Linear Color
 

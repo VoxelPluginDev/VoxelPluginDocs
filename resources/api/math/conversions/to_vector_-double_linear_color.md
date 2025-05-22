@@ -1,6 +1,6 @@
 # To Vector (Double Linear Color)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Conversions/To_Vector_(Double_Linear_Color).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/to_vector_-double_linear_color.png" alt=""><figcaption></figcaption></figure></div>
 
 Cast from Double Linear Color to Vector
 

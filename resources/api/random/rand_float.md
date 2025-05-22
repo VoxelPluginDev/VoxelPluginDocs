@@ -1,6 +1,6 @@
 # Rand Float
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Random/Rand_Float.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/rand_float.png" alt=""><figcaption></figcaption></figure></div>
 
 Generates a random float between Min and Max
 

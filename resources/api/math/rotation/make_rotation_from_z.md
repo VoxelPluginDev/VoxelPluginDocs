@@ -1,6 +1,6 @@
 # Make Rotation from Z
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Rotation/Make_Rotation_from_Z.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_rotation_from_z.png" alt=""><figcaption></figcaption></figure></div>
 
 Make a rotation from a Z axis. Z doesn't need to be normalized
 

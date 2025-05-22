@@ -1,6 +1,6 @@
 # Length
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Array/Length.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/length.png" alt=""><figcaption></figcaption></figure></div>
 
 Get the number of items in an array
 

@@ -1,6 +1,6 @@
 # Set Point Attribute
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Set_Point_Attribute.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/set_point_attribute.png" alt=""><figcaption></figcaption></figure></div>
 
 Set Point Attribute
 

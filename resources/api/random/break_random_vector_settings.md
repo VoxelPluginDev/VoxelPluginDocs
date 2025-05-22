@@ -1,6 +1,6 @@
 # Break Random Vector Settings
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Random/Break_Random_Vector_Settings.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/break_random_vector_settings.png" alt=""><figcaption></figcaption></figure></div>
 
 Break Random Vector Settings
 

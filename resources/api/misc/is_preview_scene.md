@@ -1,6 +1,6 @@
 # Is Preview Scene
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Misc/Is_Preview_Scene.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/is_preview_scene.png" alt=""><figcaption></figcaption></figure></div>
 
 Is Preview Scene
 

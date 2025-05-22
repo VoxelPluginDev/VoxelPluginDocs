@@ -1,6 +1,6 @@
 # Subtract
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Subtract.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/subtract.png" alt=""><figcaption></figcaption></figure></div>
 
 Subtraction (A - B)
 

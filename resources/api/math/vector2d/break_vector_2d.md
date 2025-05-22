@@ -1,6 +1,6 @@
 # Break Vector 2D
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Vector2D/Break_Vector_2D.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/break_vector_2d.png" alt=""><figcaption></figcaption></figure></div>
 
 Break Vector 2D
 

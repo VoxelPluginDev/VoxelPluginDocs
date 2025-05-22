@@ -1,6 +1,6 @@
 # One Minus
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/One_Minus.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/one_minus.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node One Minus
 

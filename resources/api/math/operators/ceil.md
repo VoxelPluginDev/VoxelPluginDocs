@@ -1,6 +1,6 @@
 # Ceil
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Ceil.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/ceil.png" alt=""><figcaption></figcaption></figure></div>
 
 Rounds decimal values upwards
 

@@ -1,6 +1,6 @@
 # Make Int Point
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Int Point/Make_Int_Point.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_int_point.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Int Point
 

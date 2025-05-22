@@ -1,6 +1,6 @@
 # Prune by Distance
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Prune_by_Distance.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/prune_by_distance.png" alt=""><figcaption></figcaption></figure></div>
 
 Will prune any points closer to each others than Distance
 

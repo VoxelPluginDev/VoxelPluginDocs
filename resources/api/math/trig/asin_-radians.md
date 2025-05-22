@@ -1,6 +1,6 @@
 # Asin (Radians)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Trig/Asin_(Radians).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/asin_-radians.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the inverse sine (arcsin) of A (result is in Radians)
 

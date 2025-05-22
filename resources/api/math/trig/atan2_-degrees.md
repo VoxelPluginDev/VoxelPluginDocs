@@ -1,6 +1,6 @@
 # Atan2 (Degrees)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Trig/Atan2_(Degrees).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/atan2_-degrees.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the inverse tan (atan2) of Y/X (result is in Degrees)
 

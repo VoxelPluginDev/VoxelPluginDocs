@@ -1,6 +1,6 @@
 # Set Point Custom Data
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Set_Point_Custom_Data.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/set_point_custom_data.png" alt=""><figcaption></figcaption></figure></div>
 
 Set a custom data to be passed to the material, per instance
 

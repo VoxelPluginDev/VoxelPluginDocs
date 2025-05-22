@@ -1,6 +1,6 @@
 # Inverse Transform Location
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Transform/Inverse_Transform_Location.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/inverse_transform_location.png" alt=""><figcaption></figcaption></figure></div>
 
 Transform a position by the inverse of the supplied transform. For example, if Transform was an object's transform, this would transform a position from world space to local space.
 

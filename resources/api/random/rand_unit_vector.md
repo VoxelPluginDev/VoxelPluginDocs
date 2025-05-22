@@ -1,6 +1,6 @@
 # Rand Unit Vector
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Random/Rand_Unit_Vector.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/rand_unit_vector.png" alt=""><figcaption></figcaption></figure></div>
 
 Rand Unit Vector
 

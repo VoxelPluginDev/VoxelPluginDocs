@@ -1,6 +1,6 @@
 # To Double Linear Color (Linear Color)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Conversions/To_Double_Linear_Color_(Linear_Color).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/to_double_linear_color_-linear_color.png" alt=""><figcaption></figcaption></figure></div>
 
 Cast from Linear Color to Double Linear Color
 

@@ -1,6 +1,6 @@
 # To Int Vector 4 (Integer)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Conversions/To_Int_Vector_4_(Integer).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/to_int_vector_4_-integer.png" alt=""><figcaption></figcaption></figure></div>
 
 Cast from Integer to Int Vector 4
 

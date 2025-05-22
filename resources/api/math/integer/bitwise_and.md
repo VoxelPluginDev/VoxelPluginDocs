@@ -1,6 +1,6 @@
 # Bitwise AND
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Integer/Bitwise_AND.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/bitwise_and.png" alt=""><figcaption></figcaption></figure></div>
 
 Bitwise AND (A & B)
 

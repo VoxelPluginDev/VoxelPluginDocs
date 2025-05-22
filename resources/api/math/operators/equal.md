@@ -1,6 +1,6 @@
 # Equal
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Equal.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/equal.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns true if A is exactly equal to B (A == B)
 

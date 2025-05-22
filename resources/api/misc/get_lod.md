@@ -1,6 +1,6 @@
 # Get LOD
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Misc/Get_LOD.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/get_lod.png" alt=""><figcaption></figcaption></figure></div>
 
 Get LOD
 

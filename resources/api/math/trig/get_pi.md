@@ -1,6 +1,6 @@
 # Get PI
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Trig/Get_PI.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/get_pi.png" alt=""><figcaption></figcaption></figure></div>
 
 Get PI
 

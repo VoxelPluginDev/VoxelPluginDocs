@@ -1,6 +1,6 @@
 # Is Listen Server
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Network/Is_Listen_Server.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/is_listen_server.png" alt=""><figcaption></figcaption></figure></div>
 
 Listen server: a server that also has a local player who is hosting the game, available to other players on the network
 

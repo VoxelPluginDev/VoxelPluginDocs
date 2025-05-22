@@ -1,6 +1,6 @@
 # Random Rotator
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Random/Random_Rotator.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/random_rotator.png" alt=""><figcaption></figcaption></figure></div>
 
 Random Rotator
 

@@ -1,6 +1,6 @@
 # Abs
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Abs.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/abs.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the absolute (positive) value
 

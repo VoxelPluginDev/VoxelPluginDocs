@@ -1,6 +1,6 @@
 # To Int Point (Int Vector)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Conversions/To_Int_Point_(Int_Vector).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/to_int_point_-int_vector.png" alt=""><figcaption></figcaption></figure></div>
 
 Cast from Int Vector to Int Point
 

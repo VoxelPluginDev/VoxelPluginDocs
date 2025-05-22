@@ -1,6 +1,6 @@
 # Sin (Radians)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Trig/Sin_(Radians).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/sin_-radians.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the sine of A (expects Radians)
 

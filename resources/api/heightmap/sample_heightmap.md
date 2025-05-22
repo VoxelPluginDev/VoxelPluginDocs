@@ -1,6 +1,6 @@
 # Sample Heightmap
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Heightmap/Sample_Heightmap.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/sample_heightmap.png" alt=""><figcaption></figcaption></figure></div>
 
 Will clamp position if outside of the heightmap bounds Heightmap is centered, ie position is between -Size/2 and Size/2 @param BicubicSmoothness Smoothness of the bicubic interpolation, between 0 and 1
 

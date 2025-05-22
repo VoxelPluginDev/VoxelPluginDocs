@@ -1,6 +1,6 @@
 # Make Double Linear Color
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Color/Make_Double_Linear_Color.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_double_linear_color.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Double Linear Color
 

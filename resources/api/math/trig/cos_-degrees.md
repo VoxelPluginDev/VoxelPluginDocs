@@ -1,6 +1,6 @@
 # Cos (Degrees)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Trig/Cos_(Degrees).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/cos_-degrees.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the cosine of A (expects Degrees)
 

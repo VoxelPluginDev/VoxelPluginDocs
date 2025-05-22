@@ -1,6 +1,6 @@
 # Bilinear Interpolation
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Float/Bilinear_Interpolation.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/bilinear_interpolation.png" alt=""><figcaption></figcaption></figure></div>
 
 Linearly interpolates between four input values based on input coordinates
 

@@ -1,6 +1,6 @@
 # % (Integer)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/__(Integer).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/__-integer.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Modulus
 

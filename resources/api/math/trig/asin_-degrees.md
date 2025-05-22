@@ -1,6 +1,6 @@
 # Asin (Degrees)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Trig/Asin_(Degrees).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/asin_-degrees.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the inverse sine (arcsin) of A (result is in Degrees)
 

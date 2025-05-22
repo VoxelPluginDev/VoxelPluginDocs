@@ -1,6 +1,6 @@
 # Clamp
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Misc/Clamp.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/clamp.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns Value clamped to be between A and B
 

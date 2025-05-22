@@ -1,6 +1,6 @@
 # Height Splitter
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Misc/Height_Splitter.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/height_splitter.png" alt=""><figcaption></figcaption></figure></div>
 
 Height Splitter
 

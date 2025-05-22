@@ -1,6 +1,6 @@
 # Extend Box
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Box/Extend_Box.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/extend_box.png" alt=""><figcaption></figcaption></figure></div>
 
 Extend Box
 

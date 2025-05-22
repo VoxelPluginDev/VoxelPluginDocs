@@ -1,6 +1,6 @@
 # Bitwise NOT
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Integer/Bitwise_NOT.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/bitwise_not.png" alt=""><figcaption></figcaption></figure></div>
 
 Bitwise NOT (\~A)
 

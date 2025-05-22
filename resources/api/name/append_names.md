@@ -1,6 +1,6 @@
 # Append Names
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Name/Append_Names.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/append_names.png" alt=""><figcaption></figcaption></figure></div>
 
 Append Names
 

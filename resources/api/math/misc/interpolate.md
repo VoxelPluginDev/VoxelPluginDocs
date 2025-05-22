@@ -1,6 +1,6 @@
 # Interpolate
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Misc/Interpolate.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/interpolate.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Interpolate
 

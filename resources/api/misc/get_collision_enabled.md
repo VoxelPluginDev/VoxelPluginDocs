@@ -1,6 +1,6 @@
 # Get Collision Enabled
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Misc/Get_Collision_Enabled.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/get_collision_enabled.png" alt=""><figcaption></figcaption></figure></div>
 
 Get Collision Enabled
 

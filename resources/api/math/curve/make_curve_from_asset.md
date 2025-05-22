@@ -1,6 +1,6 @@
 # Make Curve from Asset
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Curve/Make_Curve_from_Asset.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_curve_from_asset.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Curve from Asset
 

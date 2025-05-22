@@ -1,6 +1,6 @@
 # Get Parent Point Attribute
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Get_Parent_Point_Attribute.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/get_parent_point_attribute.png" alt=""><figcaption></figcaption></figure></div>
 
 Get Parent Point Attribute
 

@@ -1,6 +1,6 @@
 # Get Point Rotation
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Get_Point_Rotation.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/get_point_rotation.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Get Point Rotation
 

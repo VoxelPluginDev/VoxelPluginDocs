@@ -1,6 +1,6 @@
 # Bitwise OR
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Integer/Bitwise_OR.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/bitwise_or.png" alt=""><figcaption></figcaption></figure></div>
 
 Bitwise OR (A | B)
 

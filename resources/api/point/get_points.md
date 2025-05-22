@@ -1,6 +1,6 @@
 # Get Points
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Get_Points.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/get_points.png" alt=""><figcaption></figcaption></figure></div>
 
 Get Points
 

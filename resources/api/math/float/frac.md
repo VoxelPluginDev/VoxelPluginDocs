@@ -1,6 +1,6 @@
 # Frac
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Float/Frac.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/frac.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the fractional part of a float.
 

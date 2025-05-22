@@ -1,6 +1,6 @@
 # Atan (Degrees)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Trig/Atan_(Degrees).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/atan_-degrees.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the inverse tan (atan) (result is in Degrees)
 

@@ -1,6 +1,6 @@
 # Mix Seeds
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Seed/Mix_Seeds.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/mix_seeds.png" alt=""><figcaption></figcaption></figure></div>
 
 Mix Seeds
 

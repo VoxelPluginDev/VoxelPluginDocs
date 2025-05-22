@@ -1,6 +1,6 @@
 # Not Equal
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Not_Equal.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/not_equal.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns true if A does not equal B (A != B)
 

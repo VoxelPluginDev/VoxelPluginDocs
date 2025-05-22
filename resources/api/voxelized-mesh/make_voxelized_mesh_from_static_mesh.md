@@ -1,6 +1,6 @@
 # Make Voxelized Mesh from Static Mesh
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Voxelized Mesh/Make_Voxelized_Mesh_from_Static_Mesh.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/make_voxelized_mesh_from_static_mesh.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Voxelized Mesh from Static Mesh
 

@@ -1,6 +1,6 @@
 # To Linear Color (Vector 2D)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Conversions/To_Linear_Color_(Vector_2D).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/to_linear_color_-vector_2d.png" alt=""><figcaption></figcaption></figure></div>
 
 Cast from Vector 2D to Linear Color
 

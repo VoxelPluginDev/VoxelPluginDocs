@@ -1,6 +1,6 @@
 # Make Int Vector
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Int Vector/Make_Int_Vector.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_int_vector.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Int Vector
 

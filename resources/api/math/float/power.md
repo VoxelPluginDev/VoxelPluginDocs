@@ -1,6 +1,6 @@
 # Power
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Float/Power.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/power.png" alt=""><figcaption></figcaption></figure></div>
 
 Power (Base to the Exp-th power)
 

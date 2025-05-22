@@ -1,6 +1,6 @@
 # Select
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Flow Control/Select.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/select.png" alt=""><figcaption></figcaption></figure></div>
 
 Select
 

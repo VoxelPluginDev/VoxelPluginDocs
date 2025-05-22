@@ -1,6 +1,6 @@
 # Mapped Range Value Clamped
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Misc/Mapped_Range_Value_Clamped.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/mapped_range_value_clamped.png" alt=""><figcaption></figcaption></figure></div>
 
 For the given Value clamped to the \[InMin:InMax], returns the corresponding percentage in \[OutMin:OutMax]
 

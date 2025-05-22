@@ -1,6 +1,6 @@
 # Cellular Noise 2D
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Noise/Cellular_Noise_2D.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/cellular_noise_2d.png" alt=""><figcaption></figcaption></figure></div>
 
 Two dimensional cellular noise
 

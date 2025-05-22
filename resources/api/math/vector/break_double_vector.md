@@ -1,6 +1,6 @@
 # Break Double Vector
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Vector/Break_Double_Vector.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/break_double_vector.png" alt=""><figcaption></figcaption></figure></div>
 
 Break Double Vector
 

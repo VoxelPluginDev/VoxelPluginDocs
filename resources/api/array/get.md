@@ -1,6 +1,6 @@
 # Get
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Array/Get.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/get.png" alt=""><figcaption></figcaption></figure></div>
 
 Given an array and an index, returns the item in the array at that index
 

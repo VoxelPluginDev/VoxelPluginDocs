@@ -1,6 +1,6 @@
 # Sign
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Sign.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/sign.png" alt=""><figcaption></figcaption></figure></div>
 
 Sign (return -1 if A < 0, 0 if A is zero, and +1 if A > 0)
 

@@ -1,6 +1,6 @@
 # OR Boolean
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Boolean/OR_Boolean.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/or_boolean.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the logical OR of two values (A OR B)
 

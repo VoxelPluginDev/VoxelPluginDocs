@@ -1,6 +1,6 @@
 # NOR Boolean
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Boolean/NOR_Boolean.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/nor_boolean.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the logical Not OR of two values: !(A || B)
 

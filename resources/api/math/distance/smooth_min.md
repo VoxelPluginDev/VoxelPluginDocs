@@ -1,6 +1,6 @@
 # Smooth Min
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Distance/Smooth_Min.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/smooth_min.png" alt=""><figcaption></figcaption></figure></div>
 
 Smooth Min
 

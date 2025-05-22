@@ -1,6 +1,6 @@
 # Set Point Rotation
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Set_Point_Rotation.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/set_point_rotation.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Set Point Rotation
 

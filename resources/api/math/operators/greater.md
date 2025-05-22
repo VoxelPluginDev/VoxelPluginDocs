@@ -1,6 +1,6 @@
 # Greater
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Greater.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/greater.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns true if A is greater than B (A > B)
 

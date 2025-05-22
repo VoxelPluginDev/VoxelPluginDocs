@@ -1,6 +1,6 @@
 # Floor
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Floor.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/floor.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Floor
 

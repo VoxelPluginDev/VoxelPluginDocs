@@ -1,6 +1,6 @@
 # Add
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Add.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/add.png" alt=""><figcaption></figcaption></figure></div>
 
 Addition (A + B)
 

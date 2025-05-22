@@ -1,6 +1,6 @@
 # Tan (Degrees)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Trig/Tan_(Degrees).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/tan_-degrees.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the tangent of A (expects Degrees)
 

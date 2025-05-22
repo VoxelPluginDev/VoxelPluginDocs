@@ -1,6 +1,6 @@
 # Make Random Vector Settings
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Random/Make_Random_Vector_Settings.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/make_random_vector_settings.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Random Vector Settings
 

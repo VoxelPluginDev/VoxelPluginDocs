@@ -1,6 +1,6 @@
 # Acos (Radians)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Trig/Acos_(Radians).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/acos_-radians.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the inverse cosine (arccos) of A (result is in Radians)
 

@@ -1,6 +1,6 @@
 # Get Point Custom Data
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Get_Point_Custom_Data.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/get_point_custom_data.png" alt=""><figcaption></figcaption></figure></div>
 
 Get Point Custom Data
 

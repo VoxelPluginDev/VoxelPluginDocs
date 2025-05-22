@@ -1,6 +1,6 @@
 # Density Filter
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Density_Filter.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/density_filter.png" alt=""><figcaption></figcaption></figure></div>
 
 Density Filter
 

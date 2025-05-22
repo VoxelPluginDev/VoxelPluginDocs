@@ -1,6 +1,6 @@
 # Make Box
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Box/Make_Box.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_box.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Box
 

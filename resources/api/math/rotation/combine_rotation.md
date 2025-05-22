@@ -1,6 +1,6 @@
 # Combine Rotation
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Rotation/Combine_Rotation.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/combine_rotation.png" alt=""><figcaption></figcaption></figure></div>
 
 Combine Rotation
 

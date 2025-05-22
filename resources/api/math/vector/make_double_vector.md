@@ -1,6 +1,6 @@
 # Make Double Vector
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Vector/Make_Double_Vector.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_double_vector.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Double Vector
 

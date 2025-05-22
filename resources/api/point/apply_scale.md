@@ -1,6 +1,6 @@
 # Apply Scale
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Apply_Scale.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/apply_scale.png" alt=""><figcaption></figcaption></figure></div>
 
 Apply Scale
 

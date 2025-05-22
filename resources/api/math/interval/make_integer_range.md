@@ -1,6 +1,6 @@
 # Make Integer Range
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Interval/Make_Integer_Range.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_integer_range.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Int 32Range
 

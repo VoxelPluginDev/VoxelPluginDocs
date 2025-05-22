@@ -1,6 +1,6 @@
 # Break Int Point
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Int Point/Break_Int_Point.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/break_int_point.png" alt=""><figcaption></figcaption></figure></div>
 
 Break Int Point
 

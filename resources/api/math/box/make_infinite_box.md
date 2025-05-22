@@ -1,6 +1,6 @@
 # Make Infinite Box
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Box/Make_Infinite_Box.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_infinite_box.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Infinite Box
 

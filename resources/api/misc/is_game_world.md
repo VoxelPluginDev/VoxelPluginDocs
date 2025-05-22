@@ -1,6 +1,6 @@
 # Is Game World
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Misc/Is_Game_World.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/is_game_world.png" alt=""><figcaption></figcaption></figure></div>
 
 False for editor preview, true for PIE, standalone...
 

@@ -1,6 +1,6 @@
 # Make Points
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Make_Points.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/make_points.png" alt=""><figcaption></figcaption></figure></div>
 
 Create a new point set made of a single point Useful to manually control point placement or for preview points
 

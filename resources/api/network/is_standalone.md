@@ -1,6 +1,6 @@
 # Is Standalone
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Network/Is_Standalone.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/is_standalone.png" alt=""><figcaption></figcaption></figure></div>
 
 Standalone: a game without networking, with one or more local players. Still considered a server because it has all server functionality
 

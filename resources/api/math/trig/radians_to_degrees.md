@@ -1,6 +1,6 @@
 # Radians to Degrees
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Trig/Radians_to_Degrees.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/radians_to_degrees.png" alt=""><figcaption></figcaption></figure></div>
 
 Radians to Degrees
 

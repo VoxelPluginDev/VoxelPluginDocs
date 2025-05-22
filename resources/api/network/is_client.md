@@ -1,6 +1,6 @@
 # Is Client
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Network/Is_Client.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/is_client.png" alt=""><figcaption></figcaption></figure></div>
 
 Network client: client connected to a remote server.
 

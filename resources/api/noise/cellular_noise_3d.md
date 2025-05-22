@@ -1,6 +1,6 @@
 # Cellular Noise 3D
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Noise/Cellular_Noise_3D.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/cellular_noise_3d.png" alt=""><figcaption></figcaption></figure></div>
 
 Three dimensional cellular noise
 

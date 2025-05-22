@@ -1,6 +1,6 @@
 # Make Linear Color
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Color/Make_Linear_Color.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_linear_color.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Linear Color
 

@@ -1,6 +1,6 @@
 # Random Select
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Random/Random_Select.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/random_select.png" alt=""><figcaption></figcaption></figure></div>
 
 Random Select
 

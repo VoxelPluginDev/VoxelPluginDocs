@@ -1,6 +1,6 @@
 # Random Vector
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Random/Random_Vector.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/random_vector.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Random Vector
 

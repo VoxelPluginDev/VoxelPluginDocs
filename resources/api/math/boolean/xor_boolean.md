@@ -1,6 +1,6 @@
 # XOR Boolean
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Boolean/XOR_Boolean.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/xor_boolean.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the logical exclusive OR of two values (A XOR B)
 

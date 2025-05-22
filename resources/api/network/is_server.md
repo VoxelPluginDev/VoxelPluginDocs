@@ -1,6 +1,6 @@
 # Is Server
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Network/Is_Server.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/is_server.png" alt=""><figcaption></figcaption></figure></div>
 
 Check if this is a standalone game, a dedicated server or a listen server
 

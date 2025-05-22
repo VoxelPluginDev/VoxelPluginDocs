@@ -1,6 +1,6 @@
 # Make Value
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Misc/Make_Value.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/make_value.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Value
 

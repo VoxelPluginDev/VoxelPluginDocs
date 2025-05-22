@@ -1,6 +1,6 @@
 # Atan2 (Radians)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Trig/Atan2_(Radians).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/atan2_-radians.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the inverse tan (atan2) of Y/X (result is in Radians)
 

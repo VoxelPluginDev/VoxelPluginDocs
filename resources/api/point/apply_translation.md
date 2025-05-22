@@ -1,6 +1,6 @@
 # Apply Translation
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Apply_Translation.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/apply_translation.png" alt=""><figcaption></figcaption></figure></div>
 
 Apply Translation
 

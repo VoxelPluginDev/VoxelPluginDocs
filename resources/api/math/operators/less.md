@@ -1,6 +1,6 @@
 # Less
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Less.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/less.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns true if A is Less than B (A < B)
 

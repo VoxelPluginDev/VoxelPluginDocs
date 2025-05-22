@@ -1,6 +1,6 @@
 # Filter Buffer
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Misc/Filter_Buffer.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/filter_buffer.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Filter Buffer
 

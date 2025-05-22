@@ -1,6 +1,6 @@
 # Round
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Round.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/round.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Round
 

@@ -1,6 +1,6 @@
 # To Float (Integer)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Conversions/To_Float_(Integer).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/to_float_-integer.png" alt=""><figcaption></figcaption></figure></div>
 
 Cast from Integer to Float
 

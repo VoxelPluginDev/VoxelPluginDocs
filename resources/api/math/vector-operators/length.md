@@ -1,6 +1,6 @@
 # Length
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Vector Operators/Length.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/length (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Length
 

@@ -1,6 +1,6 @@
 # Break Vector
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Vector/Break_Vector.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/break_vector.png" alt=""><figcaption></figcaption></figure></div>
 
 Break Vector
 

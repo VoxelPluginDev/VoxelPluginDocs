@@ -1,6 +1,6 @@
 # True Distance Cellular Noise 2D
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Noise/True_Distance_Cellular_Noise_2D.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/true_distance_cellular_noise_2d.png" alt=""><figcaption></figcaption></figure></div>
 
 True Distance Cellular Noise 2D
 

@@ -1,6 +1,6 @@
 # Set Point Normal
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Set_Point_Normal.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/set_point_normal.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Set Point Normal
 

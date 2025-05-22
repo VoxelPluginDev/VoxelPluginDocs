@@ -1,6 +1,6 @@
 # Make Int Vector 4
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Int Vector 4/Make_Int_Vector_4.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_int_vector_4.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Int Vector 4
 

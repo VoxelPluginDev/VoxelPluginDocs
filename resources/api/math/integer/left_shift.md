@@ -1,6 +1,6 @@
 # Left Shift
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Integer/Left_Shift.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/left_shift.png" alt=""><figcaption></figcaption></figure></div>
 
 Left Shift
 

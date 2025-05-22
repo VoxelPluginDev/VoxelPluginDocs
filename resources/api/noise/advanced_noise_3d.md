@@ -1,6 +1,6 @@
 # Advanced Noise 3D
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Noise/Advanced_Noise_3D.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/advanced_noise_3d.png" alt=""><figcaption></figcaption></figure></div>
 
 Generates multi-octave, highly configurable height noise for easy procedural creation
 

@@ -1,6 +1,6 @@
 # AND Boolean
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Boolean/AND_Boolean.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/and_boolean.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the logical AND of two values (A AND B)
 

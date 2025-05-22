@@ -1,6 +1,6 @@
 # Distance
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Vector Operators/Distance.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/distance.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Distance
 

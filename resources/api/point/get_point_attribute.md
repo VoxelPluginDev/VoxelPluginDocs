@@ -1,6 +1,6 @@
 # Get Point Attribute
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Get_Point_Attribute.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/get_point_attribute.png" alt=""><figcaption></figcaption></figure></div>
 
 Get Point Attribute
 

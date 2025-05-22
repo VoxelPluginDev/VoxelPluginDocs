@@ -1,6 +1,6 @@
 # Make Seeds
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Seed/Make_Seeds.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_seeds.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Seeds
 

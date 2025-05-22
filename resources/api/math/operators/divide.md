@@ -1,6 +1,6 @@
 # Divide
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Divide.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/divide.png" alt=""><figcaption></figcaption></figure></div>
 
 Division (A / B)
 

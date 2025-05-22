@@ -1,6 +1,6 @@
 # Filter Points
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Filter_Points.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/filter_points.png" alt=""><figcaption></figcaption></figure></div>
 
 Filter Points
 

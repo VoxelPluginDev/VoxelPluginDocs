@@ -1,6 +1,6 @@
 # Bitwise XOR
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Integer/Bitwise_XOR.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/bitwise_xor.png" alt=""><figcaption></figcaption></figure></div>
 
 Bitwise XOR (A ^ B)
 

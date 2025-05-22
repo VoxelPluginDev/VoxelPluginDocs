@@ -1,6 +1,6 @@
 # NOT Boolean
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Boolean/NOT_Boolean.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/not_boolean.png" alt=""><figcaption></figcaption></figure></div>
 
 Returns the logical complement of the Boolean value (NOT A)
 

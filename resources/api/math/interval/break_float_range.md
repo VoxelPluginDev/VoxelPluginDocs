@@ -1,6 +1,6 @@
 # Break Float Range
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Interval/Break_Float_Range.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/break_float_range.png" alt=""><figcaption></figcaption></figure></div>
 
 Break Float Range
 

@@ -1,6 +1,6 @@
 # Get Heightmap Bounds
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Heightmap/Get_Heightmap_Bounds.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/get_heightmap_bounds.png" alt=""><figcaption></figcaption></figure></div>
 
 Get Heightmap Bounds
 

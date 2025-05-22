@@ -1,6 +1,6 @@
 # To Vector 2D (Int Vector 4)
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Conversions/To_Vector_2D_(Int_Vector_4).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/to_vector_2d_-int_vector_4.png" alt=""><figcaption></figcaption></figure></div>
 
 Cast from Int Vector 4 to Vector 2D
 

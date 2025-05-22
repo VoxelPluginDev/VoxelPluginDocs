@@ -1,6 +1,6 @@
 # Transform Location
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Transform/Transform_Location.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/transform_location.png" alt=""><figcaption></figcaption></figure></div>
 
 Transform a position by the supplied transform. For example, if Transform was an object's transform, this would transform a position from local space to world space.
 

@@ -1,6 +1,6 @@
 # Is Valid
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Misc/Is_Valid.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/is_valid.png" alt=""><figcaption></figcaption></figure></div>
 
 Is Valid Object
 

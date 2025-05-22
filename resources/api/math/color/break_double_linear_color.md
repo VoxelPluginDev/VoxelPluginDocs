@@ -1,6 +1,6 @@
 # Break Double Linear Color
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Color/Break_Double_Linear_Color.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/break_double_linear_color.png" alt=""><figcaption></figcaption></figure></div>
 
 Break Double Linear Color
 

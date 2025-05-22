@@ -1,6 +1,6 @@
 # Get Parent Point Custom Data
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Get_Parent_Point_Custom_Data.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/get_parent_point_custom_data.png" alt=""><figcaption></figcaption></figure></div>
 
 Get Parent Point Custom Data
 

@@ -1,6 +1,6 @@
 # Min
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Min.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/min.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Min
 

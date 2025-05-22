@@ -1,6 +1,6 @@
 # Is Hidden in Editor
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Misc/Is_Hidden_in_Editor.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/is_hidden_in_editor.png" alt=""><figcaption></figcaption></figure></div>
 
 Is Hidden in Editor
 

@@ -1,6 +1,6 @@
 # Cross Product
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Vector Operators/Cross_Product.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/cross_product.png" alt=""><figcaption></figcaption></figure></div>
 
 Voxel Template Node Cross Product
 

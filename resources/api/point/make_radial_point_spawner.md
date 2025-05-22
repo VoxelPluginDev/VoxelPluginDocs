@@ -1,6 +1,6 @@
 # Make Radial Point Spawner
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Make_Radial_Point_Spawner.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/make_radial_point_spawner.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Radial Point Spawner
 

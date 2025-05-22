@@ -1,6 +1,6 @@
 # Is Editor World
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Misc/Is_Editor_World.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/is_editor_world.png" alt=""><figcaption></figcaption></figure></div>
 
 Opposite of IsGameWorld: true for editor preview, false for PIE, packaged, standalone...
 

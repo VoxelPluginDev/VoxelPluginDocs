@@ -1,6 +1,6 @@
 # Mapped Range Value Unclamped
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Misc/Mapped_Range_Value_Unclamped.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/mapped_range_value_unclamped.png" alt=""><figcaption></figcaption></figure></div>
 
 Transform the given Value relative to the input range to the Output Range
 

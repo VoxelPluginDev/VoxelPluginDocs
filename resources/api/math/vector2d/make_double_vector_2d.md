@@ -1,6 +1,6 @@
 # Make Double Vector 2D
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Vector2D/Make_Double_Vector_2D.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/make_double_vector_2d.png" alt=""><figcaption></figcaption></figure></div>
 
 Make Double Vector 2D
 

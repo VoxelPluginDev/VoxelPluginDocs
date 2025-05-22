@@ -1,6 +1,6 @@
 # Distance to Color
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Color/Distance_to_Color.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/distance_to_color.png" alt=""><figcaption></figcaption></figure></div>
 
 Distance to Color
 

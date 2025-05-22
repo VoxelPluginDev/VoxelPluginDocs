@@ -1,6 +1,6 @@
 # Scatter Points
 
-<div align="left" data-full-width="false"><figure><img src="../../../api/Point/Scatter_Points.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/scatter_points.png" alt=""><figcaption></figcaption></figure></div>
 
 Scatter points around parent points Output is only child points, not parents
 

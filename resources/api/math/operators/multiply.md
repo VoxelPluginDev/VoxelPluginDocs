@@ -1,6 +1,6 @@
 # Multiply
 
-<div align="left" data-full-width="false"><figure><img src="../../../../api/Math/Operators/Multiply.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/multiply.png" alt=""><figcaption></figcaption></figure></div>
 
 Multiplication (A \* B)
 
